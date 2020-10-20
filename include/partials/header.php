@@ -1,3 +1,9 @@
+<?php
+    $navQuery = "SELECT * FROM `nav` ORDER BY `priority`";
+    $execNav = $pdo->query($navQuery);
+    $dataNav = $execNav -> fetchAll();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -19,10 +25,19 @@
 
 		<!-- Custom stlylesheet -->
 		<link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
-
     </head>
 <body>
 <!-- HEADER -->
 <header>
-    
+    <div class="header-hero">
+        <div class="header-filter">
+            <nav class="header-hero-nav">
+                <ul>
+                    <?php foreach($dataNav as $rowNav){ ?>
+                        <li><a href="<?php echo $path . $rowNav['href']?>"><?php echo $rowNav['name']?></a></li>
+                    <?php   } ?>
+                </ul>
+            </nav>
+        </div>
+    </div>
 </header>

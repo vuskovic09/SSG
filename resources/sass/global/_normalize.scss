@@ -1,4 +1,6 @@
 *, *:before, *:after {
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 }
 
@@ -12,6 +14,11 @@ html {
 body {
 	margin: 0;
 }
+
+ul {
+	list-style-type: none;
+}
+
 
 article, aside, footer, header,
 nav, section, figcaption, figure,
