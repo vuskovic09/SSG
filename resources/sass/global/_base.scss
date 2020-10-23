@@ -1,3 +1,24 @@
+/*SCROLLBAR*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: $color-background; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $color-elements; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
 body {
     background-color: $color-background;
     color: $color-text;
