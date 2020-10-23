@@ -29,15 +29,22 @@
 <body>
 <!-- HEADER -->
 <header>
-    <div class="header-hero">
+    <div class="container-fluid header">
         <div class="header-filter">
-            <nav class="header-hero-nav">
-                <ul>
-                    <?php foreach($dataNav as $rowNav){ ?>
-                        <li><a href="<?php echo $path . $rowNav['href']?>"><?php echo $rowNav['name']?></a></li>
-                    <?php   } ?>
-                </ul>
-            </nav>
+        </div>
+        <div class="row between">
+            <div class="col-md-2">
+                <nav class="header-nav">
+                    <ul>
+                        <?php foreach($dataNav as $rowNav){ ?>
+                            <li><a href="<?php echo $path . $rowNav['href']?>"><?php echo $rowNav['name']?></a></li>
+                        <?php   } ?>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-10 header-title">
+                <h1>Online</br>Međunarodno natjecanje</br>Mladih glazbenika</br>Zagreb 2021.</h1>
+            </div>
         </div>
     </div>
 </header>
