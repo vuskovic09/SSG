@@ -251,12 +251,12 @@
             <div class= "row center between main-segment-propositions">
                 <div class="main-segment-propositions-left">
                 <ul>
-                    <li>Propozicija</li>
-                    <li>Propozicija</li>
-                    <li>Propozicija</li>
-                    <li>Propozicija</li>
-                    <li>Propozicija</li>
-                    <li>Propozicija</li>
+                    <li>A</li>
+                    <li>B</li>
+                    <li>I/A</li>
+                    <li>II/A</li>
+                    <li>I/B</li>
+                    <li>II/B</li>
                 </ul>
                 </div>
                 <div class="main-segment-propositions-right">
