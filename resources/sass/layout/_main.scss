@@ -136,14 +136,24 @@
         }
 
         &-comp {
+          border-top: 5px solid $color-elements;
+          border-bottom: 5px solid $color-elements;
+          margin-top: 40px;
 
-          &-text {
-            border-top: 5px solid $color-elements;
-            border-bottom: 5px solid $color-elements;
+          &-about-text, &-rules-text {
             font-size: 16px;
             font-weight: bold;
-            margin-top: 40px;
             padding: 0;
+          }
+
+          &-rules-text {
+            p {
+              column-count: 2;
+              column-gap: 30px;
+              column-rule: 1px solid $color-elements;
+              column-width: auto;
+              column-span: all;
+            }
           }
         }
 
@@ -155,6 +165,7 @@
             box-shadow: -5px -5px 20px $color-shadow-one,  5px 5px 20px $color-shadow-two;
             min-height: 450px;
             padding: 25px 25px;
+            text-align: center;
 
             &-img {
               border-radius: 100%;
@@ -166,9 +177,29 @@
               img {
                 border-radius: 50%;
                 margin: auto;
-                height: 150px;
-                width: 150px;
               }
+            }
+
+            &-text {
+              max-width: 250px;
+            }
+
+            &-button {
+              border-radius: 5px;
+              box-shadow: -5px -5px 20px $color-shadow-one,  5px 5px 20px $color-shadow-two;
+              font-weight: bold;
+              margin-top: 15px;
+              padding: 5px 5px;
+            }
+          }
+        }
+
+        &-propositions {
+          &-left {
+            ul {
+              border-right:  5px solid $color-elements;
+              font-size: 24px;
+              padding-right: 50px;
             }
           }
         }

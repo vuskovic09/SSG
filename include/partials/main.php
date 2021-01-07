@@ -1,8 +1,6 @@
 <main>
     <div class="main container">
 
-    
-
         <!-- Intro -->
         <div class="main-block">
             <div class="row center">
@@ -85,11 +83,11 @@
                 </div>
             </div> 
             <div class="row center main-segment-comp">
-                <div class="col-md-12 main-segment-comp-text">    
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!</p>
+                <div class="col-md-12 main-segment-comp-about-text">    
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!</p>
                 </div>
             </div>
         </div>
@@ -104,7 +102,7 @@
                 </div>
             </div>
             <div class="row center main-segment-comp">
-                <div class="col-md-12 main-segment-comp-text">    
+                <div class="col-md-12 main-segment-comp-rules-text">    
                     <p>
                         PRAVILNIK NATJECANJA STOJAN STOJANOV GANČEV</br></br>
                         1. Natjecanje je namijenjeno mladim glazbenicima u Republici Hrvatskoj i mladim
@@ -209,8 +207,59 @@
             <div class= "row center between main-segment-judges">
                 <div class="col-md-4 main-segment-judges-single">
                     <div class="main-segment-judges-single-img">
-                        <img src="assets/images/personIMG.jpg" alt="Photo by LinkedIn Sales Navigator from Pexels" />
+                        <!-- <img src="assets/images/personIMG.jpg" alt="Photo by LinkedIn Sales Navigator from Pexels" /> -->
                     </div>
+                    <h3 class="main-segment-judges-single-title">Name</h3>
+                    <div class="main-segment-judges-single-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum veniam, omnis nesciunt dicta voluptate voluptas at fugit a consequatur. Explicabo hic aspernatur similique fugit architecto temporibus velit expedita odit quisquam?</div>
+                    <div class="main-segment-judges-single-button">
+                        Read More
+                    </div>
+                </div>
+                <div class="col-md-4 main-segment-judges-single">
+                    <div class="main-segment-judges-single-img">
+                        <!-- <img src="assets/images/personIMG.jpg" alt="Photo by LinkedIn Sales Navigator from Pexels" /> -->
+                    </div>
+                    <h3 class="main-segment-judges-single-title">Name</h3>
+                    <div class="main-segment-judges-single-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum veniam, omnis nesciunt dicta voluptate voluptas at fugit a consequatur. Explicabo hic aspernatur similique fugit architecto temporibus velit expedita odit quisquam?</div>
+                    <div class="main-segment-judges-single-button">
+                        Read More
+                    </div>
+                </div>
+                <div class="col-md-4 main-segment-judges-single">
+                    <div class="main-segment-judges-single-img">
+                        <!-- <img src="assets/images/personIMG.jpg" alt="Photo by LinkedIn Sales Navigator from Pexels" /> -->
+                    </div>
+                    <h3 class="main-segment-judges-single-title">Name</h3>
+                    <div class="main-segment-judges-single-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum veniam, omnis nesciunt dicta voluptate voluptas at fugit a consequatur. Explicabo hic aspernatur similique fugit architecto temporibus velit expedita odit quisquam?</div>
+                    <div class="main-segment-judges-single-button">
+                        Read More
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Propositions -->
+        <div class="main-block">
+            <div class="row center">
+                <div class="col-md-12">
+                    <div class="main-segment-title">
+                        <h2>Propozicije</h2>
+                    </div>
+                </div>
+            </div>
+            <div class= "row center between main-segment-propositions">
+                <div class="main-segment-propositions-left">
+                <ul>
+                    <li>Propozicija</li>
+                    <li>Propozicija</li>
+                    <li>Propozicija</li>
+                    <li>Propozicija</li>
+                    <li>Propozicija</li>
+                    <li>Propozicija</li>
+                </ul>
+                </div>
+                <div class="main-segment-propositions-right">
                 </div>
             </div>
         </div>
