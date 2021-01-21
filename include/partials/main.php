@@ -28,29 +28,29 @@
                 <div class="col-md-8 main-segment-about-text">
                     <p>Dragi natjecatelji,</br></br>
                         Organizator MUSICA ZAGREB sa velikim zadovoljstvom najavljuje i želi
-                        dobrodošlicu svim natjecateljicama i natjecateljima na 1. Pjevačkom natjecanju
-                        „STOJAN STOJANOV GANČEV“</br>
+                        dobrodošlicu svim natjecateljicama i natjecateljima na 1. međunarodno natjecanje mladih glazbenika Zagreb 2021.</br></br>
                         Grad Zagreb, domaćin ovog međunarodnog događanja glavni je grad Republike
                         Hrvatske ali i znanstveno i gospodarsko središte ovog dijela Europe. To je grad
                         kulture koji se ponosi svojim brojnim kulturnim i umjetničkim aktivnostima.
                         Treba spomenuti da se godišnje prosječno realizira 230 koncerata, 550
                         izložbaba, 270 festivala i sa ostalim vidovima kulturne baštine prelazi
-                        impozantnu brojku od 5000 događanja.</br>
-                        Ovo prvo natjecanje posvećeno je In memoriam velikom bugarskom pjevaču i
-                        pjevačkom pedagogu Stojanu Stojanovu Gančevu koji je ostavio dubok trag u
-                        našoj sredini.</br>
+                        impozantnu brojku od 5000 događanja.</br></br>
                         Zamisao i želja organizatora MUSICA ZAGREB jest ostvarenje natjecanja za
                         talentirane perspektivne mlade umjetnike širom svijeta koji će dobiti priliku da
                         putem ONLINE tehnologije prezentiraju svoje umijeće, vještine i ljubav prema
-                        glazbi.</br>
+                        glazbi.</br></br>
+                        Naše prvo, pjevačko, natjecanje posvećeno je In memoriam velikom bugarskom pjevaču i
+                        pjevačkom pedagogu Stojanu Stojanovu Gančevu koji je ostavio dubok trag u
+                        našoj sredini, a nakon njega će slijediti violinističko i klavirsko natjecanje.</br></br>
                         Veliki i čuveni austrijski skladatelj Franz Joseph Haydn inspirirao nas je svojim
-                        riječima:</br>
+                        riječima:
                         „Mladi ljudi mogu naučiti iz mog primjera da nešto ne može doći ni iz čega. Ono
-                        što sam postigao rezultat je mog velikog napora, truda i ljubavi“.</br>
-                        Svim učesnicima želimo mnogo uspjeha i sreće od srca,te Vas s nestrpljenjem
-                        očekujemo na predstojećem natjecanju.</br></br>
-                        Srdačno,</br>
+                        što sam postigao rezultat je mog velikog napora, truda i ljubavi“.
+                        Svim učesnicima želimo mnogo uspjeha i sreće od srca, te Vas s nestrpljenjem
+                        očekujemo na predstojećem natjecanju.
+                        Srdačno,
                         Organizator MUSICA ZAGREB 
+ 
                     </p>
                 </div>
             </div>  
@@ -74,24 +74,6 @@
             </div>
         </div>
 
-        <div class="main-block">
-            <div class="row center">
-                <div class="col-md-12">
-                    <div class="main-segment-title">
-                        <h2>Pjevačko natjecanje</h2>
-                    </div>
-                </div>
-            </div> 
-            <div class="row center main-segment-comp">
-                <div class="col-md-12 main-segment-comp-about-text">    
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ullam at incidunt quidem sunt enim magni fuga nisi illum exercitationem repudiandae, itaque officiis quam nam, pariatur inventore sit veniam modi!</p>
-                </div>
-            </div>
-        </div>
-
         <!-- Rules -->
         <div class="main-block">
             <div class="row center">
@@ -105,9 +87,9 @@
                 <div class="col-md-12 main-segment-comp-rules-text">    
                     <p>
                         PRAVILNIK NATJECANJA STOJAN STOJANOV GANČEV</br></br>
-                        1. Natjecanje je namijenjeno mladim glazbenicima u Republici Hrvatskoj i mladim
+                        1. Natjecanja su namijenjena mladim glazbenicima u Republici Hrvatskoj i mladim
                         glazbenicima u inozemstvu bez obzira na vrstu obrazovanja i nacionalnost.</br>
-                        2. Čitavo natjecanje Stojan Stojanov Gančev će se odvijati – ON LINE.</br>
+                        2. Čitava natjecanja (klavir, violina, solo pjevanje) odvijati će se online.</br>
                         3. Natjecatelji su dužni do trenutka popunjavanja prijave objaviti program koji izvode na
                         ovom natjecanju na javnom youtube kanalu i u prijavi navesti link na predviđenom mjestu
                         za svaku pojedinu skladbu.</br>
@@ -115,8 +97,7 @@
                         cijelosti, bez prekidanja.</br>
                         5. Snimljene skladbe ne smiju biti objavljene na javnom youtube kanalu prije 1. siječnja
                         2019. godine. Obvezatno je navesti ime skladbe u opisu videa.</br>
-                        6. Natjecatelj/ica je dužan dostaviti potvrdu od nadležne institucije ili svog pjevačkog
-                        pedagoga o godinama učenja pjevanja.</br>
+                        6. Natjecatelj/ica je dužan dostaviti potvrdu od nadležne institucije ili svog pedagoga o godinama učenja.</br>
                         7. Redoslijed nastupa određuje organizator i zadržava pravo promjene rasporeda.</br>
                         8.Točan termin rasporeda natjecanja u svakoj pojedinoj kategoriji bit će objavljen na
                         internetskoj stranici Natjecanja a natjecatelji će također biti obaviješteni putem e-maila.</br>
@@ -157,23 +138,12 @@
                         25. Za sudjelovanje na natjecanju obvezna je prijava.</br>
                         26.Prijava se podnosi isključivo popunjavanjem online prijavnice koja je dostupna na ovoj
                         web stranici.</br>
-                        27. Prijave će biti omogućene od 15. studenog 2020.
-                        Zadnji rok za prijavu na natjecanje je 20. siječnja 2021.</br>
+                        27. Prijave će biti omogućene do 7 dana prije početka svakog natjecanja.</br>
                         28. Kotizacije po kategorijama su:</br>
-                        Pretkategorija A – 35 €</br>
-                        Pretkategorija B – 35 €</br>
-                        I/A kategorija – 40 €</br>
-                        I /B kategorija – 40 €</br>
-                        II/A kategorija – 40 €</br>
-                        II/B kategorija – 40 €</br>
-                        III/A kategorija – 50 €</br>
-                        III/B kategorija - 50 €</br>
-                        IV kategorija - 50 €</br>
-                        V/A kategorija – 60 €</br>
-                        V/B kategorija - 60 €</br>
-                        VI kategorija – 60 €</br>
-                        VII kategorija – 60 €</br>
-                        VIII kategorija - 60 €</br>
+                        Pretkategorija A i B – 35 €</br>
+                        I/A, I/B, II/A i II/B kategorija – 40 €</br>
+                        III/A, III/B i IV kategorija – 50 €</br>
+                        V/A, V/B, VI, VII i VIII kategorija – 60 €</br>
                         29. Uplata kotizacije vrši se na račun Organizatora natjecanja MUSICA ZAGREB:</br>
                         IBAN:</br>
                         SWIFT:</br>
@@ -191,6 +161,59 @@
                         37. MUSICA ZAGREB, organizator Natjecanja, zadržava pravo izmjene ovog Pravilnika.</br>
                         38. U slučaju nejasnoća hrvatski tekst uzima se kao pravovaljan.</br>
                     </p>
+                </div>
+            </div>
+        </div>        
+
+        <div class="main-block">
+            <div class="row center">
+                <div class="col-md-4">
+                    <div class="main-segment-title">
+                        <h2>Pjevačko</h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="main-segment-title">
+                        <h2>Violinisticko</h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="main-segment-title">
+                        <h2>Klavirsko</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Propositions -->
+        <div class="main-block">
+            <div class="row center">
+                <div class="col-md-12">
+                    <div class="main-segment-title">
+                        <h2>Propozicije</h2>
+                    </div>
+                </div>
+            </div>
+            <div class= "row center between main-segment-propositions">
+                <div class="main-segment-propositions-left">
+                <ul>
+                    <li>Pretkategorija A</li>
+                    <li>Pretkategorija B</li>
+                    <li>I/A</li>
+                    <li>I/B</li>
+                    <li>II/A</li>
+                    <li>II/B</li>
+                    <li>III/A</li>
+                    <li>III/B</li>
+                    <li>IV</li>
+                    <li>V/A</li>
+                    <li>V/B</li>
+                    <li>VI</li>
+                    <li>VII</li>
+                    <li>VIII</li> 
+                </ul>
+                </div>
+                <div class="main-segment-propositions-right">
                 </div>
             </div>
         </div>
@@ -234,32 +257,6 @@
                     <div class="main-segment-judges-single-button">
                         Read More
                     </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- Propositions -->
-        <div class="main-block">
-            <div class="row center">
-                <div class="col-md-12">
-                    <div class="main-segment-title">
-                        <h2>Propozicije</h2>
-                    </div>
-                </div>
-            </div>
-            <div class= "row center between main-segment-propositions">
-                <div class="main-segment-propositions-left">
-                <ul>
-                    <li>A</li>
-                    <li>B</li>
-                    <li>I/A</li>
-                    <li>II/A</li>
-                    <li>I/B</li>
-                    <li>II/B</li>
-                </ul>
-                </div>
-                <div class="main-segment-propositions-right">
                 </div>
             </div>
         </div>
