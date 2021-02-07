@@ -85,81 +85,57 @@
             </div>
             <div class="row center main-segment-comp">
                 <div class="col-md-12 main-segment-comp-rules-text">    
-                    <p>
-                        PRAVILNIK NATJECANJA STOJAN STOJANOV GANČEV</br></br>
-                        1. Natjecanja su namijenjena mladim glazbenicima u Republici Hrvatskoj i mladim
-                        glazbenicima u inozemstvu bez obzira na vrstu obrazovanja i nacionalnost.</br>
-                        2. Čitava natjecanja (klavir, violina, solo pjevanje) odvijati će se online.</br>
-                        3. Natjecatelji su dužni do trenutka popunjavanja prijave objaviti program koji izvode na
-                        ovom natjecanju na javnom youtube kanalu i u prijavi navesti link na predviđenom mjestu
-                        za svaku pojedinu skladbu.</br>
-                        4. Skladbe mogu biti snimljene pojedinačno. Takoder, program može biti snimljen i u
-                        cijelosti, bez prekidanja.</br>
-                        5. Snimljene skladbe ne smiju biti objavljene na javnom youtube kanalu prije 1. siječnja
-                        2019. godine. Obvezatno je navesti ime skladbe u opisu videa.</br>
-                        6. Natjecatelj/ica je dužan dostaviti potvrdu od nadležne institucije ili svog pedagoga o godinama učenja.</br>
-                        7. Redoslijed nastupa određuje organizator i zadržava pravo promjene rasporeda.</br>
-                        8.Točan termin rasporeda natjecanja u svakoj pojedinoj kategoriji bit će objavljen na
-                        internetskoj stranici Natjecanja a natjecatelji će također biti obaviješteni putem e-maila.</br>
-                        9. Natjecatelj ili komorni ansambl se može prijaviti i u višoj kategoriji nego je predviđena za
-                        njihovu dob.</br>
-                        10. Cijeli program natjecatelj izvodi napamet u solističkim kategorijama , a komorni
-                        ansambli mogu izvoditi program iz nota, a repeticije nisu nužne.</br>
-                        11. Promjena programa navedenog u prijavi neće biti dopuštena.</br>
-                        12. Prijavom na natjecanje natjecatelji daju privolu Organizatoru da može koristiti osobne
-                        podatke u svim dostavljenim dokumentima isključivo u svrhu Natjecanja.</br>
+                    <p>                        
+                        1. NATJECANJE MLADIH GLAZBENIKA ZAGREB 2021.</br></br>
+                        PRAVILNIK NATJECANJA.</br></br>
+                        1.Ovim Pravilnikom ureduju se pravila muzičkog natjecanja...(Natjecanje)</br>
+                        2. Natjecanje je namijenjeno mladim glazbenicima u Republici Hrvatskoj i mladim glazbenicima u inozemstvu bez obzira na vrstu obrazovanja i nacionalnost.</br>
+                        3. Organizator ovog medunarodnog muzičkog natjecanja je Musica, Zagreb.</br>
+                        4. Sva natjecanja će se odvijati – ON LINE.</br>
+                        5. Natjecatelji su dužni do trenutka popunjavanja prijave objaviti  program koji izvode na ovom natjecanju na javnom youtube kanalu. U prijavi  natjecatelji su dužni navesti link, na predviđenom mjestu, za svaku pojedinu skladbu.</br>
+                        6. Skladbe mogu biti snimljene pojedinačno. Takoder, program može biti snimljen i u cijelosti, bez prekidanja.</br>
+                        7. Snimljene skladbe ne smiju biti objavljene na javnom  youtube kanalu prije 1. siječnja 2019. godine. Obvezatno je navesti ime skladbe i kompozitora u opisu videa.</br>
+                        8. Redoslijed nastupa određuje organizator i zadržava pravo promjene rasporeda.</br>
+                        9.Točan termin rasporeda natjecanja u svakoj pojedinoj kategoriji bit će objavljen na internetskoj stranici Natjecanja a natjecatelji će također biti obaviješteni putem e-maila.</br>
+                        10. Natjecatelj ili komorni ansambl se može prijaviti i u višoj kategoriji nego je predviđena za njihovu dob.</br>
+                        11. Cijeli program natjecatelj izvodi napamet u solističkim kategorijama , a komorni ansambli mogu izvoditi program iz nota, a repeticije nisu nužne.</br>
+                        12. Promjena programa navedenog u prijavi neće biti dopuštena.</br>
                         13. Ocjenjivački sud sastavljen je od eminentnih domaćih i stranih glazbenika i pedagoga.</br>
-                        14. U slučaju odustajanja pojedinog člana ocjenjivačkog suda, Organizator ima pravo
-                        zamjene istog novim članom.</br>
-                        15. Član Ocjenjivačkog suda ne ocjenjuje svog učenika ili studenta koji se natječe, ni
-                        natjecatelja s kojim je u srodstvu.</br>
+                        14. U slučaju odustajanja pojedinog člana ocjenjivačkog suda, Organizator ima pravo zamjene istog novim članom.</br>
+                        15. Član Ocjenjivačkog suda ne ocjenjuje svog učenika ili studenta koji se natječe, ni natjecatelja s kojim je u srodstvu.</br>
                         16. Ocjenjivački sud sluša program u cijelosti.</br>
-                        17. U slučaju da više natjecatelja dijeli jednak broj bodova, mlađi kandidat ostvaruje pravo
-                        prednosti.</br>
-                        18. Ocjenjivački sud donosi konačnu i neopozivu odluku na koju natjecatelj nema pravo
-                        žalbe.</br>
-                        19. Ocjenjivački sud ima mogućnost prema vlastitoj procjeni dodijeliti i posebne nagrade
-                        kao i nagradu najuspješnijem pedagogu.</br>
-                        20. Rezultati i pojedinačne ocjene svakog člana Ocjenjivačkog suda bit će objavljeni na ovoj
-                        web stranici po završetku svake kategorije.</br></br>
-                        Na Natjecanju ocjenjivački sud dodjeljuje nagrade:</br>
-                        90,00 – 100,00 bodova - 1. nagrada</br>
-                        80,00 – 89,99 bodova - 2. nagrada</br>
-                        70,00 – 79,99 bodova - 3. nagrada</br>
-                        69,99 bodova i sve manje od toga - Priznanje</br></br>
-                        21. Natjecatelji dobivaju diplome za osvojenu 1., 2. ili 3. nagradu ili priznanje za
-                        sudjelovanje.</br>
-                        22. Svaka kategorija ima svog pobjednika. To je natjecatelj/ica sa najvećim ostvarenim
-                        bodovima od strane Ocjenjivačkog suda. Ako je natjecatelj/ica ocijenjen sa više od 98,00
-                        bodova, dobiva naziv laureat.</br>
-                        23. Diplome i priznanja kao i posebne nagrade, Organizator natjecanja će svakom
-                        natjecatelju poslati na mail adresu navedenu u prijavi.</br>
-                        24. Ocjenjivački sud odlučuje o svemu što nije određeno ovim Pravilnikom.</br>
-                        25. Za sudjelovanje na natjecanju obvezna je prijava.</br>
-                        26.Prijava se podnosi isključivo popunjavanjem online prijavnice koja je dostupna na ovoj
-                        web stranici.</br>
-                        27. Prijave će biti omogućene do 7 dana prije početka svakog natjecanja.</br>
-                        28. Kotizacije po kategorijama su:</br>
-                        Pretkategorija A i B – 35 €</br>
-                        I/A, I/B, II/A i II/B kategorija – 40 €</br>
-                        III/A, III/B i IV kategorija – 50 €</br>
-                        V/A, V/B, VI, VII i VIII kategorija – 60 €</br>
-                        29. Uplata kotizacije vrši se na račun Organizatora natjecanja MUSICA ZAGREB:</br>
-                        IBAN:</br>
-                        SWIFT:</br>
-                        30. U slučaju odustajanja kotizacija se ne vraća.</br>
-                        31. Krivo navođenje podataka u prijavi može biti razlog za diskvalifikaciju natjecatelja.</br>
-                        32. Nepotpune prijave neće se razmatrati.</br>
-                        33. U opisu plaćanja obavezno napisati ime i prezime natjecatelja, odnosno imena i
-                        prezimena svih natjecatelja u komornom ansamblu za koje se uplaćuje kotizacija.</br>
-                        34. Natjecatelji iz Republike Hrvatske uplaćuju kunsku protuvrijednost prema središnjem
-                        tečaju HNB na dan uplate.</br>
-                        35. Prijavom na natjecanje i slanjem prijave natjecatelji prihvaćaju sva pravila iz ovog
-                        Pravilnika natjecanja.</br>
-                        36. Organizator natjecanja zadržava pravo na audio/video/foto zapis svih događanja
-                        vezanih za natjecanje.</br>
-                        37. MUSICA ZAGREB, organizator Natjecanja, zadržava pravo izmjene ovog Pravilnika.</br>
+                        17. U slučaju da više natjecatelja dijeli jednak broj bodova, mlađi kandidat ostvaruje pravo prednosti.</br>
+                        18. Ocjenjivački sud donosi konačnu i neopozivu odluku na koju natjecatelj nema pravo žalbe.</br>
+                        19. Ocjenjivački sud ima mogućnost prema vlastitoj procjeni dodijeliti  i posebne nagrade kao i nagradu  najuspješnijem pedagogu.</br>
+                        20. Rezultati i pojedinačne ocjene svakog člana Ocjenjivačkog suda bit će objavljeni na ovoj web stranici po završetku svake kategorije.</br></br></br></br></br>
+                        21. Na Natjecanju ocjenjivački sud dodjeljuje nagrade:</br>
+                        90,00 – 100,00 bodova 	    - 1. nagrada.</br>
+                        80,00 – 89,99 bodova	    - 2. nagrada.</br>
+                        70,00 – 79,99 bodova	    - 3. nagrada.</br>
+                        69,99 bodova i sve manje od toga   -  Priznanje.</br></br>
+                        22. Natjecatelji dobivaju diplome za osvojenu 1., 2. ili 3. nagradu ili priznanje za sudjelovanje.</br>
+                        23. Svaka kategorija ima svog pobjednika. To je natjecatelj/ica sa najvećim ostvarenim bodovima od strane Ocjenjivačkog suda. Ako je natjecatelj/ica ocijenjen sa više od 98,00 bodova, dobiva naziv laureat.</br>
+                        24. Diplome i priznanja kao i posebne nagrade, Organizator natjecanja će svakom natjecatelju poslati na mail adresu navedenu u prijavi.</br>
+                        25. Ocjenjivački sud odlučuje o svemu što nije određeno ovim Pravilnikom
+                        26. Za sudjelovanje na natjecanju obvezna je prijava.</br>
+                        27. Natjecatelj/ica je dužan dostaviti u prijavi fotografiju identifikacijskog dokumenta.</br>
+                        28.Prijava se podnosi isključivo popunjavanjem online prijavnice koja je dostupna na ovoj web stranici.</br>
+                        29. Prijave će biti omogućene do 7 dana prije početka natjecanja.</br>
+                        30.Krivo navođenje podataka u prijavi može biti razlog za diskvalifikaciju natjecatelja.</br>
+                        31.Nepotpune prijave neće se razmatrati.</br></br>
+                        <span class="boldy">32. Za sudjelovanje na Natjecanju potrebno je platiti kotizaciju. Uplata kotizacije vrši se na račun Organizatora natjecanja MUSICA, Zagreb:</br>
+                        Zagrebačka banka d.d</br>
+                        Trg bana Jelačića 10</br>
+                        10000 Zagreb</br>
+                        IBAN: HR9623600001102900185</br>
+                        SWIFT: ZABA HR 2X</br></br></span>
+                        33. U slučaju odustajanja kotizacija se ne vraća.</br>
+                        34. U opisu plaćanja obavezno napisati ime i prezime natjecatelja, odnosno imena i prezimena svih natjecatelja u komornom ansamblu  za koje se uplaćuje kotizacija.</br>
+                        35. Natjecatelji iz Republike Hrvatske uplaćuju kunsku protuvrijednost prema središnjem tečaju HNB na dan uplate.</br>
+                        36. Organizator natjecanja zadržava pravo obradivati audio/video/foto zapise svih natjecanja i  događanja vezanih za natjecanje. Natjecatelji su upoznati i pristaju da će Organizator obradivati njihove osobne podatke( fotografije, video i audio zapise, nagrade itd.) u svrhe organiziranja i  promoviranja Natjecanja, te da ima pravo objaviti navedene osobne podatke na svojoj web stranici i na drugim kanalima socijalnih medija.</br>
+                        37. MUSICA, Zagreb, organizator Natjecanja, zadržava pravo izmjene ovog Pravilnika.</br>
                         38. U slučaju nejasnoća hrvatski tekst uzima se kao pravovaljan.</br>
+                        39. Za slučaj spora nadležan je sud u Zagrebu.</br>
                     </p>
                 </div>
             </div>
@@ -167,19 +143,19 @@
 
         <div class="main-block">
             <div class="row center">
-                <div class="col-md-4">
+                <div class="col-md-12">
                     <div class="main-segment-title">
-                        <h2>Pjevačko</h2>
+                        <h2>Pjevačko natjecanje</h2>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-12">
                     <div class="main-segment-title">
-                        <h2>Violinisticko</h2>
+                        <h2>Violinističko natjecanje</h2>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-12">
                     <div class="main-segment-title">
-                        <h2>Klavirsko</h2>
+                        <h2>Klavirsko natjecanje</h2>
                     </div>
                 </div>
             </div>
@@ -230,35 +206,100 @@
             <div class= "row center between main-segment-judges">
                 <div class="col-md-4 main-segment-judges-single">
                     <div class="main-segment-judges-single-img">
-                        <!-- <img src="assets/images/personIMG.jpg" alt="Photo by LinkedIn Sales Navigator from Pexels" /> -->
+                        <img src="assets/images/aGig.jpg" alt="Arijana Gigliani" />
                     </div>
-                    <h3 class="main-segment-judges-single-title">Name</h3>
-                    <div class="main-segment-judges-single-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum veniam, omnis nesciunt dicta voluptate voluptas at fugit a consequatur. Explicabo hic aspernatur similique fugit architecto temporibus velit expedita odit quisquam?</div>
-                    <div class="main-segment-judges-single-button">
-                        Read More
+                    <h3 class="main-segment-judges-single-title">Arijana Gigliani</h3>
+                    <div class="main-segment-judges-single-text">
+                        Arijana Gigliani Philipp rođena je u Sarajevu gdje je završila nižu i srednju
+                        glazbenu školu odjel violine i solo-pjevanja.
+                        Nakon diplome na zagrebačkoj Muzičkoj akademiji nastavlja usavršavanje kod
+                        renomiranog pedagoga i opernog prvaka Stojana Stojanova Gančeva. 
                     </div>
+                    <a href="include/partialsaGig.php"><div class="main-segment-judges-single-button">
+                        Još...
+                    </div></a>
                 </div>
                 <div class="col-md-4 main-segment-judges-single">
                     <div class="main-segment-judges-single-img">
-                        <!-- <img src="assets/images/personIMG.jpg" alt="Photo by LinkedIn Sales Navigator from Pexels" /> -->
+                        <!-- <img src="assets/images/aGig.jpg" alt="Arijana Gigliani" /> -->
                     </div>
-                    <h3 class="main-segment-judges-single-title">Name</h3>
-                    <div class="main-segment-judges-single-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum veniam, omnis nesciunt dicta voluptate voluptas at fugit a consequatur. Explicabo hic aspernatur similique fugit architecto temporibus velit expedita odit quisquam?</div>
-                    <div class="main-segment-judges-single-button">
-                        Read More
+                    <h3 class="main-segment-judges-single-title">Ljubica Živković</h3>
+                    <div class="main-segment-judges-single-text">
+                        Lljubica Živković rođena je u Beogradu,1952. godine. Poslije završene srednje
+                        glazbene škole "Josip Slavenski", odjel za glazbenu teoriju i solo pjevanje, studije je
+                        nastavila na FMU u Beogradu, na oba odjela: teoriju u klasi prof. Petra Ozgijana, a
+                        solo pjevanje u klasi prof. Zvonimira Krnetića. Diplomirala je u klasi Radmile
+                        Smiljanić. 
                     </div>
+                    <a href="include/partialsaGig.php"><div class="main-segment-judges-single-button">
+                        Još...
+                    </div></a>
                 </div>
                 <div class="col-md-4 main-segment-judges-single">
                     <div class="main-segment-judges-single-img">
-                        <!-- <img src="assets/images/personIMG.jpg" alt="Photo by LinkedIn Sales Navigator from Pexels" /> -->
+                        <img src="assets/images/kandelaki.jpg" alt="Vladimir Kandelaki" />
                     </div>
-                    <h3 class="main-segment-judges-single-title">Name</h3>
-                    <div class="main-segment-judges-single-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum veniam, omnis nesciunt dicta voluptate voluptas at fugit a consequatur. Explicabo hic aspernatur similique fugit architecto temporibus velit expedita odit quisquam?</div>
-                    <div class="main-segment-judges-single-button">
-                        Read More
+                    <h3 class="main-segment-judges-single-title">Vladimir Kandelaki</h3>
+                    <div class="main-segment-judges-single-text">
+                        Nacionalni umjetnik Gruzije, profesor, akademik, Vladimir Rafaelovič Kandelaki, odlikovan
+                        ordenom Reda časti Gruzije, roden je 11. siječnja 1928 godine.
+                        Završio je specijalnu glazbenu školu za posebno darovitu djecu pri Državnom konzervatoriju V.
+                        Sarajišvili u Tbilisiju, te isti diplomirao kao lirsko-dramski tenor 
                     </div>
+                    <a href="include/partialsaGig.php"><div class="main-segment-judges-single-button">
+                        Još...
+                    </div></a>
                 </div>
             </div>
         </div>
+
+        <!-- Application form -->
+        <div class="main-block">
+            <div class="row center">
+                <div class="col-md-12">
+                    <div class="main-segment-title">
+                        <h2>Prijava</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row center between main-segment-application">
+                <div class="main-segment-application-form">
+                    <input type="text" placeholder="Ime" />
+                    <input type="text" placeholder="Prezime" />
+                    <input type="text" placeholder="Datum Rođenja" />
+                    <input type="text" placeholder="Nacionalnost" />
+                    <input type="text" placeholder="Profesor" />
+
+                    <input type="text" placeholder="Grad" />
+                    <input type="text" placeholder="Država" />
+                </br>
+                    <input type="mail" placeholder="E-mail" />
+                    <input type="text" placeholder="Telefon" />
+
+                    </br></br>
+
+                    <label>Dokaz uplate</label>
+
+                    <input type="file" />
+                    <label>Identifikacijski dokument</label>
+
+                    <input type="file" />
+
+                    </br></br>
+
+                    <input type="text" placeholder="YouTube link" />
+                    <input type="text" placeholder="YouTube link" />
+                    <input type="text" placeholder="YouTube link" />
+                    <input type="text" placeholder="YouTube link" />
+                    <input type="text" placeholder="YouTube link" />
+                    <input type="text" placeholder="YouTube link" />
+                    <input type="text" placeholder="YouTube link" />
+                    <input type="text" placeholder="YouTube link" />
+                    
+                    <button type="button">Pošalji!</button>	
+                </div>
+            </div>
+        </div>
+
     </div>
 </main>

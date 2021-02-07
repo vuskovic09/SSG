@@ -2,17 +2,6 @@ youtube kanal
 jury competition column
 
 
-pravilnik kontrola + prevod
-Ljubica Zivkovic hr biografija
-Arijana biografija kontrola
-Gancev kontrola hr + eng
-3. clan zirija hr + eng
-Svi clanovi zirija jpg 500x500 slika
-Propozicije kontrola + eng
-
-uvod prevod (ja) + kontrola
-
-
 ilica
 hr narodno kazaliste
 park maksimir
@@ -33,3 +22,10 @@ forma - instrument => takmicenje
 Sastav = solo ili ansambl
 
 skola + telefon neobavezno
+
+
+AUTOMATE GALLERY DISPLAY
+
+@for $i from 0 through 9 {
+    background-image: url("../images/hex#{$i}.jpg");
+}
