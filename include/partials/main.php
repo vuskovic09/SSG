@@ -1,8 +1,11 @@
+<?php 
+    
+?>
 <main>
     <div class="main container">
 
         <!-- Intro -->
-        <div class="main-block">
+        <div id="intro-text" class="main-block">
             <div class="row center">
                 <div class="col-md-12">
                     <div class="main-segment-title">
@@ -75,7 +78,7 @@
         </div>
 
         <!-- Rules -->
-        <div class="main-block">
+        <div id="rule-info" class="main-block">
             <div class="row center">
                 <div class="col-md-12">
                     <div class="main-segment-title">
@@ -141,7 +144,7 @@
             </div>
         </div>        
 
-        <div class="main-block">
+        <div id="comp-info" class="main-block">
             <div class="row center">
                 <div class="col-md-12">
                     <div class="main-segment-title">
@@ -171,28 +174,72 @@
                 </div>
             </div>
             <div class= "row center between main-segment-propositions">
-                <div class="main-segment-propositions-left">
-                <ul>
-                    <li>Pretkategorija A</li>
-                    <li>Pretkategorija B</li>
-                    <li>I/A</li>
-                    <li>I/B</li>
-                    <li>II/A</li>
-                    <li>II/B</li>
-                    <li>III/A</li>
-                    <li>III/B</li>
-                    <li>IV</li>
-                    <li>V/A</li>
-                    <li>V/B</li>
-                    <li>VI</li>
-                    <li>VII</li>
-                    <li>VIII</li> 
-                </ul>
-                </div>
-                <div class="main-segment-propositions-right">
+                <div class="divTable">
+                    <div class="divTableBody">
+                        <div class="divTableRow">
+                            <div class="divTableCell">Pretkategorija A</div>
+                            <div class="divTableCell text">Natjecatelji prve godine učenja (Države koje imaju u sustavu pripremno obrazovanje - I razred pripremnog) Dvije skladbe različitog karaktera po slobodnom izboru</div>
+                        </div>
+                        <div class="divTableRow">
+                            <div class="divTableCell">Pretkategorija B</div>
+                            <div class="divTableCell text">Natjecatelji druge godine učenja (Države koje imaju u sustavu pripremno obrazovanje - II razred pripremnog) Dvije skladbe različitog karaktera po slobodnom izboru</div>
+                        </div>
+                        <div class="divTableRow">
+                            <div class="divTableCell">I/A</div>
+                            <div class="divTableCell text">Natjecatelji I razreda srednje glazbene &scaron;kole ili treće godine učenja Jedna arija i dvije solo pjesme po slobodnom izboru</div>
+                        </div>
+                        <div class="divTableRow">
+                            <div class="divTableCell">I/B</div>
+                            <div class="divTableCell text">Natjecatelji II razreda srednje glazbene &scaron;kole ili četvrte godine učenja Jedna arija i tri solo pjesme po slobodnom izboru</div>
+                        </div>
+                        <div class="divTableRow">
+                            <div class="divTableCell">II/A</div>
+                            <div class="divTableCell text">Natjecatelji III razreda srednje glazbene &scaron;kole ili pete godine učenja Jedna arija i tri solo pjesme po slobodnom izboru</div>
+                        </div>
+                        <div class="divTableRow">
+                            <div class="divTableCell">II/B</div>
+                            <div class="divTableCell text">Natjecatelji IV razreda srednje glazbene &scaron;kole ili &scaron;este godine učenja Jedna arija starog talijanskog majstora 16.,17. ili 18. stoljeća po slobodnom izboru Dvije solo pjesme po slobodnom izboru Jedna arija iz opere ili operete po slobodnom izboru</div>
+                        </div>
+                        <div class="divTableRow">
+                            <div class="divTableCell">III/A</div>
+                            <div class="divTableCell text">Natjecatelji I i II godine studija Muzičke akademije Dvije arije i tri solo pjesme po slobodnom izboru</div>
+                        </div>
+                        <div class="divTableRow">
+                            <div class="divTableCell">III/B</div>
+                            <div class="divTableCell text">Natjecatelji III i IV godine studija Muzičke akademije Dvije arije i tri solo pjesme po slobodnom izboru</div>
+                        </div>
+                        <div class="divTableRow">
+                            <div class="divTableCell">IV</div>
+                            <div class="divTableCell text">Natjecatelji V godine studija Muzičke akademije Dvije arije i tri solo pjesme po slobodnom izboru</div>
+                        </div>
+                        <div class="divTableRow">
+                            <div class="divTableCell">V/A</div>
+                            <div class="divTableCell text">Srednjo&scaron;kolski komorni ansambli uz klavirsku pratnju učenika Dvije skladbe različitog karaktera po slobodnom izboru</div>
+                        </div>
+                        <div class="divTableRow">
+                            <div class="divTableCell">V/B</div>
+                            <div class="divTableCell text">Studentski komorni ansambli uz klavirsku pratnju studenta Tri skladbe različitog karaktera po slobodnom izboru</div>
+                        </div>
+                        <div class="divTableRow">
+                            <div class="divTableCell">VI</div>
+                            <div class="divTableCell text">Mje&scaron;oviti operni dueti ili ansambli uz klavirsku pratnju profesionalnog korepetitora &ndash; dame i/ili gospoda do navr&scaron;ene 35 godine života u godini natjecanja Dva operna dueta ili ansambla po slobodnom izboru</div>
+                        </div>
+                        <div class="divTableRow">
+                            <div class="divTableCell">VII</div>
+                            <div class="divTableCell text">Natjecatelji mlađi profesionalci;
+                                Dame do navršene 28 godine života u godini natjecanja;
+                                Gospoda do navršene 30 godine života u godini natjecanja
+                                Tri arije po slobodnom izboru</div>
+                        </div>
+                        <div class="divTableRow">
+                            <div class="divTableCell">VII</div>
+                            <div class="divTableCell text">Dame do navršene 33 godine života u godini natjecanja;
+                            Gospoda do navršene 35 godine života u godini natjecanja
+                             Četiri arije po slobodnom izboru </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
         <!-- Judges -->
         <div class="main-block">
@@ -264,39 +311,73 @@
             </div>
             <div class="row center between main-segment-application">
                 <div class="main-segment-application-form">
-                    <input type="text" placeholder="Ime" />
-                    <input type="text" placeholder="Prezime" />
-                    <input type="text" placeholder="Datum Rođenja" />
-                    <input type="text" placeholder="Nacionalnost" />
-                    <input type="text" placeholder="Profesor" />
+                    <form action="" method="POST" onSubmit="return check();">
+                        <input type="text" name="name" placeholder="Ime" />
+                        <input type="text" name="surname" placeholder="Prezime" />
+                        <input type="text" name="dob" placeholder="Datum Rođenja" />
+                        <input type="text" name="nat" placeholder="Nacionalnost" />
+                        <input type="text" name="prof" placeholder="Profesor" />
 
-                    <input type="text" placeholder="Grad" />
-                    <input type="text" placeholder="Država" />
-                </br>
-                    <input type="mail" placeholder="E-mail" />
-                    <input type="text" placeholder="Telefon" />
+                        <input type="text" name="city" placeholder="Grad" />
+                        <input type="text" name="country" placeholder="Država" />
+                    </br>
+                        <input type="mail" name="mail" placeholder="E-mail" />
+                        <input type="text" name="phone" placeholder="Telefon" />
 
-                    </br></br>
+                        </br></br>
 
-                    <label>Dokaz uplate</label>
+                        <label>Dokaz uplate</label>
+                        <input type="file" name="payment" />
 
-                    <input type="file" />
-                    <label>Identifikacijski dokument</label>
+                        <label>Identifikacijski dokument</label>
+                        <input type="file" name="doc" />
 
-                    <input type="file" />
+                        </br></br>
 
-                    </br></br>
+                        <input type="text" name="link1" placeholder="YouTube link" />
+                        <input type="text" name="link2" placeholder="YouTube link" />
+                        <input type="text" name="link3" placeholder="YouTube link" />
+                        <input type="text" name="link4" placeholder="YouTube link" />
+                        <input type="text" name="link5" placeholder="YouTube link" />
+                        <input type="text" name="link6" placeholder="YouTube link" />
+                        <input type="text" name="link7" placeholder="YouTube link" />
+                        <input type="text" name="link8" placeholder="YouTube link" />
 
-                    <input type="text" placeholder="YouTube link" />
-                    <input type="text" placeholder="YouTube link" />
-                    <input type="text" placeholder="YouTube link" />
-                    <input type="text" placeholder="YouTube link" />
-                    <input type="text" placeholder="YouTube link" />
-                    <input type="text" placeholder="YouTube link" />
-                    <input type="text" placeholder="YouTube link" />
-                    <input type="text" placeholder="YouTube link" />
-                    
-                    <button type="button">Pošalji!</button>	
+                        </br></br>
+
+                        <div class="row center space-around selects">
+                            <div class="custom-select">
+                                <select name="category">
+                                    <option disabled selected value="0">Kategorija...</option>
+                                    <option value="1">Pretkategorija A</option>
+                                    <option value="2">Pretkategorija B</option>
+                                    <option value="3">I/A</option>
+                                    <option value="4">I/B</option>
+                                    <option value="5">II/A</option>
+                                    <option value="6">II/B</option>
+                                    <option value="7">III/A</option>
+                                    <option value="8">III/B</option>
+                                    <option value="9">IV</option>
+                                    <option value="10">V/A</option>
+                                    <option value="11">V/B</option>
+                                    <option value="12">VI</option>
+                                    <option value="13">VII</option>
+                                    <option value="14">VIII</option>                            
+                                </select>
+                            </div>
+                            
+                            <div class="custom-select">
+                                <select name="composition">
+                                    <option disabled selected value="0">Sastav...</option>
+                                    <option value="1">Solo</option>
+                                    <option value="2">Duet</option>
+                                    <option value="3">Ansambl</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <input type="submit" name="apply" value="Pošalji!" />
+                    </form>	
                 </div>
             </div>
         </div>

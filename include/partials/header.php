@@ -34,10 +34,10 @@
         </div>
         <div class="row between">
             <div class="col-md-2">
-                <nav class="header-nav">
+                <nav class="header-nav navigation">
                     <ul>
                         <?php foreach($dataNav as $rowNav){ ?>
-                            <li><a href="<?php echo $path . $rowNav['href']?>"><?php echo $rowNav['name']?></a></li>
+                            <li><a href="<?php echo $rowNav['href']?>"><?php echo $rowNav['name']?></a></li>
                         <?php   } ?>
                     </ul>
                 </nav>

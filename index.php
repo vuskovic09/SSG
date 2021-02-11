@@ -14,5 +14,7 @@ require('include/services/connection.php');
 
 <?php require_once('include/partials/footer.php'); ?>
 
+
+<script src="assets/js/scripts.js"></script>
 </body>
 </html>

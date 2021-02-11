@@ -1,4 +1,5 @@
 .main {
+
   &-block {
     padding-top: 50px;
   }
@@ -211,15 +212,22 @@
         }
 
         &-propositions {
-          &-left {
-            ul {
-              border-right:  5px solid $color-elements;
-              font-size: 24px;
-              padding-right: 50px;
-            }
+          padding-top: 20px;
+
+          .divTableCell {
+            padding: 15px;
+          }
+
+          .divTableCell:first-child {
+            font-weight: bolder;
+            font-size: 24px;
+            border-bottom: 3px solid $color-elements;
+          }
+
+          .text {
+            font-size: 20px;
           }
         }
-
         &-application {
           padding: 50px;
 
@@ -229,6 +237,7 @@
             box-shadow: -5px -5px 20px $color-shadow-one,  5px 5px 20px $color-shadow-two;
             padding: 25px 25px;
             text-align: center;
+            margin-bottom: 50px;
 
                         
               input, button {
@@ -238,46 +247,112 @@
                   padding: 16px;
                   text-shadow: 1px 1px 0 $color-shadow-one;
               }
-            
+
               input {
-                  box-shadow:  inset 2px 2px 5px $color-shadow-two, inset -5px -5px 10px $color-shadow-one;
-                  margin-top: 8px;
-                  margin-right: 8px;
-                  transition: all 0.2s ease-in-out;
+                box-shadow:  inset 2px 2px 5px $color-shadow-two, inset -5px -5px 10px $color-shadow-one;
+                margin-top: 8px;
+                margin-right: 8px;
+                transition: all 0.2s ease-in-out;
+              
+                &:focus {
+                  box-shadow:  inset 1px 1px 2px $color-shadow-two, inset -1px -1px 2px $color-shadow-one;
+
+                  &::placeholder {
+                      opacity: 0.5;
+                      transition: 0.2s ease-in-out;
+                  }
+                }
+              }
+          
+            button {
+                box-shadow: -5px -5px 20px $color-shadow-one,  5px 5px 20px $color-shadow-two;
+                color:$color-text-dark;
+                cursor: pointer;
+                display: block;
+                font-weight: $font-weight-bold;
+                margin: 50px auto;
+                transition: all 0.2s ease-in-out;
+                width: 29%;
                 
-                  &:focus {
-                    box-shadow:  inset 1px 1px 2px $color-shadow-two, inset -1px -1px 2px $color-shadow-one;
-  
-                    &::placeholder {
-                        opacity: 0.5;
-                        transition: 0.2s ease-in-out;
-                    }
+                &:hover {
+                  box-shadow: -2px -2px 5px $color-shadow-two, 2px 2px 5px $color-shadow-one;
+                }
+                
+                &:active {
+                  box-shadow: inset 1px 1px 2px $color-shadow-one, inset -1px -1px 2px $color-shadow-two;
+                }
+              }
+            } 
+
+              .selects {
+
+                .custom-select {
+                  width: 500px;
+                  position: relative;                
+
+                  select {
+                    display:  none;
                   }
                 }
-            
-              button {
-                  box-shadow: -5px -5px 20px $color-shadow-one,  5px 5px 20px $color-shadow-two;
-                  color:$color-text-dark;
+
+                .select-selected {
+                  color: $color-text-dark;
+                  background-color: $color-background;
+                  box-shadow:  inset 2px 2px 5px $color-shadow-two, inset -5px -5px 10px $color-shadow-one;
+                  border: 0;
+                  border-radius: 18px;
+                }
+                
+                /* Style the arrow inside the select element: */
+                .select-selected:after {
+                  position: absolute;
+                  content: "";
+                  top: 17px;
+                  right: 25px;
+                  width: 0;
+                  height: 0;
+                  border: 6px solid transparent;
+                  border-color: $color-text-dark transparent transparent transparent;
+                }
+                
+                /* style the items (options), including the selected item: */
+                .select-items div,.select-selected {
+                  padding: 8px 16px;
+                  border: 1px solid transparent;
+                  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
                   cursor: pointer;
-                  display: block;
-                  font-weight: $font-weight-bold;
-                  margin: 50px auto;
-                  transition: all 0.2s ease-in-out;
-                  width: 29%;
-                  
-                  &:hover {
-                    box-shadow: -2px -2px 5px $color-shadow-two, 2px 2px 5px $color-shadow-one;
-                  }
-                  
-                  &:active {
-                    box-shadow: inset 1px 1px 2px $color-shadow-one, inset -1px -1px 2px $color-shadow-two;
-                  }
+                  border: 0;
+                  border-radius: 18px;
                 }
-              }            
+
+                .select-items div { 
+                  width: 50%;
+                  float: left;
+                }
+                
+                /* Style items (options): */
+                .select-items {
+                  position: absolute;
+                  background-color: $color-background;
+                  box-shadow:  inset 2px 2px 5px $color-shadow-two, inset -5px -5px 10px $color-shadow-one;
+                  border: 0;
+                  border-radius: 18px;
+                  top: 100%;
+                  left: 0;
+                  right: 0;
+                  z-index: 99;
+                  overflow-y: scroll;
+                }
+                
+                /* Hide the items when the select box is closed: */
+                .select-hide {
+                  display: none;
+                }
+                
+                .select-items div:hover, .same-as-selected {
+                  background-color: rgba(0, 0, 0, 0.1);
+                }
+              }                        
         }
   }
 }
-      
-    
-  
-

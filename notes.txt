@@ -29,3 +29,6 @@ AUTOMATE GALLERY DISPLAY
 @for $i from 0 through 9 {
     background-image: url("../images/hex#{$i}.jpg");
 }
+
+
+SASTAV SOLISTA DUET ILI ANSAMBL
