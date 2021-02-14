@@ -147,7 +147,7 @@
         <div id="comp-info" class="main-block">
             <div class="row center">
                 <div class="col-xs-12 col-md-12">
-                    <div class="main-segment-title">
+                    <div class="main-segment-title-active">
                         <h2>Pjevačko natjecanje</h2>
                     </div>
                 </div>
