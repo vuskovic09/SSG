@@ -7,14 +7,14 @@
         <!-- Intro -->
         <div id="intro-text" class="main-block">
             <div class="row center">
-                <div class="col-md-12">
+                <div class="col-xs-6 col-md-12">
                     <div class="main-segment-title">
                         <h2>Uvodna riječ</h2>
                     </div>
                 </div>
             </div>
             <div class="row center main-segment-about">
-                <div class="col-md-4 main-segment-about-photos">
+                <div class="col-xs-12 col-md-4 main-segment-about-photos">
                     <!-- First Img -->
                     <div class="first-img">
                         <img src="assets/images/about1.jpg" alt="Photo by Carsten Kohler from Pexels">
@@ -28,7 +28,7 @@
                         <img src="assets/images/about3.jpg" alt="Photo by Pixabay from Pexels">
                     </div>
                 </div>
-                <div class="col-md-8 main-segment-about-text">
+                <div class="col-xs-12 col-md-8 main-segment-about-text">
                     <p>Dragi natjecatelji,</br></br>
                         Organizator MUSICA ZAGREB sa velikim zadovoljstvom najavljuje i želi
                         dobrodošlicu svim natjecateljicama i natjecateljima na 1. međunarodno natjecanje mladih glazbenika Zagreb 2021.</br></br>
@@ -80,7 +80,7 @@
         <!-- Rules -->
         <div id="rule-info" class="main-block">
             <div class="row center">
-                <div class="col-md-12">
+                <div class="col-xs-6 col-md-12">
                     <div class="main-segment-title">
                         <h2>Pravilnik natjecanja</h2>
                     </div>
@@ -146,17 +146,17 @@
 
         <div id="comp-info" class="main-block">
             <div class="row center">
-                <div class="col-md-12">
+                <div class="col-xs-12 col-md-12">
                     <div class="main-segment-title">
                         <h2>Pjevačko natjecanje</h2>
                     </div>
                 </div>
-                <div class="col-md-12">
+                <div class="col-xs-12 col-md-12">
                     <div class="main-segment-title">
                         <h2>Violinističko natjecanje</h2>
                     </div>
                 </div>
-                <div class="col-md-12">
+                <div class="col-xs-12 col-md-12">
                     <div class="main-segment-title">
                         <h2>Klavirsko natjecanje</h2>
                     </div>
@@ -167,7 +167,7 @@
         <!-- Propositions -->
         <div class="main-block">
             <div class="row center">
-                <div class="col-md-12">
+                <div class="col-xs-6 col-md-12">
                     <div class="main-segment-title">
                         <h2>Propozicije</h2>
                     </div>
@@ -240,18 +240,19 @@
                     </div>
                 </div>
             </div>
+        </div>
 
         <!-- Judges -->
         <div class="main-block">
             <div class="row center">
-                <div class="col-md-12">
+                <div class="col-xs-6 col-md-12">
                     <div class="main-segment-title">
                         <h2>Ocijenjivački Sud</h2>
                     </div>
                 </div>
             </div>
             <div class= "row center between main-segment-judges">
-                <div class="col-md-4 main-segment-judges-single">
+                <div class="col-xs-12 col-md-4 main-segment-judges-single">
                     <div class="main-segment-judges-single-img">
                         <img src="assets/images/aGig.jpg" alt="Arijana Gigliani" />
                     </div>
@@ -266,9 +267,9 @@
                         Još...
                     </div></a>
                 </div>
-                <div class="col-md-4 main-segment-judges-single">
+                <div class="col-xs-12 col-md-4 main-segment-judges-single">
                     <div class="main-segment-judges-single-img">
-                        <!-- <img src="assets/images/aGig.jpg" alt="Arijana Gigliani" /> -->
+                        <img src="assets/images/ljZiv.jpg" alt="Ljubica Zivkovic" />
                     </div>
                     <h3 class="main-segment-judges-single-title">Ljubica Živković</h3>
                     <div class="main-segment-judges-single-text">
@@ -282,7 +283,7 @@
                         Još...
                     </div></a>
                 </div>
-                <div class="col-md-4 main-segment-judges-single">
+                <div class="col-xs-12 col-md-4 main-segment-judges-single">
                     <div class="main-segment-judges-single-img">
                         <img src="assets/images/kandelaki.jpg" alt="Vladimir Kandelaki" />
                     </div>
@@ -303,7 +304,7 @@
         <!-- Application form -->
         <div class="main-block">
             <div class="row center">
-                <div class="col-md-12">
+                <div class="col-xs-6 col-md-12">
                     <div class="main-segment-title">
                         <h2>Prijava</h2>
                     </div>
@@ -311,73 +312,7 @@
             </div>
             <div class="row center between main-segment-application">
                 <div class="main-segment-application-form">
-                    <form action="" method="POST" onSubmit="return check();">
-                        <input type="text" name="name" placeholder="Ime" />
-                        <input type="text" name="surname" placeholder="Prezime" />
-                        <input type="text" name="dob" placeholder="Datum Rođenja" />
-                        <input type="text" name="nat" placeholder="Nacionalnost" />
-                        <input type="text" name="prof" placeholder="Profesor" />
-
-                        <input type="text" name="city" placeholder="Grad" />
-                        <input type="text" name="country" placeholder="Država" />
-                    </br>
-                        <input type="mail" name="mail" placeholder="E-mail" />
-                        <input type="text" name="phone" placeholder="Telefon" />
-
-                        </br></br>
-
-                        <label>Dokaz uplate</label>
-                        <input type="file" name="payment" />
-
-                        <label>Identifikacijski dokument</label>
-                        <input type="file" name="doc" />
-
-                        </br></br>
-
-                        <input type="text" name="link1" placeholder="YouTube link" />
-                        <input type="text" name="link2" placeholder="YouTube link" />
-                        <input type="text" name="link3" placeholder="YouTube link" />
-                        <input type="text" name="link4" placeholder="YouTube link" />
-                        <input type="text" name="link5" placeholder="YouTube link" />
-                        <input type="text" name="link6" placeholder="YouTube link" />
-                        <input type="text" name="link7" placeholder="YouTube link" />
-                        <input type="text" name="link8" placeholder="YouTube link" />
-
-                        </br></br>
-
-                        <div class="row center space-around selects">
-                            <div class="custom-select">
-                                <select name="category">
-                                    <option disabled selected value="0">Kategorija...</option>
-                                    <option value="1">Pretkategorija A</option>
-                                    <option value="2">Pretkategorija B</option>
-                                    <option value="3">I/A</option>
-                                    <option value="4">I/B</option>
-                                    <option value="5">II/A</option>
-                                    <option value="6">II/B</option>
-                                    <option value="7">III/A</option>
-                                    <option value="8">III/B</option>
-                                    <option value="9">IV</option>
-                                    <option value="10">V/A</option>
-                                    <option value="11">V/B</option>
-                                    <option value="12">VI</option>
-                                    <option value="13">VII</option>
-                                    <option value="14">VIII</option>                            
-                                </select>
-                            </div>
-                            
-                            <div class="custom-select">
-                                <select name="composition">
-                                    <option disabled selected value="0">Sastav...</option>
-                                    <option value="1">Solo</option>
-                                    <option value="2">Duet</option>
-                                    <option value="3">Ansambl</option>
-                                </select>
-                            </div>
-                        </div>
-                        
-                        <input type="submit" name="apply" value="Pošalji!" />
-                    </form>	
+                   <p>Prijave će biti omogućene od 22.veljače 2021.</p>
                 </div>
             </div>
         </div>

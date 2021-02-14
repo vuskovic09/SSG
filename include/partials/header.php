@@ -33,7 +33,7 @@
         <div class="header-filter">
         </div>
         <div class="row between">
-            <div class="col-md-2">
+            <div class="col-xs-12 col-md-3">
                 <nav class="header-nav navigation">
                     <ul>
                         <?php foreach($dataNav as $rowNav){ ?>
@@ -42,7 +42,7 @@
                     </ul>
                 </nav>
             </div>
-            <div class="col-md-10 header-title">
+            <div class="col-xs-12 col-md-9 header-title">
                 <h1>Online</br>Međunarodno natjecanje</br>Mladih glazbenika</br>Zagreb 2021.</h1>
             </div>
         </div>

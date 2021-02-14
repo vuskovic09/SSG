@@ -31,4 +31,71 @@ AUTOMATE GALLERY DISPLAY
 }
 
 
-SASTAV SOLISTA DUET ILI ANSAMBL
+
+ <form action="" method="POST" onSubmit="return check();">
+                        <input type="text" name="name" placeholder="Ime" />
+                        <input type="text" name="surname" placeholder="Prezime" />
+                        <input type="text" name="dob" placeholder="Datum Rođenja" />
+                        <input type="text" name="nat" placeholder="Nacionalnost" />
+                        <input type="text" name="prof" placeholder="Profesor" />
+
+                        <input type="text" name="city" placeholder="Grad" />
+                        <input type="text" name="country" placeholder="Država" />
+                    </br>
+                        <input type="mail" name="mail" placeholder="E-mail" />
+                        <input type="text" name="phone" placeholder="Telefon" />
+
+                        </br></br>
+
+                        <label>Dokaz uplate</label>
+                        <input type="file" name="payment" />
+
+                        <label>Identifikacijski dokument</label>
+                        <input type="file" name="doc" />
+
+                        </br></br>
+
+                        <input type="text" name="link1" placeholder="YouTube link" />
+                        <input type="text" name="link2" placeholder="YouTube link" />
+                        <input type="text" name="link3" placeholder="YouTube link" />
+                        <input type="text" name="link4" placeholder="YouTube link" />
+                        <input type="text" name="link5" placeholder="YouTube link" />
+                        <input type="text" name="link6" placeholder="YouTube link" />
+                        <input type="text" name="link7" placeholder="YouTube link" />
+                        <input type="text" name="link8" placeholder="YouTube link" />
+
+                        </br></br>
+
+                        <div class="row center space-around selects">
+                            <div class="custom-select">
+                                <select name="category">
+                                    <option disabled selected value="0">Kategorija...</option>
+                                    <option value="1">Pretkategorija A</option>
+                                    <option value="2">Pretkategorija B</option>
+                                    <option value="3">I/A</option>
+                                    <option value="4">I/B</option>
+                                    <option value="5">II/A</option>
+                                    <option value="6">II/B</option>
+                                    <option value="7">III/A</option>
+                                    <option value="8">III/B</option>
+                                    <option value="9">IV</option>
+                                    <option value="10">V/A</option>
+                                    <option value="11">V/B</option>
+                                    <option value="12">VI</option>
+                                    <option value="13">VII</option>
+                                    <option value="14">VIII</option>                            
+                                </select>
+                            </div>
+                            
+                            <div class="custom-select">
+                                <select name="composition">
+                                    <option disabled selected value="0">Sastav...</option>
+                                    <option value="1">Solo</option>
+                                    <option value="2">Duet</option>
+                                    <option value="3">Ansambl</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <input type="submit" name="apply" value="Pošalji!" />
+                    </form>	

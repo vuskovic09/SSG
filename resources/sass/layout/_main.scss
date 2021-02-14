@@ -7,11 +7,14 @@
 	&-segment {
         background: $color-background;
         min-height: 100vh;
+        padding: 20px;
 
         &-title {
             border-radius: 5px;
             box-shadow: -5px -5px 20px $color-shadow-one,  5px 5px 20px $color-shadow-two;
             padding: 5px 25px;
+            text-align: center;
+            margin-top: 15px;
         }
 
         &-about {
@@ -166,10 +169,6 @@
               column-width: auto;
               column-span: all;
               line-height: 25px;
-
-              .boldy {
-                font-weight: bolder;
-              }
             }
           }
         }
@@ -228,6 +227,7 @@
             font-size: 20px;
           }
         }
+
         &-application {
           padding: 50px;
 
@@ -238,6 +238,8 @@
             padding: 25px 25px;
             text-align: center;
             margin-bottom: 50px;
+            font-weight: bold;
+            font-size: 28px;
 
                         
               input, button {

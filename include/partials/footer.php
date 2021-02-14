@@ -1,9 +1,9 @@
 <footer>
     <div class="row center space-between footer">
-        <div class="col-md-6">
-            <p>Contact information | E-Mail: daslkdhjasldkajsdl | Phone: 130123812380</p>
+        <div class="col-xs-12 col-md-6">
+            <p>Contact information | E-Mail: info&#64;musiccompetitionzagreb&#46;com</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-md-6">
             <p>Website by Filip Vušković | v1.0 </p>
         </div>
     </div>
