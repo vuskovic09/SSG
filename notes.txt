@@ -30,6 +30,12 @@ AUTOMATE GALLERY DISPLAY
     background-image: url("../images/hex#{$i}.jpg");
 }
 
+<ul>
+    <?php foreach($dataNav as $rowNav){ ?>
+        <li><a href="<?php echo $rowNav['href']?>"><?php echo $rowNav['name']?></a></li>
+    <?php   } ?>
+</ul>
+
 
 
  <form action="" method="POST" onSubmit="return check();">

@@ -3,7 +3,9 @@
 ?>
 <main>
     <div class="main container">
-
+    <div class="language-select">
+        <p><a href="#">Hrvatski</a> | <a href="en/index.php">Engleski</a></p>
+    </div>
         <!-- Intro -->
         <div id="intro-text" class="main-block">
             <div class="row center">
@@ -153,11 +155,6 @@
                 </div>
                 <div class="col-xs-12 col-md-12">
                     <div class="main-segment-title">
-                        <h2>Violinističko natjecanje</h2>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-12">
-                    <div class="main-segment-title">
                         <h2>Klavirsko natjecanje</h2>
                     </div>
                 </div>
@@ -236,6 +233,20 @@
                             <div class="divTableCell text">Dame do navršene 33 godine života u godini natjecanja;
                             Gospoda do navršene 35 godine života u godini natjecanja
                              Četiri arije po slobodnom izboru </div>
+                        </div>
+                        <div class="divTableRow">
+                            <div class="divTableCell">Kotizacije</div>
+                            <div class="divTableCell text">Pretkategorija A i B - 35 €</br>
+                            I/A, I/B, II/A i II/B kategorija - 40 €</br>
+                            III/A, III/B i IV kategorija - 50 €</br>
+                            V/A, V/B, VI, VII i VIII kategorija - 60 €</br></br>
+                            Uplata kotizacija vrši se na račun Organizatora MUSICA ZAGREB:</br>
+                            Zagrebačka banka d.d.</br>
+Trg bana Jelačića 10</br>
+10000 Zagreb</br>
+IBAN:HR9623600001102900185</br>
+SWIFT:ZABA HR 2X</br>
+U slučaju odustajanja kotizacija se ne vraća.  </div>
                         </div>
                     </div>
                 </div>

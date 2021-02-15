@@ -3,6 +3,9 @@
 ?>
 <main>
     <div class="main container">
+    <div class="language-select">
+        <p><a href="../index.php">Croatian</a> | <a href="#">English</a></p>
+    </div>
 
         <!-- Intro -->
         <div id="intro-text" class="main-block">
@@ -48,7 +51,7 @@
                         “Young people can learn from my example that something can come from nothing. What I
                         have become is the result of my hard efforts."
                         We wish the best of luck and the greatest of success to all of the contestants and we eagerly
-                        expect you on our upcoming competition. 
+                        expect you on our upcoming competition. </br>
                         
                         MUSICA ZAGREB
  
@@ -80,63 +83,65 @@
             <div class="row center">
                 <div class="col-xs-6 col-md-12">
                     <div class="main-segment-title">
-                        <h2>Pravilnik natjecanja</h2>
+                        <h2>Rules</h2>
                     </div>
                 </div>
             </div>
             <div class="row center main-segment-comp">
                 <div class="col-md-12 main-segment-comp-rules-text">    
                     <p>                        
-                        1. NATJECANJE MLADIH GLAZBENIKA ZAGREB 2021.</br></br>
-                        PRAVILNIK NATJECANJA.</br></br>
-                        1.Ovim Pravilnikom ureduju se pravila muzičkog natjecanja...(Natjecanje)</br>
-                        2. Natjecanje je namijenjeno mladim glazbenicima u Republici Hrvatskoj i mladim glazbenicima u inozemstvu bez obzira na vrstu obrazovanja i nacionalnost.</br>
-                        3. Organizator ovog medunarodnog muzičkog natjecanja je Musica, Zagreb.</br>
-                        4. Sva natjecanja će se odvijati – ON LINE.</br>
-                        5. Natjecatelji su dužni do trenutka popunjavanja prijave objaviti  program koji izvode na ovom natjecanju na javnom youtube kanalu. U prijavi  natjecatelji su dužni navesti link, na predviđenom mjestu, za svaku pojedinu skladbu.</br>
-                        6. Skladbe mogu biti snimljene pojedinačno. Takoder, program može biti snimljen i u cijelosti, bez prekidanja.</br>
-                        7. Snimljene skladbe ne smiju biti objavljene na javnom  youtube kanalu prije 1. siječnja 2019. godine. Obvezatno je navesti ime skladbe i kompozitora u opisu videa.</br>
-                        8. Redoslijed nastupa određuje organizator i zadržava pravo promjene rasporeda.</br>
-                        9.Točan termin rasporeda natjecanja u svakoj pojedinoj kategoriji bit će objavljen na internetskoj stranici Natjecanja a natjecatelji će također biti obaviješteni putem e-maila.</br>
-                        10. Natjecatelj ili komorni ansambl se može prijaviti i u višoj kategoriji nego je predviđena za njihovu dob.</br>
-                        11. Cijeli program natjecatelj izvodi napamet u solističkim kategorijama , a komorni ansambli mogu izvoditi program iz nota, a repeticije nisu nužne.</br>
-                        12. Promjena programa navedenog u prijavi neće biti dopuštena.</br>
-                        13. Ocjenjivački sud sastavljen je od eminentnih domaćih i stranih glazbenika i pedagoga.</br>
-                        14. U slučaju odustajanja pojedinog člana ocjenjivačkog suda, Organizator ima pravo zamjene istog novim članom.</br>
-                        15. Član Ocjenjivačkog suda ne ocjenjuje svog učenika ili studenta koji se natječe, ni natjecatelja s kojim je u srodstvu.</br>
-                        16. Ocjenjivački sud sluša program u cijelosti.</br>
-                        17. U slučaju da više natjecatelja dijeli jednak broj bodova, mlađi kandidat ostvaruje pravo prednosti.</br>
-                        18. Ocjenjivački sud donosi konačnu i neopozivu odluku na koju natjecatelj nema pravo žalbe.</br>
-                        19. Ocjenjivački sud ima mogućnost prema vlastitoj procjeni dodijeliti  i posebne nagrade kao i nagradu  najuspješnijem pedagogu.</br>
-                        20. Rezultati i pojedinačne ocjene svakog člana Ocjenjivačkog suda bit će objavljeni na ovoj web stranici po završetku svake kategorije.</br></br></br></br></br>
-                        21. Na Natjecanju ocjenjivački sud dodjeljuje nagrade:</br>
-                        90,00 – 100,00 bodova 	    - 1. nagrada.</br>
-                        80,00 – 89,99 bodova	    - 2. nagrada.</br>
-                        70,00 – 79,99 bodova	    - 3. nagrada.</br>
-                        69,99 bodova i sve manje od toga   -  Priznanje.</br></br>
-                        22. Natjecatelji dobivaju diplome za osvojenu 1., 2. ili 3. nagradu ili priznanje za sudjelovanje.</br>
-                        23. Svaka kategorija ima svog pobjednika. To je natjecatelj/ica sa najvećim ostvarenim bodovima od strane Ocjenjivačkog suda. Ako je natjecatelj/ica ocijenjen sa više od 98,00 bodova, dobiva naziv laureat.</br>
-                        24. Diplome i priznanja kao i posebne nagrade, Organizator natjecanja će svakom natjecatelju poslati na mail adresu navedenu u prijavi.</br>
-                        25. Ocjenjivački sud odlučuje o svemu što nije određeno ovim Pravilnikom
-                        26. Za sudjelovanje na natjecanju obvezna je prijava.</br>
-                        27. Natjecatelj/ica je dužan dostaviti u prijavi fotografiju identifikacijskog dokumenta.</br>
-                        28.Prijava se podnosi isključivo popunjavanjem online prijavnice koja je dostupna na ovoj web stranici.</br>
-                        29. Prijave će biti omogućene do 7 dana prije početka natjecanja.</br>
-                        30.Krivo navođenje podataka u prijavi može biti razlog za diskvalifikaciju natjecatelja.</br>
-                        31.Nepotpune prijave neće se razmatrati.</br></br>
-                        <span class="boldy">32. Za sudjelovanje na Natjecanju potrebno je platiti kotizaciju. Uplata kotizacije vrši se na račun Organizatora natjecanja MUSICA, Zagreb:</br>
-                        Zagrebačka banka d.d</br>
+                        1st COMPETITON OF YOUNG MUSICIANS ZAGREB 2021 </br></br>
+                        RULES</br></br>
+                        1. These Rules define the music competition…. (the Competition).</br>
+                        2. The Competition is international, designed for young musicians nevertheless of type of education and nationality.</br>
+                        3. The Organizer of this international music Competition is Musica, Zagreb.</br>
+                        4. The Competition shall be held ON-LINE</br>
+                        5. The participants shall be obliged, before uploading ON-LINE application, to upload their competition program on a public You Tube channel. In application the participant should insert the link for each particular composition. </br>
+                        6. The compositions can be individually recorded. Also, the program may be recorded in its entirety without interruption. </br>
+                        7. The recorded compositions may not be posted on the public YouTube channel before January 1, 2019. It is obligatory to state the name of the composition and the composer in the video description.  </br>
+                        8. The order of performance shall be determined by the Organizer. The Organizer reserves the right to change the schedule. </br>
+                        9. The exact schedule in each category shall be published on this web page. The participants shall also be informed about the schedule by email. </br>
+                        10. The participant or ensembles may apply in the higher age category than provided for their age.  </br>
+                        11. The whole program shall be performed by heart by the participant in the solo performance category and the ensembles can perform by reading the notes. Repetitions are not necessary. </br>
+                        12. The program specified in the application cannot be changed. </br>
+                        13. The jury will be formed by eminent national and foreign musicians and music pedagogues. </br>
+                        14. In case of withdrawal of a jury member, the Organizer has the right to appoint a new jury member. </br>
+                        15. A member of the jury shall not evaluate a participant who is their student or relative. </br>
+                        16. The jury shall listen to the whole program. </br>
+                        17. In case more participants share the same number of points, the younger candidate gains the priority right. </br>
+                        18. The jury delivers a final and irrevocable decision with no right to appeal. </br>
+                        19. The jury may award a special prize and may award a prize for the most successful pedagogue. </br>
+                        20. The results and marks given by each jury member shall be published on this web page after completion of each category. </br></br></br></br></br>
+                        21. The jury delivers the following awards: </br>
+
+                        90,00 – 100,00 points 	1. Prize</br>
+                        80,00 – 89,99 points	 2. Prize</br>
+                        70,00 – 79,99 points	3. Prize</br>
+                                69,99 points and below – acknowledgement</br></br>
+                        22. The participants will receive diplomas for winning the 1, 2 and 3 Prize or Acknowledgement of Participation. </br>
+                        23. Each category has its own winner, that is the participant with the highest points gained. If a participant gets more than 98,00 points, he/she shall be awarded by the name “Laureate”. </br>
+                        24.The organizer shall send diplomas as well as acknowledges and special prizes to the participant’s e-mail address listed in the application form. </br>
+                        25. The jury has the right to decide about everything that is not defined by this Rules. </br>
+                        26. For participating in this competition an application is necessary. </br>
+                        27. The participant is obliged to submit a scan of his/her identification document in the application form. </br>
+                        28. The application for the participation in the competition should be exclusively done online, by filling out the online form available on this web-page. </br>
+                        29. Applications for the competition will be allowed up to 7 days before the start of the competition. </br>
+                        30. Falsely stating data in the application may be a reason for disqualification of the applicant. </br>
+                        31. Incomplete applications shall not be considered. </br></br>
+                        32. To participate in the competition you need to pay a registration fee. For the applicants who are not Croatian residents, registration fee shall be payable in Euros. Registration fee should be paid to the following account: </br></br>
+                        For: MUSICA, Zagreb</br>
+                        Zagrebačka banka d.d. </br>
                         Trg bana Jelačića 10</br>
                         10000 Zagreb</br>
                         IBAN: HR9623600001102900185</br>
-                        SWIFT: ZABA HR 2X</br></br></span>
-                        33. U slučaju odustajanja kotizacija se ne vraća.</br>
-                        34. U opisu plaćanja obavezno napisati ime i prezime natjecatelja, odnosno imena i prezimena svih natjecatelja u komornom ansamblu  za koje se uplaćuje kotizacija.</br>
-                        35. Natjecatelji iz Republike Hrvatske uplaćuju kunsku protuvrijednost prema središnjem tečaju HNB na dan uplate.</br>
-                        36. Organizator natjecanja zadržava pravo obradivati audio/video/foto zapise svih natjecanja i  događanja vezanih za natjecanje. Natjecatelji su upoznati i pristaju da će Organizator obradivati njihove osobne podatke( fotografije, video i audio zapise, nagrade itd.) u svrhe organiziranja i  promoviranja Natjecanja, te da ima pravo objaviti navedene osobne podatke na svojoj web stranici i na drugim kanalima socijalnih medija.</br>
-                        37. MUSICA, Zagreb, organizator Natjecanja, zadržava pravo izmjene ovog Pravilnika.</br>
-                        38. U slučaju nejasnoća hrvatski tekst uzima se kao pravovaljan.</br>
-                        39. Za slučaj spora nadležan je sud u Zagrebu.</br>
+                        SWIFT/ BIC: ZABA HR 2X</br></br>
+                        33. In case of withdrawal from the Competition, the registration fee will not be reimbursed. </br>
+                        34. Name and surname of an applicant who is paying the registration fee should be listed in the payment description line. The same applies to the ensemble members who are paying registration fees for themselves. </br>
+                        35. Registration fee for Croatian residents is payable in Croatian Kuna, based on the medium exchange rate of the Croatian National Bank on the payment day. </br>
+                        36. The Organizer of the Competition reserves the right to process audio and video recordings of all competitions and events related to the competition. The participants are informed and they agree that the Organizer will process their personal data (photos, video and audio recordings, awards etc.) for the purpose of organizing and promoting the Competition, and publishing these data on its web page and other social media channels. </br>
+                        37. MUSIC,Zagreb, the organizer of the Competition has the sole right to change this Rules. </br>
+                        38. In case of ambiguities, the Croatian version of this Rules shall prevail. </br>
+                        39. In case of dispute the parties shall submit the case before the competent court in Zagreb. </br>
                     </p>
                 </div>
             </div>
@@ -146,17 +151,12 @@
             <div class="row center">
                 <div class="col-xs-12 col-md-12">
                     <div class="main-segment-title-active">
-                        <h2>Pjevačko natjecanje</h2>
+                        <h2>Singing Competition</h2>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-12">
                     <div class="main-segment-title">
-                        <h2>Violinističko natjecanje</h2>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-12">
-                    <div class="main-segment-title">
-                        <h2>Klavirsko natjecanje</h2>
+                        <h2>Piano Competition</h2>
                     </div>
                 </div>
             </div>
@@ -167,7 +167,7 @@
             <div class="row center">
                 <div class="col-xs-6 col-md-12">
                     <div class="main-segment-title">
-                        <h2>Propozicije</h2>
+                        <h2>Propositions</h2>
                     </div>
                 </div>
             </div>
@@ -175,65 +175,98 @@
                 <div class="divTable">
                     <div class="divTableBody">
                         <div class="divTableRow">
-                            <div class="divTableCell">Pretkategorija A</div>
-                            <div class="divTableCell text">Natjecatelji prve godine učenja (Države koje imaju u sustavu pripremno obrazovanje - I razred pripremnog) Dvije skladbe različitog karaktera po slobodnom izboru</div>
+                            <div class="divTableCell">Precategory A</div>
+                            <div class="divTableCell text">First-year students
+(States that have a preparatory degree, first-degree students)
+Two compositions of different character of your choice </div>
                         </div>
                         <div class="divTableRow">
-                            <div class="divTableCell">Pretkategorija B</div>
-                            <div class="divTableCell text">Natjecatelji druge godine učenja (Države koje imaju u sustavu pripremno obrazovanje - II razred pripremnog) Dvije skladbe različitog karaktera po slobodnom izboru</div>
+                            <div class="divTableCell">Precategory B</div>
+                            <div class="divTableCell text">Second-year students
+(States that have a preparatory degree, second-degree students)
+Two compositions of different character of your choice</div>
                         </div>
                         <div class="divTableRow">
                             <div class="divTableCell">I/A</div>
-                            <div class="divTableCell text">Natjecatelji I razreda srednje glazbene &scaron;kole ili treće godine učenja Jedna arija i dvije solo pjesme po slobodnom izboru</div>
+                            <div class="divTableCell text">First-year high school students (third-year students)
+One aria and two solo songs of your choice</div>
                         </div>
                         <div class="divTableRow">
                             <div class="divTableCell">I/B</div>
-                            <div class="divTableCell text">Natjecatelji II razreda srednje glazbene &scaron;kole ili četvrte godine učenja Jedna arija i tri solo pjesme po slobodnom izboru</div>
+                            <div class="divTableCell text">Second-year high school students (fourth-year students)
+One aria and three solo songs of your choice</div>
                         </div>
                         <div class="divTableRow">
                             <div class="divTableCell">II/A</div>
-                            <div class="divTableCell text">Natjecatelji III razreda srednje glazbene &scaron;kole ili pete godine učenja Jedna arija i tri solo pjesme po slobodnom izboru</div>
+                            <div class="divTableCell text">Third-year high school students (fifth-year students)
+One aria and three solo songs of your choice</div>
                         </div>
                         <div class="divTableRow">
                             <div class="divTableCell">II/B</div>
-                            <div class="divTableCell text">Natjecatelji IV razreda srednje glazbene &scaron;kole ili &scaron;este godine učenja Jedna arija starog talijanskog majstora 16.,17. ili 18. stoljeća po slobodnom izboru Dvije solo pjesme po slobodnom izboru Jedna arija iz opere ili operete po slobodnom izboru</div>
+                            <div class="divTableCell text">Fourth-year high school students (sixth-year students)
+One aria by an old Italian master of the 16th, 17th or 18th century of your choice
+Two solo songs of your choice
+One aria from opera or operetta of your choice</div>
                         </div>
                         <div class="divTableRow">
                             <div class="divTableCell">III/A</div>
-                            <div class="divTableCell text">Natjecatelji I i II godine studija Muzičke akademije Dvije arije i tri solo pjesme po slobodnom izboru</div>
+                            <div class="divTableCell text">First and second-year students of the Music Academy
+Two arias and three solo songs of your choice</div>
                         </div>
                         <div class="divTableRow">
                             <div class="divTableCell">III/B</div>
-                            <div class="divTableCell text">Natjecatelji III i IV godine studija Muzičke akademije Dvije arije i tri solo pjesme po slobodnom izboru</div>
+                            <div class="divTableCell text">Second and third-year students of the Music Academy
+Two arias and three solo songs of your choice</div>
                         </div>
                         <div class="divTableRow">
                             <div class="divTableCell">IV</div>
-                            <div class="divTableCell text">Natjecatelji V godine studija Muzičke akademije Dvije arije i tri solo pjesme po slobodnom izboru</div>
+                            <div class="divTableCell text">Fifth-year students of the Music Academy
+Two arias and three solo songs of your choice</div>
                         </div>
                         <div class="divTableRow">
                             <div class="divTableCell">V/A</div>
-                            <div class="divTableCell text">Srednjo&scaron;kolski komorni ansambli uz klavirsku pratnju učenika Dvije skladbe različitog karaktera po slobodnom izboru</div>
+                            <div class="divTableCell text">High school chamber ensembles with piano accompaniment by
+high school student; Two compositions with different character of your choice </div>
                         </div>
                         <div class="divTableRow">
                             <div class="divTableCell">V/B</div>
-                            <div class="divTableCell text">Studentski komorni ansambli uz klavirsku pratnju studenta Tri skladbe različitog karaktera po slobodnom izboru</div>
+                            <div class="divTableCell text">Academic chamber ensembles with piano accompaniment by a
+student of the Music Academy
+Three compositions with different character of your choice</div>
                         </div>
                         <div class="divTableRow">
                             <div class="divTableCell">VI</div>
-                            <div class="divTableCell text">Mje&scaron;oviti operni dueti ili ansambli uz klavirsku pratnju profesionalnog korepetitora &ndash; dame i/ili gospoda do navr&scaron;ene 35 godine života u godini natjecanja Dva operna dueta ili ansambla po slobodnom izboru</div>
+                            <div class="divTableCell text">The mixed opera duets or ensembles with piano accompaniment
+by a professional accompanist - ladies and / or gentlemen up to the age of 35 in
+the year of the competition
+Two opera duets or ensembles of your choice</div>
                         </div>
                         <div class="divTableRow">
                             <div class="divTableCell">VII</div>
-                            <div class="divTableCell text">Natjecatelji mlađi profesionalci;
-                                Dame do navršene 28 godine života u godini natjecanja;
-                                Gospoda do navršene 30 godine života u godini natjecanja
-                                Tri arije po slobodnom izboru</div>
+                            <div class="divTableCell text">Competitors younger professionals
+- Ladies up to the age of 28 in the year of the competition
+- Gentlemen up to the age of 30 in the year of the competition
+Three arias of your choice </div>
                         </div>
                         <div class="divTableRow">
                             <div class="divTableCell">VII</div>
-                            <div class="divTableCell text">Dame do navršene 33 godine života u godini natjecanja;
-                            Gospoda do navršene 35 godine života u godini natjecanja
-                             Četiri arije po slobodnom izboru </div>
+                            <div class="divTableCell text">Ladies up to the age of 33 in the year of the competition
+- Gentlemen up to the age of 35 in the year of the competition
+Four arias of your choice </div>
+                        </div>
+                        <div class="divTableRow">
+                            <div class="divTableCell">Fees</div>
+                            <div class="divTableCell text">Precategory A i B - 35 €</br>
+I/A, I/B, II/A i II/B category - 40 €</br>
+III/A, III/B i IV category - 50 €</br>
+V/A, V/B, VI, VII i VIII category - 60 €</br></br>
+The registration fee is to be paid to the account:</br>
+Zagrebačka banka d.d.</br>
+Trg bana Jelačića 10</br>
+10000 Zagreb</br>
+IBAN:HR9623600001102900185</br>
+SWIFT:ZABA HR</br>
+In case of cancellation of the candidate, the registration fee is not refundable. </div>
                         </div>
                     </div>
                 </div>
@@ -245,55 +278,53 @@
             <div class="row center">
                 <div class="col-xs-6 col-md-12">
                     <div class="main-segment-title">
-                        <h2>Ocijenjivački Sud</h2>
+                        <h2>Judges</h2>
                     </div>
                 </div>
             </div>
             <div class= "row center between main-segment-judges">
                 <div class="col-xs-12 col-md-4 main-segment-judges-single">
                     <div class="main-segment-judges-single-img">
-                        <img src="assets/images/aGig.jpg" alt="Arijana Gigliani" />
+                        <img src="../assets/images/aGig.jpg" alt="Arijana Gigliani" />
                     </div>
                     <h3 class="main-segment-judges-single-title">Arijana Gigliani</h3>
                     <div class="main-segment-judges-single-text">
-                        Arijana Gigliani Philipp rođena je u Sarajevu gdje je završila nižu i srednju
-                        glazbenu školu odjel violine i solo-pjevanja.
-                        Nakon diplome na zagrebačkoj Muzičkoj akademiji nastavlja usavršavanje kod
-                        renomiranog pedagoga i opernog prvaka Stojana Stojanova Gančeva. 
+                    ARIJANA GIGLIANI PHILIPP was born in Sarajevo (1979), where she graduated
+secondary school of violin and solo singing. Following graduation at Academy of
+Music in Zagreb, she continued to study voice with renowned pedagogue and tenor
+principal Stojan Stojanov Gančev from Bulgaria.
                     </div>
                     <a href="include/partialsaGig.php"><div class="main-segment-judges-single-button">
-                        Još...
+                        More...
                     </div></a>
                 </div>
                 <div class="col-xs-12 col-md-4 main-segment-judges-single">
                     <div class="main-segment-judges-single-img">
-                        <img src="assets/images/ljZiv.jpg" alt="Ljubica Zivkovic" />
+                        <img src="../assets/images/ljZiv.jpg" alt="Ljubica Zivkovic" />
                     </div>
                     <h3 class="main-segment-judges-single-title">Ljubica Živković</h3>
                     <div class="main-segment-judges-single-text">
-                        Lljubica Živković rođena je u Beogradu,1952. godine. Poslije završene srednje
-                        glazbene škole "Josip Slavenski", odjel za glazbenu teoriju i solo pjevanje, studije je
-                        nastavila na FMU u Beogradu, na oba odjela: teoriju u klasi prof. Petra Ozgijana, a
-                        solo pjevanje u klasi prof. Zvonimira Krnetića. Diplomirala je u klasi Radmile
-                        Smiljanić. 
+                    LJUBICA ZIVKOVIC was born in Belgrade in 1952. After having finished Secondary Music School
+"Josip Slavenski", departments of music theory and solo singing, she continued her studies at the
+Faculty of Music in Belgrade, at both departments: music theory with Prof. Petar Ozgijan and solo
+singing with Prof. Zvonimir Krnetić. She graduated from the class of Prof. Radmila Smiljanić. 
+
                     </div>
                     <a href="include/partialsaGig.php"><div class="main-segment-judges-single-button">
-                        Još...
+                        More...
                     </div></a>
                 </div>
                 <div class="col-xs-12 col-md-4 main-segment-judges-single">
                     <div class="main-segment-judges-single-img">
-                        <img src="assets/images/kandelaki.jpg" alt="Vladimir Kandelaki" />
+                        <img src="../assets/images/kandelaki.jpg" alt="Vladimir Kandelaki" />
                     </div>
                     <h3 class="main-segment-judges-single-title">Vladimir Kandelaki</h3>
                     <div class="main-segment-judges-single-text">
-                        Nacionalni umjetnik Gruzije, profesor, akademik, Vladimir Rafaelovič Kandelaki, odlikovan
-                        ordenom Reda časti Gruzije, roden je 11. siječnja 1928 godine.
-                        Završio je specijalnu glazbenu školu za posebno darovitu djecu pri Državnom konzervatoriju V.
-                        Sarajišvili u Tbilisiju, te isti diplomirao kao lirsko-dramski tenor 
+                    The National Artist of Georgia, Professor, Academician Vladimir Rafaelovich Kandelaki, awarded the Order of Honor, was born on January 11, 1928.
+He graduated from the particular music school for specially gifted children at.??? the State Conservatory of V. Saraishivili in Tbilisi and graduated as a lyric-drama tenor.
                     </div>
-                    <a href="include/partialsaGig.php"><div class="main-segment-judges-single-button">
-                        Još...
+                    <a href="../include/partialsaGig.php"><div class="main-segment-judges-single-button">
+                        More...
                     </div></a>
                 </div>
             </div>
@@ -304,13 +335,13 @@
             <div class="row center">
                 <div class="col-xs-6 col-md-12">
                     <div class="main-segment-title">
-                        <h2>Prijava</h2>
+                        <h2>Application</h2>
                     </div>
                 </div>
             </div>
             <div class="row center between main-segment-application">
                 <div class="main-segment-application-form">
-                   <p>Prijave će biti omogućene od 22.veljače 2021.</p>
+                   <p>Applications will be enabled starting with the 22nd of March, 2021.</p>
                 </div>
             </div>
         </div>

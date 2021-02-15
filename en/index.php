@@ -3,8 +3,8 @@
 ob_start();
 session_start();
 
-require('../include/services/config.php');
-require('../include/services/connection.php');
+// require('../include/services/config.php');
+// require('../include/services/connection.php');
 
 ?>
 

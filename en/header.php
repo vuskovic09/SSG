@@ -1,7 +1,7 @@
 <?php
-    $navQuery = "SELECT * FROM `nav` ORDER BY `priority`";
-    $execNav = $pdo->query($navQuery);
-    $dataNav = $execNav -> fetchAll();
+    // $navQuery = "SELECT * FROM `nav` ORDER BY `priority`";
+    // $execNav = $pdo->query($navQuery);
+    // $dataNav = $execNav -> fetchAll();
 ?>
 
 <!DOCTYPE html>
@@ -18,7 +18,7 @@
         <meta name="copyright" content="">
         <link rel="icon" type="image/png" href="images/favicon.ico" />
 
-		<title>SSG</title>
+		<title>Zagreb Music Competition</title>
 
 		<!-- Font Awesome Icon -->
 		<link rel="stylesheet" href="../assets/css/font-awesome.min.css">
@@ -36,14 +36,21 @@
             <div class="col-xs-12 col-md-3">
                 <nav class="header-nav navigation">
                     <ul>
-                        <?php foreach($dataNav as $rowNav){ ?>
-                            <li><a href="<?php echo $rowNav['href']?>"><?php echo $rowNav['name']?></a></li>
-                        <?php   } ?>
+                        <li><a href="intro-text">Intro</a></li>
+                        <li><a href="rule-info">Rules</a></li>
+                        <li><a href="comp-info">Singing Competition</a></li>
+                        <li><a href="">Piano Competition</a></li>
                     </ul>
+                    <!-- <ul> -->
+                        <?php //foreach($dataNav as $rowNav){ ?>
+                            <!-- <li><a href="<?php //echo $rowNav['href']?>"><?php //echo $rowNav['name']?></a></li> -->
+                        <?php   //} ?>
+
+                    <!-- </ul> -->
                 </nav>
             </div>
             <div class="col-xs-12 col-md-9 header-title">
-                <h1>Online</br>Međunarodno natjecanje</br>Mladih glazbenika</br>Zagreb 2021.</h1>
+                <h1>Online</br>International Competition</br>of Young Musicians</br>Zagreb 2021.</h1>
             </div>
         </div>
     </div>

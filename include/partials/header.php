@@ -36,9 +36,10 @@
             <div class="col-xs-12 col-md-3">
                 <nav class="header-nav navigation">
                     <ul>
-                        <?php foreach($dataNav as $rowNav){ ?>
-                            <li><a href="<?php echo $rowNav['href']?>"><?php echo $rowNav['name']?></a></li>
-                        <?php   } ?>
+                        <li><a href="intro-text">Uvodna riječ</a></li>
+                        <li><a href="rule-info">Pravilnik natjecanja</a></li>
+                        <li><a href="comp-info">Pjevačko natjecanje</a></li>
+                        <li><a href="">Klavirsko natjecanje</a></li>
                     </ul>
                 </nav>
             </div>
