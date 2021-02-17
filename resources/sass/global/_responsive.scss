@@ -1,6 +1,23 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .header {
+        &-secondary {
+            background-color: $color-elements;
+            color: white;
+            height: 50px;
+    
+            a {
+                &:hover {
+                    text-decoration: none;
+                }
+                div {
+                    padding: 10px 25px;
+                    color: white;
+                    font-size: 12px;
+                }
+            }
+        }
+
         padding: 15px; 
 
         &-nav {
@@ -20,9 +37,9 @@
             }
         }
 
-    } 
-    
+    }     
     .main {
+
         &-segment {
 
             &-title {
@@ -86,6 +103,32 @@
 
     }
     .main {
+
+        #modal-container {
+            max-height: calc(100vh - 80px);
+            overflow-y: auto;  
+            height:70%;
+            width:70%;
+        }
+
+        .modal {
+            padding:10px;
+            display:inline-block;
+            border-radius:3px;
+            font-weight:300;
+            position:relative;
+            h2 {
+              font-size:18px;
+            }
+            p {
+              font-size:12px;
+            }
+            .modal-svg {
+              height:70%;
+              width:70%;
+            }
+        }
+
         &-segment {
 
             &-about {

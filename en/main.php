@@ -294,7 +294,7 @@ secondary school of violin and solo singing. Following graduation at Academy of
 Music in Zagreb, she continued to study voice with renowned pedagogue and tenor
 principal Stojan Stojanov Gančev from Bulgaria.
                     </div>
-                    <a href="include/partialsaGig.php"><div class="main-segment-judges-single-button">
+                    <a href="aGig.php"><div class="main-segment-judges-single-button">
                         More...
                     </div></a>
                 </div>
@@ -310,7 +310,7 @@ Faculty of Music in Belgrade, at both departments: music theory with Prof. Petar
 singing with Prof. Zvonimir Krnetić. She graduated from the class of Prof. Radmila Smiljanić. 
 
                     </div>
-                    <a href="include/partialsaGig.php"><div class="main-segment-judges-single-button">
+                    <a href="ljZiv.php"><div class="main-segment-judges-single-button">
                         More...
                     </div></a>
                 </div>
@@ -323,7 +323,7 @@ singing with Prof. Zvonimir Krnetić. She graduated from the class of Prof. Radm
                     The National Artist of Georgia, Professor, Academician Vladimir Rafaelovich Kandelaki, awarded the Order of Honor, was born on January 11, 1928.
 He graduated from the particular music school for specially gifted children at.??? the State Conservatory of V. Saraishivili in Tbilisi and graduated as a lyric-drama tenor.
                     </div>
-                    <a href="../include/partialsaGig.php"><div class="main-segment-judges-single-button">
+                    <a href="kandelaki.php"><div class="main-segment-judges-single-button">
                         More...
                     </div></a>
                 </div>

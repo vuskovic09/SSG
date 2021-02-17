@@ -223,6 +223,7 @@
             }
 
             &-button {
+              cursor: pointer;
               border-radius: 5px;
               box-shadow: -5px -5px 20px $color-shadow-one,  5px 5px 20px $color-shadow-two;
               font-weight: bold;
@@ -252,6 +253,15 @@
 
         &-application {
           padding: 50px;
+
+          
+
+          #bio {
+            p{
+              font-size: 18px;
+              text-align: justify;
+            }
+          }
 
           &-form {
             width:100%;

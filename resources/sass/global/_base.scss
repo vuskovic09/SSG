@@ -1,5 +1,16 @@
 /*SCROLLBAR*/
 /* width */
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url(../fonts/caviar.ttf);
+  }
+
+  @font-face {
+    font-family: 'Caviar Dreams';
+    src: url(../fonts/caviar_bold.ttf);
+    font-weight: bold;
+  }
+
 ::-webkit-scrollbar {
     width: 10px;
   }

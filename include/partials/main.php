@@ -2,6 +2,7 @@
     
 ?>
 <main>
+
     <div class="main container">
     <div class="language-select">
         <p><a href="#">Hrvatski</a> | <a href="en/index.php">Engleski</a></p>
@@ -274,7 +275,7 @@ U slučaju odustajanja kotizacija se ne vraća.  </div>
                         Nakon diplome na zagrebačkoj Muzičkoj akademiji nastavlja usavršavanje kod
                         renomiranog pedagoga i opernog prvaka Stojana Stojanova Gančeva. 
                     </div>
-                    <a href="include/partialsaGig.php"><div class="main-segment-judges-single-button">
+                    <a href="include/pages/aGig.php"><div class="main-segment-judges-single-button">
                         Još...
                     </div></a>
                 </div>
@@ -290,7 +291,7 @@ U slučaju odustajanja kotizacija se ne vraća.  </div>
                         solo pjevanje u klasi prof. Zvonimira Krnetića. Diplomirala je u klasi Radmile
                         Smiljanić. 
                     </div>
-                    <a href="include/partialsaGig.php"><div class="main-segment-judges-single-button">
+                    <a href="include/pages/ljZiv.php"><div class="main-segment-judges-single-button">
                         Još...
                     </div></a>
                 </div>
@@ -305,7 +306,7 @@ U slučaju odustajanja kotizacija se ne vraća.  </div>
                         Završio je specijalnu glazbenu školu za posebno darovitu djecu pri Državnom konzervatoriju V.
                         Sarajišvili u Tbilisiju, te isti diplomirao kao lirsko-dramski tenor 
                     </div>
-                    <a href="include/partialsaGig.php"><div class="main-segment-judges-single-button">
+                    <a href="include/pages/kandelaki.php"><div class="main-segment-judges-single-button">
                         Još...
                     </div></a>
                 </div>
@@ -327,6 +328,5 @@ U slučaju odustajanja kotizacija se ne vraća.  </div>
                 </div>
             </div>
         </div>
-
     </div>
 </main>

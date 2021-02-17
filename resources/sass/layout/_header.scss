@@ -1,6 +1,22 @@
 .header {
     @include background-image("header-hero", "jpg", cover, center, no-repeat);
 
+    &-secondary {
+        background-color: $color-elements;
+        color: white;
+        height: 50px;
+
+        a {
+            &:hover {
+                text-decoration: none;
+            }
+            div {
+                padding: 10px 25px;
+            color: white;
+            }
+        }
+    }
+
     height: 100vh;
     padding: 90px 50px;
     position: relative;
