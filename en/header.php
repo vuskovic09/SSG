@@ -53,5 +53,6 @@
                 <h1>Online</br>International Competition</br>of Young Musicians</br>Zagreb 2021.</h1>
             </div>
         </div>
+        <div class="col-md-12 header-contact">info&#64;zagrebmusiccompetition&#46;com</div>
     </div>
 </header>

@@ -75,6 +75,20 @@
                 }
             }
 
+            &-gancev {
+              @include flex(flex, row, nowrap, space-between, center);
+              padding-top: 55px;
+
+              &-text {
+                border-right: 5px solid $color-elements;
+                color: $color-text-dark;
+                font-size: 16px;
+                font-weight: bold;
+                width: 55%;
+              }
+              
+            }
+
             &-text {
                 border-left: 5px solid $color-elements;
                 color: $color-text-dark;
@@ -248,6 +262,7 @@
 
           .text {
             font-size: 20px;
+            font-weight: bold;
           }
         }
 
@@ -259,7 +274,7 @@
           #bio {
             p{
               font-size: 18px;
-              text-align: justify;
+              text-align: left;
             }
           }
 
@@ -271,7 +286,7 @@
             text-align: center;
             margin-bottom: 50px;
             font-weight: bold;
-            font-size: 28px;
+            font-size: 16px;
 
                         
               input, button {
