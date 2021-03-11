@@ -332,12 +332,13 @@
                 <div class="col-xs-12 col-md-12">
                     <div class="main-segment-title-active">
                         <h2>Singing Competition</h2>
-                        <h4>22.03.2021. - 26.03.2021.</h4>
+                        <h4>12.04.2021. - 16.04.2021.</h4>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-12">
                     <div class="main-segment-title">
                         <h2>Piano Competition</h2>
+                        <h4>20.05.2021. - 25.05.2021.</h4>
                     </div>
                 </div>
             </div>

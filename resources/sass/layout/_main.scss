@@ -16,6 +16,10 @@
 
   &-block {
     padding-top: 50px;
+
+    &-last {
+      height: 900px;
+    }
   }
 
 	&-segment {
@@ -33,10 +37,6 @@
 
         &-title {
           box-shadow: -5px -5px 20px $color-shadow-one,  5px 5px 20px $color-shadow-two;
-
-          &-active {
-            box-shadow: -5px -5px 20px $color-shadow-two,  5px 5px 20px $color-shadow-one;
-          }
         }
 
         &-about {
