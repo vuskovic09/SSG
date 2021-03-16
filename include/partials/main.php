@@ -996,7 +996,7 @@ if(isset($_POST['apply-piano'])){
                         <h3 class="main-segment-judges-single-title">Nenad Kačar</h3>
                         <div class="main-segment-judges-single-text">
                         Hrvatski pijanist i pedagog Nenad Kačar rođen je 1965. godine u Zagrebu. 
-Glazbom se bavi od najranijeg djetinjstva, već kao petogodišnjak imao je prvi  javni nastup. U vrijeme školovanja kroz brojne koncerte senzibilizira javnost, i biva zapažen što mu tijekom studija omogućava dobivanje prestižne državne stipendije.
+                         Glazbom se bavi od najranijeg djetinjstva, već kao petogodišnjak imao je prvi  javni nastup. U vrijeme školovanja kroz brojne koncerte senzibilizira javnost, i biva zapažen što mu tijekom studija omogućava dobivanje prestižne državne stipendije.
                         </div>
                         <a href="include/pages/nKacar.php"><div class="main-segment-judges-single-button">
                             Još...
@@ -1009,7 +1009,7 @@ Glazbom se bavi od najranijeg djetinjstva, već kao petogodišnjak imao je prvi 
                         <h3 class="main-segment-judges-single-title">Nataša Mitrović</h3>
                         <div class="main-segment-judges-single-text">
                         Pijanistica iz Beograda, osnovni i magistarski studij završila je na FMU u Beogradu u klasi prof. Mirjane Šuica Babić, a doktorski studij na istoj akademiji u klasi prof. Marije Đukić.
-Usavršavala se kod renomiranih klavirskih pedagoga: Lazar Berman (Weimar),  Jan Novotny (Prag), , Avo Kouyoumdjian (Bec), Karl - Heinz Kämmerling (Lindau) i u Americi u okviru Fulbright programa (prof. Arthur Greene i prof. Martin Canin).
+                Usavršavala se kod renomiranih klavirskih pedagoga: Lazar Berman (Weimar),  Jan Novotny (Prag), , Avo Kouyoumdjian (Bec), Karl - Heinz Kämmerling (Lindau) i u Americi u okviru Fulbright programa (prof. Arthur Greene i prof. Martin Canin).
 
                         </div>
                         <a href="include/pages/nMitrovic.php"><div class="main-segment-judges-single-button">

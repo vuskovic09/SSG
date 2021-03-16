@@ -180,6 +180,187 @@
             }
         } 
     }
+
+    if(isset($_POST['apply-piano'])){
+
+
+        $fname = $_POST['fname']; //verify
+        $lname = $_POST['lname']; //verify
+        $bdate = $_POST['bdate']; //verify
+        $nationality = $_POST['nationality']; //verify
+        $prof = $_POST['prof'];
+        $city = $_POST['city'];
+        $country = $_POST['country']; //verify
+        $email = $_POST['mail']; //verify
+        $phone = $_POST['phone'];
+    
+        $regExBdate = "/^([0-2][0-9]|(3)[0-1])(\/)(((0)[0-9])|((1)[0-2]))(\/)\d{4}$/";
+        $regExYoutube = "/^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|v\/)?)([\w\-]+)(\S+)?$/";
+    
+        $link1 = $_POST['link1'];
+        $link2 = $_POST['link2'];
+        $link3 = $_POST['link3'];
+        $link4 = $_POST['link4'];
+        $link5 = $_POST['link5'];
+        $link6 = $_POST['link6'];
+        $link7 = $_POST['link7'];
+        $link8 = $_POST['link8'];
+    
+        $pname = $_FILES['payment']['name'];
+        $ptype = $_FILES['payment']['type'];
+        $psize = $_FILES['payment']['size'];
+        $ptemp = $_FILES['payment']['tmp_name'];			
+        $ppath="upload/".$pname; //set upload folder path    
+    
+        $docname = $_FILES['document']['name'];
+        $doctype = $_FILES['document']['type'];
+        $docsize = $_FILES['document']['size'];
+        $doctemp = $_FILES['document']['tmp_name'];
+        $docpath ="upload/".$docname; //set upload folder path    
+    
+    
+        $directory="upload/"; //set upload folder path for update time previous file remove and new file upload for next use
+    
+    
+        $category = $_POST['category'];
+        $composition = $_POST['composition'];
+    
+    
+        if ($fname == null){
+            $errors[] = "Ime mora biti upisano";
+        }
+    
+        if ($lname == null){
+            $errors[] = "Prezime mora biti upisano";
+        }
+    
+        if ($bdate == null){
+            $errors[] = "Datum rođenja mora biti upisan";
+        }
+        
+        if($nationality == null) {
+            $errors[] = "Nacionalnost mora biti upisana";
+        }
+    
+        if($country == null) {
+            $errors[] = "Država mora biti upisana";
+        }
+    
+        if(!preg_match($regExBdate, $bdate)){
+            $errors[] = "Datum rođenja mora pratiti 'dan/mjesec/godina' format";
+        }
+    
+        if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
+            $errors[] = "E-mail adresa nije u korektnom formatu";
+        } else if ($email == null) {
+            $errors[] = "E-mail adresa mora biti upisana";
+        }
+    
+        if($link1 == null && $link2 == null  && $link3 == null  && $link4 == null  && $link5 == null  && $link6 == null  && $link7 == null  && $link8 == null ){
+            $errors[] = "Mora postojati bar jedan link";
+        }
+    
+        if($link1 != null && !preg_match($regExYoutube, $link1)){
+            $errors[] = "Prvi link nije dobro unet";
+        }
+        if($link2 != null && !preg_match($regExYoutube, $link2)){
+            $errors[] = "Drugi link nije dobro unet";
+        }
+        if($link3 != null && !preg_match($regExYoutube, $link3)){
+            $errors[] = "Treći link nije dobro unet";
+        }
+        if($link4 != null && !preg_match($regExYoutube, $link4)){
+            $errors[] = "Četvrti link nije dobro unet";
+        }
+        if($link5 != null && !preg_match($regExYoutube, $link5)){
+            $errors[] = "Peti link nije dobro unet";
+        }
+        if($link6 != null && !preg_match($regExYoutube, $link6)){
+            $errors[] = "Šesti link nije dobro unet";
+        }
+        if($link7 != null && !preg_match($regExYoutube, $link7)){
+            $errors[] = "Sedmi link nije dobro unet";
+        }
+        if($link8 != null && !preg_match($regExYoutube, $link8)){
+            $errors[] = "Osmi link nije dobro unet";
+        }
+    
+        if($pname == null) {
+            $errors[] = "Dokaz uplate je obavezna stavka";
+        }
+    
+        if($pname) {
+             if($psize > 5000000){
+                $errors[] = "Dokaz uplate ne sme biti fajl veći od 5MB";
+            }
+        }
+    
+        if($docname == null) {
+            $errors[] = "Identifikacijski dokument je obavezna stavka";
+        }
+    
+        if($pname) {
+             if($psize > 5000000){
+                $errors[] = "Identifikacijski dokument ne sme biti fajl veći od 5MB";
+            }
+        }
+    
+        if($category == ''){
+            $errors[] = "Kategorija mora biti izabrana";
+        }
+        if($composition  == ''){
+            $errors[] = "Sastav mora biti izabran";
+        }
+    
+        if(count($errors) == 0) {
+        
+            $query = "INSERT INTO `piano` (`id`, `fname`, `lname`, `bdate`, `nationality`, `prof`, `city`, `country`, `email`, `phone`, `link1`, `link2`, `link3`, `link4`, `link5`, `link6`, `link7`, `link8`, `category`, `composition`, `pname`, `ptype`, `docname`, `doctype`) 
+                        VALUES (NULL, :fname, :lname, :bdate, :nationality, :prof, :city, :country, :email, :phone, :link1, :link2, :link3, :link4, :link5, :link6, :link7, :link8, :category, :composition, :pname, :ptype, :docname, :doctype)";
+            
+            $prepare = $pdo->prepare($query);
+            $prepare->bindParam(":fname", $fname);
+            $prepare->bindParam(":lname", $lname);
+            $prepare->bindParam(":bdate", $bdate);
+            $prepare->bindParam(":nationality", $nationality);
+            $prepare->bindParam(":prof", $prof);
+            $prepare->bindParam(":city", $city);
+            $prepare->bindParam(":country", $country);
+            $prepare->bindParam(":email", $email);
+            $prepare->bindParam(":phone", $phone);
+    
+            
+            $prepare->bindParam(":link1", $link1);
+            $prepare->bindParam(":link2", $link2);
+            $prepare->bindParam(":link3", $link3);
+            $prepare->bindParam(":link4", $link4);
+            $prepare->bindParam(":link5", $link5);
+            $prepare->bindParam(":link6", $link6);
+            $prepare->bindParam(":link7", $link7);
+            $prepare->bindParam(":link8", $link8);
+    
+            $prepare->bindParam(":category", $category);
+            $prepare->bindParam(":composition", $composition);
+    
+            $prepare->bindParam(":pname", $pname);
+            $prepare->bindParam(":ptype", $ptype);
+    
+            $prepare->bindParam(":docname", $docname);
+            $prepare->bindParam(":doctype", $doctype);
+    
+    
+            move_uploaded_file($ptemp, "upload/" . $pname);
+            move_uploaded_file($doctemp, "upload/" . $docname);
+    
+            try {
+                $execute = $prepare->execute();
+                header('Location: '.$path);
+                exit;
+    
+            } catch(PDOException $ex) {   
+                var_dump($ex);         
+            }
+        } 
+    }
 ?>
 <main>
     <div class="main container">
@@ -330,13 +511,13 @@
         <div id="comp-info" class="main-block">
             <div class="row center">
                 <div class="col-xs-12 col-md-12">
-                    <div class="main-segment-title-active">
+                    <div class="main-segment-title singing-js">
                         <h2>Singing Competition</h2>
                         <h4>12.04.2021. - 16.04.2021.</h4>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-12">
-                    <div class="main-segment-title">
+                    <div class="main-segment-title piano-js">
                         <h2>Piano Competition</h2>
                         <h4>20.05.2021. - 25.05.2021.</h4>
                     </div>
@@ -344,338 +525,651 @@
             </div>
         </div>
 
-        <div class="main-block">
-            <div class="row center">
-                <div class="col-xs-6 col-md-12">
-                    <div class="main-segment-title">
-                        <h2>Stojan Stojanov Gančev</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row center main-segment-about">
-                <div class="col-xs-12 col-md-4 main-segment-about-photos">
-                    <!-- First Img -->
-                    <div class="gancev-img">
-                        <img src="../assets/images/gancev.jpg" alt="Stevan Stojanov Gancev">
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-8 main-segment-about-text">
-                    <p>Dear competitors,</br></br>
-                        Welcome to the first international competition of solo singers Stojan Stojanov Gančev.
-                        This competition was named after the singer and pedagogue who left an indelible mark on
-                        generations of singers and audiences who listened to the creations of his roles that he interpreted
-                        on the stages of Croatia and abroad. With his professional and thorough approach, he has
-                        educated a number of opera singers and pedagogues who work all over the world. In his rich
-                        career, he was often a member of the jury at international competitions for young solo singers. Fair,
-                        strict but above all well-meaning, he would gladly approach every singer after the performance, talk
-                        to him and share his opinion and advice. The organizers of this competition would like to nurture
-                        the qualities that Professor Stojanov had and pass them on to the younger generations. In order to
-                        hear as many talented young musicians as possible, through the propositions we have enabled the
-                        performance of a wide range of generations of singers. We look forward to meeting each other on
-                        an artistic level and making new acquaintances.
-                    </p>
-                </div>
-            </div>  
-        </div>
-        <div class="main-block">
-            <div class="row center">
-                <div class="col-xs-6 col-md-12">
-                    <div class="main-segment-title">
-                        <h2>Biography</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row center main-segment-about-gancev">
-                <div class="col-xs-12 col-md-8 main-segment-about-gancev-text">
-                    <p>
-                        Stojan Stojanov Gančev was a tenor born in Ajtos, Bulgaria in 1929. In 1960 he completed his
-                        studies in solo singing in the class of the famous Bulgarian vocal pedagogue Hristo Brmbarov in
-                        Sofia. Afterward, he studied opera direction in the class of Dragan Karadžiev. While still a student,
-                        he made his debut in 1957 as Caramello in Johan Strauss’ operetta A Night in Venice performed in
-                        Sofia State Musical Theater. Soon after he was signed for many other projects, mainly operettas.
-                        The same year he was awarded a gold medal at the Youth Festival in Moscow.
-                        In 1959 he won the first prize in Ferenc Erkel Competition in Budapest. From 1960 to 1963 he was
-                        a member of the Sofia Opera. In 1961 he performed in Varna as Rodolpho in La Boheme and that
-                        same year he won the first prize for the heroic repertoire in Sofia.
-                        His success in the Sofia Opera was recognized by the directors allowing him to perform in a more
-                        demanding program. In 1964 Stojan decided to transfer to Macedonia where he remained until
-                        1969. As a Skopje Opera soloist in 1969, he came to the Croatian National Theater in Zagreb
-                        where he performed for the next 25 years, until his death.                  
-                    </p>
-                </div>
-                <div class="col-xs-12 col-md-4 main-segment-about-photos">
-                    <!-- First Img -->
-                    <div class="first-img">
-                        <img src="../assets/images/gancev1.jpg" alt="Photo by Carsten Kohler from Pexels">
-                    </div>
-                    <!-- Second Img -->
-                    <div class="second-img">
-                        <img src="../assets/images/gancev2.jpg" alt="Photo by Jonas Togo from Pexels">
-                    </div>
-                    <!-- Third Img-->
-                    <div class="third-img">
-                        <img src="../assets/images/gancev3.jpg" alt="Photo by Pixabay from Pexels">
-                    </div>
-                </div>
-            </div> 
-            <a href="gancev.php"><div class="col-md-12 main-segment-title"><h3>More...</h3></div></a>
-        </div>
-
-        <!-- Propositions -->
-        <div class="main-block">
-            <div class="row center">
-                <div class="col-xs-6 col-md-12">
-                    <div class="main-segment-title">
-                        <h2>Propositions</h2>
-                    </div>
-                </div>
-            </div>
-            <div class= "row center between main-segment-propositions">
-                <div class="divTable">
-                    <div class="divTableBody">
-                        <div class="divTableRow">
-                            <div class="divTableCell">Precategory A</div>
-                            <div class="divTableCell text">First-year students
-(States that have a preparatory degree, first-degree students)</br></br>
-Two compositions of different character of your choice </div>
-                        </div>
-                        <div class="divTableRow">
-                            <div class="divTableCell">Precategory B</div>
-                            <div class="divTableCell text">Second-year students
-(States that have a preparatory degree, second-degree students)</br></br>
-Two compositions of different character of your choice</div>
-                        </div>
-                        <div class="divTableRow">
-                            <div class="divTableCell">I/A</div>
-                            <div class="divTableCell text">First-year high school students (third-year students)</br></br>
-One aria and two solo songs of your choice</div>
-                        </div>
-                        <div class="divTableRow">
-                            <div class="divTableCell">I/B</div>
-                            <div class="divTableCell text">Second-year high school students (fourth-year students)</br></br>
-One aria and three solo songs of your choice</div>
-                        </div>
-                        <div class="divTableRow">
-                            <div class="divTableCell">II/A</div>
-                            <div class="divTableCell text">Third-year high school students (fifth-year students)</br></br>
-One aria and three solo songs of your choice</div>
-                        </div>
-                        <div class="divTableRow">
-                            <div class="divTableCell">II/B</div>
-                            <div class="divTableCell text">Fourth-year high school students (sixth-year students)</br></br>
-One aria by an old Italian master of the 16th, 17th or 18th century of your choice</br>
-Two solo songs of your choice</br>
-One aria from opera or operetta of your choice</div>
-                        </div>
-                        <div class="divTableRow">
-                            <div class="divTableCell">III/A</div>
-                            <div class="divTableCell text">First and second-year students of the Music Academy</br></br>
-Two arias and three solo songs of your choice</div>
-                        </div>
-                        <div class="divTableRow">
-                            <div class="divTableCell">III/B</div>
-                            <div class="divTableCell text">Second and third-year students of the Music Academy</br></br>
-Two arias and three solo songs of your choice</div>
-                        </div>
-                        <div class="divTableRow">
-                            <div class="divTableCell">IV</div>
-                            <div class="divTableCell text">Fifth-year students of the Music Academy</br></br>
-Two arias and three solo songs of your choice</div>
-                        </div>
-                        <div class="divTableRow">
-                            <div class="divTableCell">V/A</div>
-                            <div class="divTableCell text">High school chamber ensembles with piano accompaniment by
-high school student.</br></br> Two compositions with different character of your choice </div>
-                        </div>
-                        <div class="divTableRow">
-                            <div class="divTableCell">V/B</div>
-                            <div class="divTableCell text">Academic chamber ensembles with piano accompaniment by a
-student of the Music Academy.</br></br>
-Three compositions with different character of your choice</div>
-                        </div>
-                        <div class="divTableRow">
-                            <div class="divTableCell">VI</div>
-                            <div class="divTableCell text">The mixed opera duets or ensembles with piano accompaniment
-by a professional accompanist - ladies and / or gentlemen up to the age of 35 in
-the year of the competition.</br></br>
-Two opera duets or ensembles of your choice</div>
-                        </div>
-                        <div class="divTableRow">
-                            <div class="divTableCell">VII</div>
-                            <div class="divTableCell text">Competitors younger professionals; ladies up to the age of 28 in the year of the competition; gentlemen up to the age of 30 in the year of the competition</br></br>
-Three arias of your choice </div>
-                        </div>
-                        <div class="divTableRow">
-                            <div class="divTableCell">VIII</div>
-                            <div class="divTableCell text">Ladies up to the age of 33 in the year of the competition; gentlemen up to the age of 35 in the year of the competition</br></br>
-Four arias of your choice </div>
-                        </div>
-                        <div class="divTableRow">
-                            <div class="divTableCell">Fees</div>
-                            <div class="divTableCell text">Precategory A i B - 35 €</br>
-I/A, I/B, II/A i II/B category - 40 €</br>
-III/A, III/B i IV category - 50 €</br>
-V/A, V/B, VI, VII i VIII category - 60 €</br></br>
-The registration fee is to be paid to the account:</br>
-Zagrebačka banka d.d.</br>
-Trg bana Jelačića 10</br>
-10000 Zagreb</br>
-IBAN:HR9623600001102900185</br>
-SWIFT:ZABA HR</br>
-In case of cancellation of the candidate, the registration fee is not refundable. </div>
+        <div class="comp-wrap singing">
+            <div class="main-block">
+                <div class="row center">
+                    <div class="col-xs-6 col-md-12">
+                        <div class="main-segment-title">
+                            <h2>Stojan Stojanov Gančev</h2>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <!-- Judges -->
-        <div class="main-block">
-            <div class="row center">
-                <div class="col-xs-6 col-md-12">
-                    <div class="main-segment-title">
-                        <h2>Jury</h2>
+                <div class="row center main-segment-about">
+                    <div class="col-xs-12 col-md-4 main-segment-about-photos">
+                        <!-- First Img -->
+                        <div class="gancev-img">
+                            <img src="../assets/images/gancev.jpg" alt="Stevan Stojanov Gancev">
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class= "row center between main-segment-judges">
-                <div class="col-xs-12 col-md-4 main-segment-judges-single">
-                    <div class="main-segment-judges-single-img">
-                        <img src="../assets/images/kandelaki.jpg" alt="Vladimir Kandelaki" />
+                    <div class="col-xs-12 col-md-8 main-segment-about-text">
+                        <p>Dear competitors,</br></br>
+                            Welcome to the first international competition of solo singers Stojan Stojanov Gančev.
+                            This competition was named after the singer and pedagogue who left an indelible mark on
+                            generations of singers and audiences who listened to the creations of his roles that he interpreted
+                            on the stages of Croatia and abroad. With his professional and thorough approach, he has
+                            educated a number of opera singers and pedagogues who work all over the world. In his rich
+                            career, he was often a member of the jury at international competitions for young solo singers. Fair,
+                            strict but above all well-meaning, he would gladly approach every singer after the performance, talk
+                            to him and share his opinion and advice. The organizers of this competition would like to nurture
+                            the qualities that Professor Stojanov had and pass them on to the younger generations. In order to
+                            hear as many talented young musicians as possible, through the propositions we have enabled the
+                            performance of a wide range of generations of singers. We look forward to meeting each other on
+                            an artistic level and making new acquaintances.
+                        </p>
                     </div>
-                    <h3 class="main-segment-judges-single-title">Vladimir Kandelaki</h3>
-                    <div class="main-segment-judges-single-text">
-                        The National Artist of Georgia, Professor, Academician Vladimir Rafaelovich Kandelaki, awarded the Order of Honor of Georgia, was born on January 11, 1928.
-                        He graduated from a particular music school for specially gifted children at the V. Sarajišvili State Conservatory in Tbilisi and graduated as a lyric-drama tenor.
-                    </div>
-                    <a href="kandelaki.php"><div class="main-segment-judges-single-button">
-                        More...
-                    </div></a>
-                </div>
-                <div class="col-xs-12 col-md-4 main-segment-judges-single">
-                    <div class="main-segment-judges-single-img">
-                        <img src="../assets/images/ljZiv.jpg" alt="Ljubica Zivkovic" />
-                    </div>
-                    <h3 class="main-segment-judges-single-title">Ljubica Živković</h3>
-                    <div class="main-segment-judges-single-text">
-                        LJUBICA ZIVKOVIC was born in Belgrade in 1952. After having finished Secondary Music School
-                        "Josip Slavenski", departments of music theory and solo singing, she continued her studies at the
-                        Faculty of Music in Belgrade, at both departments: music theory with Prof. Petar Ozgijan and solo
-                        singing with Prof. Zvonimir Krnetić. She graduated from the class of Prof. Radmila Smiljanić. 
-                    </div>
-                    <a href="ljZiv.php"><div class="main-segment-judges-single-button">
-                        More...
-                    </div></a>
-                </div>
-                <div class="col-xs-12 col-md-4 main-segment-judges-single">
-                    <div class="main-segment-judges-single-img">
-                        <img src="../assets/images/aGig.jpg" alt="Arijana Gigliani" />
-                    </div>
-                    <h3 class="main-segment-judges-single-title">Arijana Gigliani</h3>
-                    <div class="main-segment-judges-single-text">
-                        ARIJANA GIGLIANI PHILIPP was born in Sarajevo (1979), where she graduated
-                        secondary school of violin and solo singing. Following graduation at Academy of
-                        Music in Zagreb, she continued to study voice with renowned pedagogue and tenor
-                        principal Stojan Stojanov Gančev from Bulgaria.
-                    </div>
-                    <a href="aGig.php"><div class="main-segment-judges-single-button">
-                        More...
-                    </div></a>
-                </div>
-            </div>
-        </div>
-
-        <<!-- Application form -->
-        <div class="main-block">
-            <div class="row center">
-                <div class="col-xs-6 col-md-12">
-                    <div class="main-segment-title">
-                        <h2>Application</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row center between main-segment-application">
-                <div class="main-segment-application-form">
-                    <form id="form" action="#form" method="POST" enctype="multipart/form-data">
-                        <input type="text" name="fname" placeholder="First Name" value="<?php echo isset($_POST["fname"]) ? $_POST["fname"] : ''; ?>"/>
-                        <input type="text" name="lname" placeholder="Last Name" value="<?php echo isset($_POST["lname"]) ? $_POST["lname"] : ''; ?>"/>
-                        <input type="text" name="bdate" placeholder="DD/MM/YYYY" value="<?php echo isset($_POST["bdate"]) ? $_POST["bdate"] : ''; ?>" />
-                        <input type="text" name="nationality" placeholder="Nationality" value="<?php echo isset($_POST["nationality"]) ? $_POST["nationality"] : ''; ?>"/>
-                        <input type="text" name="prof" placeholder="Professor" value="<?php echo isset($_POST["prof"]) ? $_POST["prof"] : ''; ?>"/>
-
-                        <input type="text" name="city" placeholder="City" value="<?php echo isset($_POST["city"]) ? $_POST["city"] : ''; ?>"/>
-                        <input type="text" name="country" placeholder="Country" value="<?php echo isset($_POST["country"]) ? $_POST["country"] : ''; ?>"/>
-                        </br>
-                        <input type="mail" name="mail" placeholder="E-mail" value="<?php echo isset($_POST["mail"]) ? $_POST["mail"] : ''; ?>"/>
-                        <input type="text" name="phone" placeholder="Phone" value="<?php echo isset($_POST["phone"]) ? $_POST["phone"] : ''; ?>"/>
- 
-                        </br></br>
-
-                        <label>Proof of payment</label>
-                        <input type="file" name="payment" />
-
-                        <label>Identification document</label>
-                        <input type="file" name="document" />
-
-                        </br></br>
-
-                        <input type="text" name="link1" placeholder="YouTube link" value="<?php echo isset($_POST["link1"]) ? $_POST["link1"] : ''; ?>"/>
-                        <input type="text" name="link2" placeholder="YouTube link" value="<?php echo isset($_POST["link2"]) ? $_POST["link2"] : ''; ?>"/>
-                        <input type="text" name="link3" placeholder="YouTube link" value="<?php echo isset($_POST["link3"]) ? $_POST["link3"] : ''; ?>"/>
-                        <input type="text" name="link4" placeholder="YouTube link" value="<?php echo isset($_POST["link4"]) ? $_POST["link4"] : ''; ?>"/>
-                        <input type="text" name="link5" placeholder="YouTube link" value="<?php echo isset($_POST["link5"]) ? $_POST["link5"] : ''; ?>"/>
-                        <input type="text" name="link6" placeholder="YouTube link" value="<?php echo isset($_POST["link6"]) ? $_POST["link6"] : ''; ?>"/>
-                        <input type="text" name="link7" placeholder="YouTube link" value="<?php echo isset($_POST["link7"]) ? $_POST["link7"] : ''; ?>"/>
-                        <input type="text" name="link8" placeholder="YouTube link" value="<?php echo isset($_POST["link8"]) ? $_POST["link8"] : ''; ?>"/>
-
-                        </br></br>
-
-                       <div class="row center space-around selects">
-                            <div class="custom-select">
-                                <select name="category">
-                                    <option selected value="">Category...</option>
-                                    <option value="Pretkategorija A">Precategory A</option>
-                                    <option value="Pretkategorija B">Precategory B</option>
-                                    <option value="I/A">I/A</option>
-                                    <option value="I/B">I/B</option>
-                                    <option value="II/A">II/A</option>
-                                    <option value="II/B">II/B</option>
-                                    <option value="III/A">III/A</option>
-                                    <option value="III/B">III/B</option>
-                                    <option value="IV">IV</option>
-                                    <option value="V/A">V/A</option>
-                                    <option value="V/B">V/B</option>
-                                    <option value="VI">VI</option>
-                                    <option value="VII">VII</option>
-                                    <option value="VIII">VIII</option>                            
-                                </select>
+                </div>  
+            
+            
+            
+                <div class="main-block">
+                    <div class="row center">
+                        <div class="col-xs-6 col-md-12">
+                            <div class="main-segment-title">
+                                <h2>Biography</h2>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row center main-segment-about-gancev">
+                        <div class="col-xs-12 col-md-8 main-segment-about-gancev-text">
+                            <p>
+                                Stojan Stojanov Gančev was a tenor born in Ajtos, Bulgaria in 1929. In 1960 he completed his
+                                studies in solo singing in the class of the famous Bulgarian vocal pedagogue Hristo Brmbarov in
+                                Sofia. Afterward, he studied opera direction in the class of Dragan Karadžiev. While still a student,
+                                he made his debut in 1957 as Caramello in Johan Strauss’ operetta A Night in Venice performed in
+                                Sofia State Musical Theater. Soon after he was signed for many other projects, mainly operettas.
+                                The same year he was awarded a gold medal at the Youth Festival in Moscow.
+                                In 1959 he won the first prize in Ferenc Erkel Competition in Budapest. From 1960 to 1963 he was
+                                a member of the Sofia Opera. In 1961 he performed in Varna as Rodolpho in La Boheme and that
+                                same year he won the first prize for the heroic repertoire in Sofia.
+                                His success in the Sofia Opera was recognized by the directors allowing him to perform in a more
+                                demanding program. In 1964 Stojan decided to transfer to Macedonia where he remained until
+                                1969. As a Skopje Opera soloist in 1969, he came to the Croatian National Theater in Zagreb
+                                where he performed for the next 25 years, until his death.                  
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-md-4 main-segment-about-photos">
+                            <!-- First Img -->
+                            <div class="first-img">
+                                <img src="../assets/images/gancev1.jpg" alt="Photo by Carsten Kohler from Pexels">
+                            </div>
+                            <!-- Second Img -->
+                            <div class="second-img">
+                                <img src="../assets/images/gancev2.jpg" alt="Photo by Jonas Togo from Pexels">
+                            </div>
+                            <!-- Third Img-->
+                            <div class="third-img">
+                                <img src="../assets/images/gancev3.jpg" alt="Photo by Pixabay from Pexels">
+                            </div>
+                        </div>
+                    </div> 
+                    <a href="gancev.php"><div class="col-md-12 main-segment-title"><h3>More...</h3></div></a>
+                </div>
+
+                <!-- Propositions -->
+                <div class="main-block">
+                    <div class="row center">
+                        <div class="col-xs-6 col-md-12">
+                            <div class="main-segment-title">
+                                <h2>Propositions</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class= "row center between main-segment-propositions">
+                        <div class="divTable">
+                            <div class="divTableBody">
+                                <div class="divTableRow">
+                                    <div class="divTableCell">Precategory A</div>
+                                    <div class="divTableCell text">First-year students
+                                        (States that have a preparatory degree, first-degree students)</br></br>
+                                        Two compositions of different character of your choice 
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">Precategory B</div>
+                                    <div class="divTableCell text">Second-year students
+                                        (States that have a preparatory degree, second-degree students)</br></br>
+                                        Two compositions of different character of your choice
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">I/A</div>
+                                    <div class="divTableCell text">First-year high school students (third-year students)</br></br>
+                                        One aria and two solo songs of your choice
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">I/B</div>
+                                    <div class="divTableCell text">Second-year high school students (fourth-year students)</br></br>
+                                        One aria and three solo songs of your choice
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">II/A</div>
+                                    <div class="divTableCell text">Third-year high school students (fifth-year students)</br></br>
+                                        One aria and three solo songs of your choice
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">II/B</div>
+                                    <div class="divTableCell text">Fourth-year high school students (sixth-year students)</br></br>
+                                        One aria by an old Italian master of the 16th, 17th or 18th century of your choice</br>
+                                        Two solo songs of your choice</br>
+                                        One aria from opera or operetta of your choice
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">III/A</div>
+                                    <div class="divTableCell text">First and second-year students of the Music Academy</br></br>
+                                        Two arias and three solo songs of your choice
+                                    </div> 
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">III/B</div>
+                                    <div class="divTableCell text">Second and third-year students of the Music Academy</br></br>
+                                        Two arias and three solo songs of your choice
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">IV</div>
+                                    <div class="divTableCell text">Fifth-year students of the Music Academy</br></br>
+                                        Two arias and three solo songs of your choice</div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">V/A</div>
+                                    <div class="divTableCell text">High school chamber ensembles with piano accompaniment by
+                                        high school student.</br></br> Two compositions with different character of your choice
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">V/B</div>
+                                    <div class="divTableCell text">Academic chamber ensembles with piano accompaniment by a
+                                        student of the Music Academy.</br></br>
+                                        Three compositions with different character of your choice
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">VI</div>
+                                    <div class="divTableCell text">The mixed opera duets or ensembles with piano accompaniment
+                                        by a professional accompanist - ladies and / or gentlemen up to the age of 35 in
+                                        the year of the competition.</br></br>
+                                        Two opera duets or ensembles of your choice
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">VII</div>
+                                    <div class="divTableCell text">Competitors younger professionals; ladies up to the age of 28 in the year of the competition; gentlemen up to the age of 30 in the year of the competition</br></br>
+                                        Three arias of your choice 
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">VIII</div>
+                                    <div class="divTableCell text">Ladies up to the age of 33 in the year of the competition; gentlemen up to the age of
+                                        35 in the year of the competition</br></br>
+                                        Four arias of your choice 
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">Fees</div>
+                                    <div class="divTableCell text">Precategory A i B - 35 €</br>
+                                        I/A, I/B, II/A i II/B category - 40 €</br>
+                                        III/A, III/B i IV category - 50 €</br>
+                                        V/A, V/B, VI, VII i VIII category - 60 €</br></br>
+                                        The registration fee is to be paid to the account:</br>
+                                        Zagrebačka banka d.d.</br>
+                                        Trg bana Jelačića 10</br>
+                                        10000 Zagreb</br>
+                                        IBAN:HR9623600001102900185</br>
+                                        SWIFT:ZABA HR</br>
+                                        In case of cancellation of the candidate, the registration fee is not refundable. 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Judges -->
+                <div class="main-block">
+                    <div class="row center">
+                        <div class="col-xs-6 col-md-12">
+                            <div class="main-segment-title">
+                                <h2>Jury</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class= "row center between main-segment-judges">
+                        <div class="col-xs-12 col-md-4 main-segment-judges-single">
+                            <div class="main-segment-judges-single-img">
+                                <img src="../assets/images/kandelaki.jpg" alt="Vladimir Kandelaki" />
+                            </div>
+                            <h3 class="main-segment-judges-single-title">Vladimir Kandelaki</h3>
+                            <div class="main-segment-judges-single-text">
+                                The National Artist of Georgia, Professor, Academician Vladimir Rafaelovich Kandelaki, awarded the Order of Honor of Georgia, was born on January 11, 1928.
+                                He graduated from a particular music school for specially gifted children at the V. Sarajišvili State Conservatory in Tbilisi and graduated as a lyric-drama tenor.
+                            </div>
+                            <a href="kandelaki.php"><div class="main-segment-judges-single-button">
+                                More...
+                            </div></a>
+                        </div>
+                        <div class="col-xs-12 col-md-4 main-segment-judges-single">
+                            <div class="main-segment-judges-single-img">
+                                <img src="../assets/images/ljZiv.jpg" alt="Ljubica Zivkovic" />
+                            </div>
+                            <h3 class="main-segment-judges-single-title">Ljubica Živković</h3>
+                            <div class="main-segment-judges-single-text">
+                                LJUBICA ZIVKOVIC was born in Belgrade in 1952. After having finished Secondary Music School
+                                "Josip Slavenski", departments of music theory and solo singing, she continued her studies at the
+                                Faculty of Music in Belgrade, at both departments: music theory with Prof. Petar Ozgijan and solo
+                                singing with Prof. Zvonimir Krnetić. She graduated from the class of Prof. Radmila Smiljanić. 
+                            </div>
+                            <a href="ljZiv.php"><div class="main-segment-judges-single-button">
+                                More...
+                            </div></a>
+                        </div>
+                        <div class="col-xs-12 col-md-4 main-segment-judges-single">
+                            <div class="main-segment-judges-single-img">
+                                <img src="../assets/images/aGig.jpg" alt="Arijana Gigliani" />
+                            </div>
+                            <h3 class="main-segment-judges-single-title">Arijana Gigliani</h3>
+                            <div class="main-segment-judges-single-text">
+                                ARIJANA GIGLIANI PHILIPP was born in Sarajevo (1979), where she graduated
+                                secondary school of violin and solo singing. Following graduation at Academy of
+                                Music in Zagreb, she continued to study voice with renowned pedagogue and tenor
+                                principal Stojan Stojanov Gančev from Bulgaria.
+                            </div>
+                            <a href="aGig.php"><div class="main-segment-judges-single-button">
+                                More...
+                            </div></a>
+                        </div>
+                    </div>
+                </div>
+
+                <<!-- Application form -->
+                <div class="main-block">
+                    <div class="row center">
+                        <div class="col-xs-6 col-md-12">
+                            <div class="main-segment-title">
+                                <h2>Application</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row center between main-segment-application">
+                        <div class="main-segment-application-form">
+                            <form id="form" action="#form" method="POST" enctype="multipart/form-data">
+                                <input type="text" name="fname" placeholder="First Name" value="<?php echo isset($_POST["fname"]) ? $_POST["fname"] : ''; ?>"/>
+                                <input type="text" name="lname" placeholder="Last Name" value="<?php echo isset($_POST["lname"]) ? $_POST["lname"] : ''; ?>"/>
+                                <input type="text" name="bdate" placeholder="DD/MM/YYYY" value="<?php echo isset($_POST["bdate"]) ? $_POST["bdate"] : ''; ?>" />
+                                <input type="text" name="nationality" placeholder="Nationality" value="<?php echo isset($_POST["nationality"]) ? $_POST["nationality"] : ''; ?>"/>
+                                <input type="text" name="prof" placeholder="Professor" value="<?php echo isset($_POST["prof"]) ? $_POST["prof"] : ''; ?>"/>
+
+                                <input type="text" name="city" placeholder="City" value="<?php echo isset($_POST["city"]) ? $_POST["city"] : ''; ?>"/>
+                                <input type="text" name="country" placeholder="Country" value="<?php echo isset($_POST["country"]) ? $_POST["country"] : ''; ?>"/>
+                                </br>
+                                <input type="mail" name="mail" placeholder="E-mail" value="<?php echo isset($_POST["mail"]) ? $_POST["mail"] : ''; ?>"/>
+                                <input type="text" name="phone" placeholder="Phone" value="<?php echo isset($_POST["phone"]) ? $_POST["phone"] : ''; ?>"/>
+        
+                                </br></br>
+
+                                <label>Proof of payment</label>
+                                <input type="file" name="payment" />
+
+                                <label>Identification document</label>
+                                <input type="file" name="document" />
+
+                                </br></br>
+
+                                <input type="text" name="link1" placeholder="YouTube link" value="<?php echo isset($_POST["link1"]) ? $_POST["link1"] : ''; ?>"/>
+                                <input type="text" name="link2" placeholder="YouTube link" value="<?php echo isset($_POST["link2"]) ? $_POST["link2"] : ''; ?>"/>
+                                <input type="text" name="link3" placeholder="YouTube link" value="<?php echo isset($_POST["link3"]) ? $_POST["link3"] : ''; ?>"/>
+                                <input type="text" name="link4" placeholder="YouTube link" value="<?php echo isset($_POST["link4"]) ? $_POST["link4"] : ''; ?>"/>
+                                <input type="text" name="link5" placeholder="YouTube link" value="<?php echo isset($_POST["link5"]) ? $_POST["link5"] : ''; ?>"/>
+                                <input type="text" name="link6" placeholder="YouTube link" value="<?php echo isset($_POST["link6"]) ? $_POST["link6"] : ''; ?>"/>
+                                <input type="text" name="link7" placeholder="YouTube link" value="<?php echo isset($_POST["link7"]) ? $_POST["link7"] : ''; ?>"/>
+                                <input type="text" name="link8" placeholder="YouTube link" value="<?php echo isset($_POST["link8"]) ? $_POST["link8"] : ''; ?>"/>
+
+                                </br></br>
+
+                            <div class="row center space-around selects">
+                                    <div class="custom-select">
+                                        <select name="category">
+                                            <option selected value="">Category...</option>
+                                            <option value="Pretkategorija A">Precategory A</option>
+                                            <option value="Pretkategorija B">Precategory B</option>
+                                            <option value="I/A">I/A</option>
+                                            <option value="I/B">I/B</option>
+                                            <option value="II/A">II/A</option>
+                                            <option value="II/B">II/B</option>
+                                            <option value="III/A">III/A</option>
+                                            <option value="III/B">III/B</option>
+                                            <option value="IV">IV</option>
+                                            <option value="V/A">V/A</option>
+                                            <option value="V/B">V/B</option>
+                                            <option value="VI">VI</option>
+                                            <option value="VII">VII</option>
+                                            <option value="VIII">VIII</option>                            
+                                        </select>
+                                    </div>
+                                    
+                                    <div class="custom-select">
+                                        <select name="composition">
+                                            <option selected value="">Number of competitors...</option>
+                                            <option value="Solo">Solo</option>
+                                            <option value="Duet">Duet</option>
+                                            <option value="Ansambl">Ensemble</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                                <input type="submit" name="apply" value="Send!" />
+                            </form>	
+                            <?php 
                             
-                            <div class="custom-select">
-                                <select name="composition">
-                                    <option selected value="">Number of competitors...</option>
-                                    <option value="Solo">Solo</option>
-                                    <option value="Duet">Duet</option>
-                                    <option value="Ansambl">Ensemble</option>
-                                </select>
-                            </div>
+                            if(count($errors) > 0) { 
+                            foreach($errors as $error) {?>
+                                <div class="errors">
+                                    <?php echo($error); ?>
+                                </div>
+                            <?php } } else {
+                                        $_SESSION['errors'] = $errors;
+                                    }?>
                         </div>
-                        
-                        <input type="submit" name="apply" value="Send!" />
-                    </form>	
-                    <?php 
-                    
-                    if(count($errors) > 0) { 
-                       foreach($errors as $error) {?>
-                           <div class="errors">
-                               <?php echo($error); ?>
-                           </div>
-                       <?php } } else {
-                                   $_SESSION['errors'] = $errors;
-                               }?>
+                    </div>
                 </div>
             </div>
         </div>
 
+        <div class="comp-wrap piano">
+            <!-- Propositions -->
+            <div class="main-block">
+                <div class="row center">
+                    <div class="col-xs-6 col-md-12">
+                        <div class="main-segment-title">
+                            <h2>Propositions</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class= "row center between main-segment-propositions">
+                    <div class="divTable">
+                        <div class="divTableBody">
+                        <div class="divTableRow">
+                                <div class="divTableCell">Piano solo - note</div>
+                                <div class="divTableCell text">a) Candidates in pre-category A and B and candidates in categories A to D perform at least two compositions of different character and tempo</br>
+                                b) Candidates, students, and artists from category E to category L perform at least two compositions of the different stylistic period</br>
+                                c) Candidates, students, and artists do not have to meet the maximum minutes given by category
+                                </div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Pre Category A</div>
+                                <div class="divTableCell text">Candidates born in 2013 and younger</br></br> Free choice program of 4 - 6 minutes</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Pre Category B</div>
+                                <div class="divTableCell text">Candidates born in 2011 and younger</br></br> Free choice program of 4 - 6 minutes</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category A</div>
+                                <div class="divTableCell text">Candidates born in 2010</br></br> Program of your choice from 6 to 8 minutes</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category B</div>
+                                <div class="divTableCell text">Candidates born in 2009</br></br>Program of your choice from 7 to 9 minutes</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category C</div>
+                                <div class="divTableCell text">Kandidati rođeni 2008. godine</br></br>Program po slobodnom izboru od 8 do 10 minutau</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category D</div>
+                                <div class="divTableCell text">Candidates born in 2007</br></br>Program of your choice up to 12 minutes</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category E</div>
+                                <div class="divTableCell text">Candidates born in 2005 and 2006</br></br>Program of your choice up to 15 minutes</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category F</div>
+                                <div class="divTableCell text">Candidates born in 2003 and 2004</br></br>Free choice program up to 17 minutes</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category G</div>
+                                <div class="divTableCell text">Candidates born in 2001 and 2002</br></br>Program of your choice up to 20 minutes</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category H</div>
+                                <div class="divTableCell text">1st and 2nd-year students of the Music Academy</br></br>Program of your choice up to 20 minutes</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category I</div>
+                                <div class="divTableCell text">3rd and 4th-year students of the Music Academy</br></br>Program of your choice up to 25 minutes</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category J</div>
+                                <div class="divTableCell text">Students of the 5th year of the Music Academy</br></br>Program of your choice up to 30 minutes</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category K</div>
+                                <div class="divTableCell text">Young artists born in 1990 and younger</br></br>Free choice program up to 40 minutes</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category L</div>
+                                <div class="divTableCell text">Artists born before January 1, 1990, without age limit</br></br>Program of your choice up to 50 minutes</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Piano duo; piano four hands and two pianos - note</div>
+                                <div class="divTableCell text">a) Candidates in categories N to Q perform a minimum of two compositions of different stylistic periods</br> b) Compositions may be composed originally for piano four hands or two pianos, or transcriptions for piano four hands or transcriptions for two pianos.</br> c) The piano duo may, if they wish, combine in their program compositions composed originally for piano four hands or two pianos or transcriptions for piano four hands or transcriptions for two pianos</br> d) Candidates, students, and artists do not have to meet the maximum minutes given by category</br></div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category N</div>
+                                <div class="divTableCell text">Candidates born in 2010 and younger</br></br>Program of your choice up to 10 minutes</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category M</div>
+                                <div class="divTableCell text">Candidates born in 2005 and younger</br></br>Program of your choice up to 15 minutes</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category O</div>
+                                <div class="divTableCell text">CCandidates and students of the Academy of Music born in 2000 and younger</br></br>Program of your choice up to 20 minutes</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category Q</div>
+                                <div class="divTableCell text">Artists born before January 1, 2000, without age limit</br></br>Program of your choice up to 30 minutes</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Piano enThe piano ensemble must have at least three performers, at least one of which must be at the piano (eg, six-handed piano, piano trio, piano quartet, piano quintet ...)</br> b) Piano ensembles in categories from R to U perform at least two compositions of the different stylistic period</br> c) Compositions can be composed originally for piano ensemble or transcriptions for piano ensemble</br> d) Candidates, students, and artists do not have to meet the maximum minutes given by category</br></div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category R</div>
+                                <div class="divTableCell text">Candidates born in 2010 and younger</br></br>Program of your choice up to 10 minutes </div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category S</div>
+                                <div class="divTableCell text">Candidates born in 2005 and younger</br></br>PProgram of your choice up to 15 minutes</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category T</div>
+                                <div class="divTableCell text">Candidates and students of the Academy of Music born in 2000 and younger</br></br>Program of your choice up to 20 minutes</div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">Category U</div>
+                                <div class="divTableCell text">Artists born before January 1, 2000, without age limit</br></br>Program of your choice up to 30 minutes</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Judges -->
+            <div class="main-block">
+                <div class="row center">
+                    <div class="col-xs-6 col-md-12">
+                        <div class="main-segment-title">
+                            <h2>Jury</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class= "row center between main-segment-judges">
+                    <div class="col-xs-12 col-md-4 main-segment-judges-single">
+                        <div class="main-segment-judges-single-img">
+                            <img src="../assets/images/manana.jpg" alt="Vladimir Kandelaki" />
+                        </div>
+                        <h3 class="main-segment-judges-single-title">Manana Kandelaki</h3>
+                        <div class="main-segment-judges-single-text">
+                        She was born in Georgia, in a family of famous musicians, among whom was V. Kandelaki, a
+                        famous Soviet singer, actor, film director, national artist of the USSR. Her father, Vladimir
+                        Kandelaki, is a singer, opera soloist, professor, national artist of Georgia, and her mother is Medea
+                        Tsirgiladze, a pianist and professor.
+                        In 1975, she graduated from the Z. Paliashvili Special Music School for Particularly Gifted
+                        Children at the Saradjishvili Conservatory in Tbilisi, where she studied in the class of Honorary
+                        Artist, Professor M. Chavchanidze. She enrolled in the Moscow State Conservatory P. I. Tchaikovsky in the class of Professor L. Naumov.
+                        </div>
+                        <a href="mananaEn.php"><div class="main-segment-judges-single-button">
+                            Još...
+                        </div></a>
+                    </div>                
+                    <div class="col-xs-12 col-md-4 main-segment-judges-single">
+                        <div class="main-segment-judges-single-img">
+                            <img src="../assets/images/nKacar.jpg" alt="Nenad Kacar" />
+                        </div>
+                        <h3 class="main-segment-judges-single-title">Nenad Kačar</h3>
+                        <div class="main-segment-judges-single-text">
+                        Croatian pianist and pedagogue Nenad Kačar was born in 1965 in Zagreb.
+                        He has been involved with music since his early childhood, and as a five-year-old, he
+                        had his first public performance. During his schooling through he sensitized the public
+                        through numerous concerts, and gets noticed which, in return, made it possible to to
+                        obtain prestigious national scholarships.
+                        He studied and graduated at the Zagreb Academy of Music in the class of a prominent
+                        Croatian pianist and professor, academician Jurica Muraja. He continued his training
+                        with numerous pianists, E. Timakin, M. Lorković A. Preger, R. Kerer, M. Farre and I.
+                        Žukov.
+                        </div>
+                        <a href="nKacarEn.php"><div class="main-segment-judges-single-button">
+                            Još...
+                        </div></a>
+                    </div>
+                    <div class="col-xs-12 col-md-4 main-segment-judges-single">
+                        <div class="main-segment-judges-single-img">
+                            <img src="../assets/images/nMitrovic.jpg" alt="Arijana Gigliani" />
+                        </div>
+                        <h3 class="main-segment-judges-single-title">Nataša Mitrović</h3>
+                        <div class="main-segment-judges-single-text">
+                        Natasha Mitrovic, pianist, is a native of Belgrade.
+                        She received her undergraduate and graduate degrees with
+                        excellent results at the Music Academy in Belgrade where she now
+                        teaches piano.
+                        Further studies included studies in Vienna with prof. Avo
+                        Kouyoumdjian and piano studies with prof. Jan Novotny in
+                        Prague.
+                        Natasha Mitrovic was the only artist from Serbia to be awarded
+                        Fulbright scholarship in year 2004. During her Fulbright grant, Ms.
+                        Mitrovic studied at the University of Michigan (Ann Arbor), at
+                        Julliard University (New York) and at de Paul University
+                        (Chicago) where she performed extensively with great acclaim.
+                        </div>
+                        <a href="nMitrovicEn.php"><div class="main-segment-judges-single-button">
+                            Još...
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Application form -->
+            <div class="main-block-last">
+                <div class="row center">
+                    <div class="col-xs-6 col-md-12">
+                        <div class="main-segment-title">
+                            <h2>Prijava</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row center between main-segment-application">
+                    <div class="main-segment-application-form">
+                        <form id="form-piano" action="#form-piano" method="POST" enctype="multipart/form-data" onsubmit="return formValidation(event)">
+                            <input type="text" name="fname" placeholder="First Name" value="<?php echo isset($_POST["fname"]) ? $_POST["fname"] : ''; ?>"/>
+                            <input type="text" name="lname" placeholder="Last Name" value="<?php echo isset($_POST["lname"]) ? $_POST["lname"] : ''; ?>"/>
+                            <input type="text" name="bdate" placeholder="DD/MM/YYYY" value="<?php echo isset($_POST["bdate"]) ? $_POST["bdate"] : ''; ?>" />
+                            <input type="text" name="nationality" placeholder="Nationality" value="<?php echo isset($_POST["nationality"]) ? $_POST["nationality"] : ''; ?>"/>
+                            <input type="text" name="prof" placeholder="Professor" value="<?php echo isset($_POST["prof"]) ? $_POST["prof"] : ''; ?>"/>
+
+                            <input type="text" name="city" placeholder="City" value="<?php echo isset($_POST["city"]) ? $_POST["city"] : ''; ?>"/>
+                            <input type="text" name="country" placeholder="Country" value="<?php echo isset($_POST["country"]) ? $_POST["country"] : ''; ?>"/>
+                            <input type="mail" name="mail" placeholder="E-mail" value="<?php echo isset($_POST["mail"]) ? $_POST["mail"] : ''; ?>"/>
+                            <input type="text" name="phone" placeholder="Phone" value="<?php echo isset($_POST["phone"]) ? $_POST["phone"] : ''; ?>"/>
+
+                            </br></br>
+
+                            <div class="row center space-around selects">
+                                <div class="custom-select">
+                                    <select name="category">
+                                        <option selected value="">Category...</option>
+                                        <option value="Pretkategorija A">Pre Category A</option>
+                                        <option value="Pretkategorija B">Pre Category B</option>
+                                        <option value="A">Category A</option>
+                                        <option value="B">Category B</option>
+                                        <option value="C">Category C</option>
+                                        <option value="D">Category D</option>
+                                        <option value="E">Category E</option>
+                                        <option value="F">Category F</option>
+                                        <option value="G">Category G</option>
+                                        <option value="H">Category H</option>
+                                        <option value="I">Category I</option>
+                                        <option value="J">Category J</option>
+                                        <option value="K">Category K</option>
+                                        <option value="L">Category L</option>        
+                                        <option value="N">Category N</option>
+                                        <option value="M">Category M</option>
+                                        <option value="O">Category O</option>
+                                        <option value="Q">Category Q</option>
+                                        <option value="R">Category R</option>
+                                        <option value="S">Category S</option>
+                                        <option value="T">Category T</option>
+                                        <option value="U">Category U</option>                  
+                                    </select>
+                                </div>
+
+                            </br></br>
+                                
+                                <div class="custom-select">
+                                    <select name="composition">
+                                        <option selected value="">Number of competitors...</option>
+                                        <option value="Solo">Solo</option>
+                                        <option value="Duet">Duet</option>
+                                        <option value="Ansambl">Ensemble</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <label>Proof of payment</label>
+                            <input type="file" name="payment" />
+
+                            <label>Identification document</label>
+                            <input type="file" name="document" />
+
+                            </br></br>
+
+                            <input type="text" name="link1" placeholder="YouTube link" value="<?php echo isset($_POST["link1"]) ? $_POST["link1"] : ''; ?>"/>
+                            <input type="text" name="link2" placeholder="YouTube link" value="<?php echo isset($_POST["link2"]) ? $_POST["link2"] : ''; ?>"/>
+                            <input type="text" name="link3" placeholder="YouTube link" value="<?php echo isset($_POST["link3"]) ? $_POST["link3"] : ''; ?>"/>
+                            <input type="text" name="link4" placeholder="YouTube link" value="<?php echo isset($_POST["link4"]) ? $_POST["link4"] : ''; ?>"/>
+                            <input type="text" name="link5" placeholder="YouTube link" value="<?php echo isset($_POST["link5"]) ? $_POST["link5"] : ''; ?>"/>
+                            <input type="text" name="link6" placeholder="YouTube link" value="<?php echo isset($_POST["link6"]) ? $_POST["link6"] : ''; ?>"/>
+                            <input type="text" name="link7" placeholder="YouTube link" value="<?php echo isset($_POST["link7"]) ? $_POST["link7"] : ''; ?>"/>
+                            <input type="text" name="link8" placeholder="YouTube link" value="<?php echo isset($_POST["link8"]) ? $_POST["link8"] : ''; ?>"/>
+                            
+                            <input type="submit" name="apply-piano" value="Send!" />
+                        </form>	
+                        <?php 
+                        
+                        if(count($errors) > 0) { 
+                            foreach($errors as $error) {?>
+                                <div class="errors">
+                                    <?php echo($error); ?>
+                                </div>
+                            <?php } } else {
+                                        $_SESSION['errors'] = $errors;
+                                    }?>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
