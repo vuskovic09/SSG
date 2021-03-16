@@ -506,7 +506,7 @@ Two opera duets or ensembles of your choice</div>
 Three arias of your choice </div>
                         </div>
                         <div class="divTableRow">
-                            <div class="divTableCell">VII</div>
+                            <div class="divTableCell">VIII</div>
                             <div class="divTableCell text">Ladies up to the age of 33 in the year of the competition; gentlemen up to the age of 35 in the year of the competition</br></br>
 Four arias of your choice </div>
                         </div>

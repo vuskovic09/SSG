@@ -672,7 +672,7 @@ if(isset($_POST['apply-piano'])){
                                     Tri arije po slobodnom izboru</div>
                             </div>
                             <div class="divTableRow">
-                                <div class="divTableCell">VII</div>
+                                <div class="divTableCell">VIII</div>
                                 <div class="divTableCell text">Dame do navršene 33 godine života u godini natjecanja;
                                 Gospoda do navršene 35 godine života u godini natjecanja.</br></br>
                                 Četiri arije po slobodnom izboru </div>

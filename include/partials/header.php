@@ -10,15 +10,15 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content=" shop" /> 
-        <meta name="author" content="mailto: " /> 
-        <meta name="language" content="" />
-        <meta name="keywords" content="" />
+        <meta name="description" content="Zamisao i želja organizatora MUSICA ZAGREB jest ostvarenje natjecanja za talentirane perspektivne mlade umjetnike širom svijeta koji će dobiti priliku da putem ONLINE tehnologije prezentiraju svoje umijeće, vještine i ljubav prema glazbi" /> 
+        <meta name="author" content="mailto: info@zagrebmusiccompetition.com" /> 
+        <meta name="language" content="Croatian" />
+        <meta name="keywords" content="musica zagreb, zagreb, natjecanje, takmičenje, pjevačko, klavirsko, natjecatelji, muzičko takmičenje, grad zagreb, natjecanje mladih glazbenika, ocjenjivački sud, natjecanja, natjecatelji, Stojan Stojanov Gančev, skladbe, solo pjesme, arija, glazbene škole" />
         <meta name="robots" content="index, follow" />
-        <meta name="copyright" content="">
+        <meta name="copyright" content="Musica Zagreb">
         <link rel="icon" type="image/png" href="images/favicon.ico" />
 
-		<title>SSG</title>
+		<title>Musica Zagreb | Muzičko Natjecanje</title>
 
 		<!-- Font Awesome Icon -->
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
