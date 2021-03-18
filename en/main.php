@@ -1022,7 +1022,7 @@
                         Children at the Saradjishvili Conservatory in Tbilisi, where she studied in the class of Honorary
                         Artist, Professor M. Chavchanidze. She enrolled in the Moscow State Conservatory P. I. Tchaikovsky in the class of Professor L. Naumov.
                         </div>
-                        <a href="mananaEn.php"><div class="main-segment-judges-single-button">
+                        <a href="manana.php"><div class="main-segment-judges-single-button">
                             Još...
                         </div></a>
                     </div>                
@@ -1042,7 +1042,7 @@
                         with numerous pianists, E. Timakin, M. Lorković A. Preger, R. Kerer, M. Farre and I.
                         Žukov.
                         </div>
-                        <a href="nKacarEn.php"><div class="main-segment-judges-single-button">
+                        <a href="nKacar.php"><div class="main-segment-judges-single-button">
                             Još...
                         </div></a>
                     </div>
@@ -1065,7 +1065,7 @@
                         Julliard University (New York) and at de Paul University
                         (Chicago) where she performed extensively with great acclaim.
                         </div>
-                        <a href="nMitrovicEn.php"><div class="main-segment-judges-single-button">
+                        <a href="nMitrovic.php"><div class="main-segment-judges-single-button">
                             Još...
                         </div></a>
                     </div>

@@ -979,7 +979,7 @@ if(isset($_POST['apply-piano'])){
                 <div class= "row center between main-segment-judges">
                     <div class="col-xs-12 col-md-4 main-segment-judges-single">
                         <div class="main-segment-judges-single-img">
-                            <img src="assets/images/manana.jpg" alt="Vladimir Kandelaki" />
+                            <img src="assets/images/manana.jpg" alt="Manana Kandelaki" />
                         </div>
                         <h3 class="main-segment-judges-single-title">Manana Kandelaki</h3>
                         <div class="main-segment-judges-single-text">
@@ -1004,7 +1004,7 @@ if(isset($_POST['apply-piano'])){
                     </div>
                     <div class="col-xs-12 col-md-4 main-segment-judges-single">
                         <div class="main-segment-judges-single-img">
-                            <img src="assets/images/nMitrovic.jpg" alt="Arijana Gigliani" />
+                            <img src="assets/images/nMitrovic.jpg" alt="Natasa Mitrovic" />
                         </div>
                         <h3 class="main-segment-judges-single-title">Nataša Mitrović</h3>
                         <div class="main-segment-judges-single-text">
