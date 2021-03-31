@@ -36,10 +36,10 @@
             <div class="col-xs-12 col-md-3">
                 <nav class="header-nav navigation">
                     <ul>
-                        <li><a href="intro-text">Intro</a></li>
+                        <li><a class="a-click" href="intro-text">Intro</a></li>
                         <li><a href="rule-info">Rules</a></li>
-                        <li><a href="comp-info">Singing Competition</a></li>
-                        <li><a href="">Piano Competition</a></li>
+                        <li><a href="singingEN.php">Singing Competition</a></li>
+                        <li><a href="../pianoEN.php">Piano Competition</a></li>
                     </ul>
                     <!-- <ul> -->
                         <?php //foreach($dataNav as $rowNav){ ?>

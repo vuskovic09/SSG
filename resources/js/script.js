@@ -4,7 +4,7 @@
 
 $(document).ready(function() {
 
-	$('.navigation').find('a').click(function(event){
+	$('.navigation').find('.a-click').click(function(event){
 		event.preventDefault();
 		var target = $(this).attr('href');
   
@@ -92,20 +92,6 @@ $(document).ready(function() {
 	/*if the user clicks anywhere outside the select box,
 	then close all select boxes:*/
 	document.addEventListener("click", closeAllSelect);
-
-	$('.singing-js').click(function(){
-		$('.piano').fadeOut(1000);
-        $('.singing').fadeIn(1000);
-		$(this).addClass('active');
-		$('.piano-js').removeClass('active');
-	});
-
-	$('.piano-js').click(function(){
-		$('.singing').fadeOut(1000);
-        $('.piano').fadeIn(1000);
-		$(this).addClass('active');
-		$('.singing-js').removeClass('active');
-	});
 
 
 

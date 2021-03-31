@@ -36,10 +36,10 @@
             <div class="col-xs-12 col-md-3">
                 <nav class="header-nav navigation">
                     <ul>
-                        <li><a href="intro-text">Uvodna riječ</a></li>
-                        <li><a href="rule-info">Pravilnik natjecanja</a></li>
-                        <li><a href="comp-info">Pjevačko natjecanje</a></li>
-                        <li><a href="">Klavirsko natjecanje</a></li>
+                        <li><a class="a-click" href="intro-text">Uvodna riječ</a></li>
+                        <li><a class="a-click" href="rule-info">Pravilnik natjecanja</a></li>
+                        <li><a href="singing.php">Pjevačko natjecanje</a></li>
+                        <li><a href="piano.php">Klavirsko natjecanje</a></li>
                     </ul>
                 </nav>
             </div>
