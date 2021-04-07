@@ -1,31 +1,6 @@
 youtube kanal
-jury competition column
-
-
-ilica
-hr narodno kazaliste
-park maksimir
-medvedgrad
-jarun
-sveucilisna biblioteka
-trg bana jelacica
-katedrala
-markova crkva gornji grad
-arena zagreb
-
-lisinski
-mimara
-akademija zagreb
-
-
-forma - instrument => takmicenje
-Sastav = solo ili ansambl
-
-skola + telefon neobavezno
-
 
 AUTOMATE GALLERY DISPLAY
-
 @for $i from 0 through 9 {
     background-image: url("../images/hex#{$i}.jpg");
 }
@@ -37,83 +12,26 @@ AUTOMATE GALLERY DISPLAY
 </ul>
 
 
- <form action="" method="POST" onSubmit="return check();">
-    <input type="text" name="name" placeholder="Ime" />
-    <input type="text" name="surname" placeholder="Prezime" />
-    <input type="text" name="dob" placeholder="Datum Rođenja" />
-    <input type="text" name="nat" placeholder="Nacionalnost" />
-    <input type="text" name="prof" placeholder="Profesor" />
-
-    <input type="text" name="city" placeholder="Grad" />
-    <input type="text" name="country" placeholder="Država" />
-</br>
-    <input type="mail" name="mail" placeholder="E-mail" />
-    <input type="text" name="phone" placeholder="Telefon" />
-
-    </br></br>
-
-    <label>Dokaz uplate</label>
-    <input type="file" name="payment" />
-
-    <label>Identifikacijski dokument</label>
-    <input type="file" name="doc" />
-
-    </br></br>
-
-    <input type="text" name="link1" placeholder="YouTube link" />
-    <input type="text" name="link2" placeholder="YouTube link" />
-    <input type="text" name="link3" placeholder="YouTube link" />
-    <input type="text" name="link4" placeholder="YouTube link" />
-    <input type="text" name="link5" placeholder="YouTube link" />
-    <input type="text" name="link6" placeholder="YouTube link" />
-    <input type="text" name="link7" placeholder="YouTube link" />
-    <input type="text" name="link8" placeholder="YouTube link" />
-
-    </br></br>
-
-    <div class="row center space-around selects">
-        <div class="custom-select">
-            <select name="category">
-                <option disabled selected value="0">Kategorija...</option>
-                <option value="1">Pretkategorija A</option>
-                <option value="2">Pretkategorija B</option>
-                <option value="3">I/A</option>
-                <option value="4">I/B</option>
-                <option value="5">II/A</option>
-                <option value="6">II/B</option>
-                <option value="7">III/A</option>
-                <option value="8">III/B</option>
-                <option value="9">IV</option>
-                <option value="10">V/A</option>
-                <option value="11">V/B</option>
-                <option value="12">VI</option>
-                <option value="13">VII</option>
-                <option value="14">VIII</option>                            
-            </select>
-        </div>
-        
-        <div class="custom-select">
-            <select name="composition">
-                <option disabled selected value="0">Sastav...</option>
-                <option value="1">Solo</option>
-                <option value="2">Duet</option>
-                <option value="3">Ansambl</option>
-            </select>
-        </div>
-    </div>
-    
-    <input type="submit" name="apply" value="Pošalji!" />
-</form>	
-
-
 Poštovani,
 Još jedanput zahvaljujemo na prijavi na 1. pjevačko natjecanje Stojan Stojanov Gančev.
-Sa zadovoljstvom Vas obavještavamo da će ocjenjivački sud presluštati i ocjeniti kandidate između 13. i 16. travnja 2021. Svi rezultati biće vidljivi na našoj mrežnoj stranici, www.zagrebmusiccompettion.com, od 20. travnja 2021. 
+Sa zadovoljstvom Vas obavještavamo da će ocjenjivački sud presluštati i ocjeniti kandidate između 13. i 16. travnja 2021. Svi rezultati biće vidljivi na našoj mrežnoj stranici, http://www.zagrebmusiccompetition.com/, od 20. travnja 2021. 
 Ujedno Vas obavještavamo da ćete diplome i priznanja dobiti putem maila od 29. travnja 2021. godine.
 Svim natjecateljkama i natjecateljima želimo puno uspjeha,
 
 Organizator,
 Musica Zagreb
+
+
+
+Greetings,
+
+Thank you again for applying to the 1st singing competition Stojan Stojanov Gančev.
+We are pleased to inform you that the jury will listen to and evaluate the candidates between the 13th and 16th April 2021. All results will be visible on our website, http://www.zagrebmusiccompetition.com/, from April 20th 2021.
+We would also like to inform you that you will receive diplomas and awards by e-mail starting on April 29th, 2021.
+We wish all the competitors a lot of success,
+
+Organizer,
+Music Zagreb
 
 
 
