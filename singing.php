@@ -246,9 +246,24 @@
                 <div class="col-xs-6 col-md-12">
                     <div class="main-segment-title">
                         <h2>Pjevačko Natjecanje</h2>
-                        <h4>12.04.2021. - 16.04.2021.</h4>
+                        <h4>19.04.2021. - 22.04.2021.</h4>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="main-block">
+                <div class="row center">
+                    <div class="col-xs-6 col-md-12">
+                        <div class="main-segment-title">
+                            <h2>Obavještenja</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-12 main-segment-about-text-announcement">
+                <p>Dragi pjevači,</br></br>
+                    Zbog Vaših upita i interesa  produžavamo rok prijave do 18.04.2021.</br></br>
+                    Musica Zagreb
+                </p>
             </div>
         </div>
     

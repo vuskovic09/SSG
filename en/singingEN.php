@@ -252,9 +252,24 @@
                 <div class="col-xs-6 col-md-12">
                     <div class="main-segment-title">
                         <h2>Singing Competition</h2>
-                        <h4>12.04.2021. - 16.04.2021.</h4>
+                        <h4>19.04.2021. - 22.04.2021.</h4>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="main-block">
+                <div class="row center">
+                    <div class="col-xs-6 col-md-12">
+                        <div class="main-segment-title">
+                            <h2>Obavještenja</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-12 main-segment-about-text-announcement">
+                <p>Dear Singers,</br></br>
+                    Because of your inquiries and interest, we are extending the application deadline to the 18th of April, 2021.</br></br>
+                    Musica Zagreb
+                </p>
             </div>
         </div>
         <div class="comp-wrap singing">
@@ -300,7 +315,7 @@
                                 <h2>Biography</h2>
                             </div>
                         </div>
-                    </div>
+                    </di+v>
                     <div class="row center main-segment-about-gancev">
                         <div class="col-xs-12 col-md-8 main-segment-about-gancev-text">
                             <p>
