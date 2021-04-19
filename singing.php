@@ -255,10 +255,19 @@
                 <div class="row center">
                     <div class="col-xs-6 col-md-12">
                         <div class="main-segment-title">
-                            <h2>Obavještenja</h2>
+                            <h2>Obavijesti</h2>
                         </div>
                     </div>
                 </div>
+                <div class="col-xs-12 col-md-12 main-segment-about-text-announcement">
+                    <p>GRAND PRIX nagradu “Stojan Stojanov” u iznosu od 500 eura 
+                        omogućava obitelj Stojanov</br></br>
+
+                        Posebne nagrade</br>
+                        Nagrada Kvarteta Rucner - nastup u sezoni 2021/2022 u koncertnoj dvorani V.Lisinskog</br>
+                        Nagrada Hrvatskog komornog orkestra - nastup s orkestrom</br>
+                    </p>
+                </div>  
                 <div class="col-xs-12 col-md-12 main-segment-about-text-announcement">
                 <p>Dragi pjevači,</br></br>
                     Zbog Vaših upita i interesa  produžavamo rok prijave do 18.04.2021.</br></br>
@@ -367,31 +376,31 @@
                             </div>
                             <div class="divTableRow">
                                 <div class="divTableCell">I/A</div>
-                                <div class="divTableCell text">Natjecatelji I razreda srednje glazbene &scaron;kole ili treće godine učenja.</br></br> Jedna arija i dvije solo pjesme po slobodnom izboru</div>
+                                <div class="divTableCell text">Natjecatelji I razreda srednje glazbene &scaron;kole ili treće godine učenja.</br></br> Jedna arija i dvije solo pjesme po slobodnom izboru</br>(Arije mogu biti iz opere, operete, kantate, oratorija i arije starih talijanskih majstora)</div>
                             </div>
                             <div class="divTableRow">
                                 <div class="divTableCell">I/B</div>
-                                <div class="divTableCell text">Natjecatelji II razreda srednje glazbene &scaron;kole ili četvrte godine učenja.</br></br> Jedna arija i tri solo pjesme po slobodnom izboru</div>
+                                <div class="divTableCell text">Natjecatelji II razreda srednje glazbene &scaron;kole ili četvrte godine učenja.</br></br> Jedna arija i tri solo pjesme po slobodnom izboru</br>(Arije mogu biti iz opere, operete, kantate, oratorija i arije starih talijanskih majstora)</div>
                             </div>
                             <div class="divTableRow">
                                 <div class="divTableCell">II/A</div>
-                                <div class="divTableCell text">Natjecatelji III razreda srednje glazbene &scaron;kole ili pete godine učenja.</br></br> Jedna arija i tri solo pjesme po slobodnom izboru</div>
+                                <div class="divTableCell text">Natjecatelji III razreda srednje glazbene &scaron;kole ili pete godine učenja.</br></br> Jedna arija i tri solo pjesme po slobodnom izboru<</br>(Arije mogu biti iz opere, operete, kantate, oratorija i arije starih talijanskih majstora)/div>
                             </div>
                             <div class="divTableRow">
                                 <div class="divTableCell">II/B</div>
-                                <div class="divTableCell text">Natjecatelji IV razreda srednje glazbene &scaron;kole ili &scaron;este godine učenja.</br></br>Jedna arija starog talijanskog majstora 16.,17. ili 18. stoljeća po slobodnom izboru.</br> Dvije solo pjesme po slobodnom izboru.</br> Jedna arija iz opere ili operete po slobodnom izboru</div>
+                                <div class="divTableCell text">Natjecatelji IV razreda srednje glazbene &scaron;kole ili &scaron;este godine učenja.</br></br>Jedna arija starog talijanskog majstora 16.,17. ili 18. stoljeća po slobodnom izboru.</br> Dvije solo pjesme po slobodnom izboru.</br> Jedna arija iz opere ili operete po slobodnom izboru</br>(Arije mogu biti iz opere, operete, kantate, oratorija i arije starih talijanskih majstora)</div>
                             </div>
                             <div class="divTableRow">
                                 <div class="divTableCell">III/A</div>
-                                <div class="divTableCell text">Natjecatelji I i II godine studija Muzičke akademije.</br></br> Dvije arije i tri solo pjesme po slobodnom izboru</div>
+                                <div class="divTableCell text">Natjecatelji I i II godine studija Muzičke akademije.</br></br> Dvije arije i tri solo pjesme po slobodnom izboru</br>(Arije mogu biti iz opere, operete, kantate, oratorija i arije starih talijanskih majstora)</div>
                             </div>
                             <div class="divTableRow">
                                 <div class="divTableCell">III/B</div>
-                                <div class="divTableCell text">Natjecatelji III i IV godine studija Muzičke akademije.</br></br> Dvije arije i tri solo pjesme po slobodnom izboru</div>
+                                <div class="divTableCell text">Natjecatelji III i IV godine studija Muzičke akademije.</br></br> Dvije arije i tri solo pjesme po slobodnom izboru</br>(Arije mogu biti iz opere, operete, kantate, oratorija i arije starih talijanskih majstora)</div>
                             </div>
                             <div class="divTableRow">
                                 <div class="divTableCell">IV</div>
-                                <div class="divTableCell text">Natjecatelji V godine studija Muzičke akademije.</br></br> Dvije arije i tri solo pjesme po slobodnom izboru</div>
+                                <div class="divTableCell text">Natjecatelji V godine studija Muzičke akademije.</br></br> Dvije arije i tri solo pjesme po slobodnom izboru</br>(Arije mogu biti iz opere, operete, kantate, oratorija i arije starih talijanskih majstora)</div>
                             </div>
                             <div class="divTableRow">
                                 <div class="divTableCell">V/A</div>
@@ -410,13 +419,13 @@
                                 <div class="divTableCell text">Natjecatelji mlađi profesionalci;
                                     Dame do navršene 28 godine života u godini natjecanja;
                                     Gospoda do navršene 30 godine života u godini natjecanja.</br></br>
-                                    Tri arije po slobodnom izboru</div>
+                                    Tri arije po slobodnom izboru</br>(Arije mogu biti iz opere, operete, kantate, oratorija i arije starih talijanskih majstora)</div>
                             </div>
                             <div class="divTableRow">
                                 <div class="divTableCell">VIII</div>
                                 <div class="divTableCell text">Dame do navršene 33 godine života u godini natjecanja;
                                 Gospoda do navršene 35 godine života u godini natjecanja.</br></br>
-                                Četiri arije po slobodnom izboru </div>
+                                Četiri arije po slobodnom izboru </br>(Arije mogu biti iz opere, operete, kantate, oratorija i arije starih talijanskih majstora)</div>
                             </div>
                             <div class="divTableRow">
                                 <div class="divTableCell">Kotizacije</div>

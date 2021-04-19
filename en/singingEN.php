@@ -258,14 +258,23 @@
             </div>
         </div>
         <div class="main-block">
-                <div class="row center">
-                    <div class="col-xs-6 col-md-12">
-                        <div class="main-segment-title">
-                            <h2>Obavještenja</h2>
-                        </div>
+            <div class="row center">
+                <div class="col-xs-6 col-md-12">
+                    <div class="main-segment-title">
+                        <h2>Announcements</h2>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-12 main-segment-about-text-announcement">
+            </div>
+            <div class="col-xs-12 col-md-12 main-segment-about-text-announcement">
+                <p>GRAND PRIX award "Stojan Stojanov" in the amount of 500 euros
+                    enables the Stojanov family</br></br>
+
+                    Special awards</br>
+                    Rucner Quartet Award - performance in the 2021/2022 season in the concert hall of V. Lisinski</br>
+                    Award of the Croatian Chamber Orchestra - performance with the orchestra</br>
+                </p>
+            </div>
+            <div class="col-xs-12 col-md-12 main-segment-about-text-announcement">
                 <p>Dear Singers,</br></br>
                     Because of your inquiries and interest, we are extending the application deadline to the 18th of April, 2021.</br></br>
                     Musica Zagreb
@@ -381,19 +390,22 @@
                                 <div class="divTableRow">
                                     <div class="divTableCell">I/A</div>
                                     <div class="divTableCell text">First-year high school students (third-year students)</br></br>
-                                        One aria and two solo songs of your choice
+                                        One aria and two solo songs of your choice</br>
+                                        (Arias can be from operas, operettas, cantatas, oratorios and arie antiche.)
                                     </div>
                                 </div>
                                 <div class="divTableRow">
                                     <div class="divTableCell">I/B</div>
                                     <div class="divTableCell text">Second-year high school students (fourth-year students)</br></br>
-                                        One aria and three solo songs of your choice
+                                        One aria and three solo songs of your choice</br>
+                                        (Arias can be from operas, operettas, cantatas, oratorios and arie antiche.)
                                     </div>
                                 </div>
                                 <div class="divTableRow">
                                     <div class="divTableCell">II/A</div>
                                     <div class="divTableCell text">Third-year high school students (fifth-year students)</br></br>
-                                        One aria and three solo songs of your choice
+                                        One aria and three solo songs of your choice</br>
+                                        (Arias can be from operas, operettas, cantatas, oratorios and arie antiche.)
                                     </div>
                                 </div>
                                 <div class="divTableRow">
@@ -401,25 +413,29 @@
                                     <div class="divTableCell text">Fourth-year high school students (sixth-year students)</br></br>
                                         One aria by an old Italian master of the 16th, 17th or 18th century of your choice</br>
                                         Two solo songs of your choice</br>
-                                        One aria from opera or operetta of your choice
+                                        One aria from opera or operetta of your choice</br>
+                                        (Arias can be from operas, operettas, cantatas, oratorios and arie antiche.)
                                     </div>
                                 </div>
                                 <div class="divTableRow">
                                     <div class="divTableCell">III/A</div>
                                     <div class="divTableCell text">First and second-year students of the Music Academy</br></br>
-                                        Two arias and three solo songs of your choice
+                                        Two arias and three solo songs of your choice</br>
+                                        (Arias can be from operas, operettas, cantatas, oratorios and arie antiche.)
                                     </div> 
                                 </div>
                                 <div class="divTableRow">
                                     <div class="divTableCell">III/B</div>
                                     <div class="divTableCell text">Second and third-year students of the Music Academy</br></br>
-                                        Two arias and three solo songs of your choice
+                                        Two arias and three solo songs of your choice</br>
+                                        (Arias can be from operas, operettas, cantatas, oratorios and arie antiche.)
                                     </div>
                                 </div>
                                 <div class="divTableRow">
                                     <div class="divTableCell">IV</div>
                                     <div class="divTableCell text">Fifth-year students of the Music Academy</br></br>
-                                        Two arias and three solo songs of your choice</div>
+                                        Two arias and three solo songs of your choice</br>
+                                        (Arias can be from operas, operettas, cantatas, oratorios and arie antiche.)</div>
                                 </div>
                                 <div class="divTableRow">
                                     <div class="divTableCell">V/A</div>
@@ -445,14 +461,16 @@
                                 <div class="divTableRow">
                                     <div class="divTableCell">VII</div>
                                     <div class="divTableCell text">Competitors younger professionals; ladies up to the age of 28 in the year of the competition; gentlemen up to the age of 30 in the year of the competition</br></br>
-                                        Three arias of your choice 
+                                        Three arias of your choice</br>
+                                        (Arias can be from operas, operettas, cantatas, oratorios and arie antiche.) 
                                     </div>
                                 </div>
                                 <div class="divTableRow">
                                     <div class="divTableCell">VIII</div>
                                     <div class="divTableCell text">Ladies up to the age of 33 in the year of the competition; gentlemen up to the age of
                                         35 in the year of the competition</br></br>
-                                        Four arias of your choice 
+                                        Four arias of your choice </br>
+                                        (Arias can be from operas, operettas, cantatas, oratorios and arie antiche.)
                                     </div>
                                 </div>
                                 <div class="divTableRow">
