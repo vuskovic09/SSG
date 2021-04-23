@@ -224,9 +224,9 @@
                     <ul>
                         <li><a href="index.php#intro-text">Intro</a></li>
                         <li><a href="index.php#rule-info">Rules</a></li>
-                        <li><a href="#">Singing Competition</a></li>
+                        <li><a href="singingEN.php">Singing Competition</a></li>
                         <li><a href="pianoEN.php">Piano Competition</a></li>
-                        <li><a href="violinEN.php">Violin Competition</a></li>
+                        <li><a href="#">Violin competition</a></li>
                     </ul>
                     <!-- <ul> -->
                         <?php //foreach($dataNav as $rowNav){ ?>
@@ -246,18 +246,19 @@
 <main>
     <div class="main container">
     <div class="language-select">
-        <p><a href="../singing.php">Croatian</a> | <a href="#">English</a></p>
+        <p><a href="../violin.php">Croatian</a> | <a href="#">English</a></p>
     </div>
         <div class="main-block">
             <div class="row center">
                 <div class="col-xs-6 col-md-12">
                     <div class="main-segment-title">
-                        <h2>Singing Competition</h2>
-                        <h4>19.04.2021. - 22.04.2021.</h4>
+                        <h2>Violin Competition</h2>
+                        <h4>05.06.2021. - 10.06.2021.</h4>
                     </div>
                 </div>
             </div>
         </div>
+        <!--
         <div class="main-block">
             <div class="row center">
                 <div class="col-xs-6 col-md-12">
@@ -282,12 +283,13 @@
                 </p>
             </div>
         </div>
+        -->
         <div class="comp-wrap singing">
             <div class="main-block">
                 <div class="row center">
                     <div class="col-xs-6 col-md-12">
                         <div class="main-segment-title">
-                            <h2>Stojan Stojanov Gančev</h2>
+                            <h2>Ludmilla Weiser</h2>
                         </div>
                     </div>
                 </div>
@@ -295,23 +297,11 @@
                     <div class="col-xs-12 col-md-4 main-segment-about-photos">
                         <!-- First Img -->
                         <div class="gancev-img">
-                            <img src="../assets/images/gancev.jpg" alt="Stevan Stojanov Gancev">
+                            <img src="../assets/images/ludmilla.png" alt="Ludmilla Weiser">
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-8 main-segment-about-text">
-                        <p>Dear competitors,</br></br>
-                            Welcome to the first international competition of solo singers Stojan Stojanov Gančev.
-                            This competition was named after the singer and pedagogue who left an indelible mark on
-                            generations of singers and audiences who listened to the creations of his roles that he interpreted
-                            on the stages of Croatia and abroad. With his professional and thorough approach, he has
-                            educated a number of opera singers and pedagogues who work all over the world. In his rich
-                            career, he was often a member of the jury at international competitions for young solo singers. Fair,
-                            strict but above all well-meaning, he would gladly approach every singer after the performance, talk
-                            to him and share his opinion and advice. The organizers of this competition would like to nurture
-                            the qualities that Professor Stojanov had and pass them on to the younger generations. In order to
-                            hear as many talented young musicians as possible, through the propositions we have enabled the
-                            performance of a wide range of generations of singers. We look forward to meeting each other on
-                            an artistic level and making new acquaintances.
+                        <p style="font-size: 20px">...each violin has it's secret and, as you may see, only in the artist's hands does the secret of the violin transforms into a riddle even more mysterious, because the player's hand is a powerful force, conveying heartbeat, and flickering of the nerves into strings...
                         </p>
                     </div>
                 </div>  
@@ -329,37 +319,21 @@
                     <div class="row center main-segment-about-gancev">
                         <div class="col-xs-12 col-md-8 main-segment-about-gancev-text">
                             <p>
-                                Stojan Stojanov Gančev was a tenor born in Ajtos, Bulgaria in 1929. In 1960 he completed his
-                                studies in solo singing in the class of the famous Bulgarian vocal pedagogue Hristo Brmbarov in
-                                Sofia. Afterward, he studied opera direction in the class of Dragan Karadžiev. While still a student,
-                                he made his debut in 1957 as Caramello in Johan Strauss’ operetta A Night in Venice performed in
-                                Sofia State Musical Theater. Soon after he was signed for many other projects, mainly operettas.
-                                The same year he was awarded a gold medal at the Youth Festival in Moscow.
-                                In 1959 he won the first prize in Ferenc Erkel Competition in Budapest. From 1960 to 1963 he was
-                                a member of the Sofia Opera. In 1961 he performed in Varna as Rodolpho in La Boheme and that
-                                same year he won the first prize for the heroic repertoire in Sofia.
-                                His success in the Sofia Opera was recognized by the directors allowing him to perform in a more
-                                demanding program. In 1964 Stojan decided to transfer to Macedonia where he remained until
-                                1969. As a Skopje Opera soloist in 1969, he came to the Croatian National Theater in Zagreb
-                                where he performed for the next 25 years, until his death.                  
+                            Ludmilla Aloysia Weiser was born 9th of August 1847. in Zagreb. Her father was renowned master luthier Ivan Nepomuk Weiser, one of the first professional luthiers in Zagreb. Because of his quality tamburas Franjo Ks. Kuhač called him „Amatti of tambura”, and is important to notice that he was one of the earliest in Zagreb who created, maintained and repaired the instruments of HGZ. In 1856. Ludmilla started attending classes of Antun Schwarz at the Musical school of HGZ. She displayed exceptional skill and talent already at the pupil productions, which made her known to the wider audience as musical artist. Compositions of Antun Schwarz which were dedicated to Ludmilla bear testament to her immense talent.                  
                             </p>
                         </div>
                         <div class="col-xs-12 col-md-4 main-segment-about-photos">
                             <!-- First Img -->
                             <div class="first-img">
-                                <img src="../assets/images/gancev1.jpg" alt="Photo by Carsten Kohler from Pexels">
+                                <img src="../assets/images/ludmilla1.png" alt="Photo by Carsten Kohler from Pexels">
                             </div>
                             <!-- Second Img -->
                             <div class="second-img">
-                                <img src="../assets/images/gancev2.jpg" alt="Photo by Jonas Togo from Pexels">
-                            </div>
-                            <!-- Third Img-->
-                            <div class="third-img">
-                                <img src="../assets/images/gancev3.jpg" alt="Photo by Pixabay from Pexels">
+                                <img src="../assets/images/ludmilla.png" alt="Photo by Jonas Togo from Pexels">
                             </div>
                         </div>
                     </div> 
-                    <a href="gancev.php"><div class="col-md-12 main-segment-title"><h3>More...</h3></div></a>
+                    <a href="ludmillaEN.php"><div class="col-md-12 main-segment-title"><h3>More...</h3></div></a>
                 </div>
 
                 <!-- Propositions -->
@@ -374,118 +348,72 @@
                     <div class= "row center between main-segment-propositions">
                         <div class="divTable">
                             <div class="divTableBody">
+                            <div class="divTableRow">
+                                    <div class="divTableCell">NOTE:</div>
+                                    <div class="divTableCell text">COMPETITORS DO NOT HAVE TO COMPLETE THE MAXIMUM MINUTE SET BY CATEGORIES
+                                    </div>
+                                </div>
                                 <div class="divTableRow">
                                     <div class="divTableCell">Precategory A</div>
-                                    <div class="divTableCell text">First-year students
-                                        (States that have a preparatory degree, first-degree students)</br></br>
-                                        Two compositions of different character of your choice 
+                                    <div class="divTableCell text">Competitors born in 2014 and younger</br>Two compositions of your choice up to 5 minutes
                                     </div>
                                 </div>
                                 <div class="divTableRow">
                                     <div class="divTableCell">Precategory B</div>
-                                    <div class="divTableCell text">Second-year students
-                                        (States that have a preparatory degree, second-degree students)</br></br>
-                                        Two compositions of different character of your choice
+                                    <div class="divTableCell text">Competitors born in 2012 and younger</br>Two compositions of your choice up to 5 minutes
                                     </div>
                                 </div>
                                 <div class="divTableRow">
-                                    <div class="divTableCell">I/A</div>
-                                    <div class="divTableCell text">First-year high school students (third-year students)</br></br>
-                                        One aria and two solo songs of your choice</br>
-                                        (Arias can be from operas, operettas, cantatas, oratorios and arie antiche.)
+                                    <div class="divTableCell">Category 1</div>
+                                    <div class="divTableCell text">Competitors born in 2011</br>Two compositions of your choice up to 7 minutes
                                     </div>
                                 </div>
                                 <div class="divTableRow">
-                                    <div class="divTableCell">I/B</div>
-                                    <div class="divTableCell text">Second-year high school students (fourth-year students)</br></br>
-                                        One aria and three solo songs of your choice</br>
-                                        (Arias can be from operas, operettas, cantatas, oratorios and arie antiche.)
+                                    <div class="divTableCell">Category 2</div>
+                                    <div class="divTableCell text">Competitors born in 2010</br>Two compositions of your choice up to 9 minutes
                                     </div>
                                 </div>
                                 <div class="divTableRow">
-                                    <div class="divTableCell">II/A</div>
-                                    <div class="divTableCell text">Third-year high school students (fifth-year students)</br></br>
-                                        One aria and three solo songs of your choice</br>
-                                        (Arias can be from operas, operettas, cantatas, oratorios and arie antiche.)
+                                    <div class="divTableCell">Category 3</div>
+                                    <div class="divTableCell text">Competitors born in 2009</br>Two compositions of your choice up to 11 minutes
                                     </div>
                                 </div>
                                 <div class="divTableRow">
-                                    <div class="divTableCell">II/B</div>
-                                    <div class="divTableCell text">Fourth-year high school students (sixth-year students)</br></br>
-                                        One aria by an old Italian master of the 16th, 17th or 18th century of your choice</br>
-                                        Two solo songs of your choice</br>
-                                        One aria from opera or operetta of your choice</br>
-                                        (Arias can be from operas, operettas, cantatas, oratorios and arie antiche.)
+                                    <div class="divTableCell">Category 4</div>
+                                    <div class="divTableCell text">Competitors born in 2008</br>Two compositions of your choice up to 13 minutes
                                     </div>
                                 </div>
                                 <div class="divTableRow">
-                                    <div class="divTableCell">III/A</div>
-                                    <div class="divTableCell text">First and second-year students of the Music Academy</br></br>
-                                        Two arias and three solo songs of your choice</br>
-                                        (Arias can be from operas, operettas, cantatas, oratorios and arie antiche.)
+                                    <div class="divTableCell">Category 5</div>
+                                    <div class="divTableCell text">Competitors born in 2007</br>Two compositions of your choice up to 15 minutes
                                     </div> 
                                 </div>
                                 <div class="divTableRow">
-                                    <div class="divTableCell">III/B</div>
-                                    <div class="divTableCell text">Second and third-year students of the Music Academy</br></br>
-                                        Two arias and three solo songs of your choice</br>
-                                        (Arias can be from operas, operettas, cantatas, oratorios and arie antiche.)
+                                    <div class="divTableCell">Category 6</div>
+                                    <div class="divTableCell text">Competitors born in 2006</br>Two compositions of your choice up to 17 minutes
                                     </div>
                                 </div>
                                 <div class="divTableRow">
-                                    <div class="divTableCell">IV</div>
-                                    <div class="divTableCell text">Fifth-year students of the Music Academy</br></br>
-                                        Two arias and three solo songs of your choice</br>
-                                        (Arias can be from operas, operettas, cantatas, oratorios and arie antiche.)</div>
-                                </div>
-                                <div class="divTableRow">
-                                    <div class="divTableCell">V/A</div>
-                                    <div class="divTableCell text">High school chamber ensembles with piano accompaniment by
-                                        high school student.</br></br> Two compositions with different character of your choice
+                                    <div class="divTableCell">Category 7</div>
+                                    <div class="divTableCell text">Competitors born in 2004 and younger</br>Program of your choice up to 20 minutes
                                     </div>
                                 </div>
                                 <div class="divTableRow">
-                                    <div class="divTableCell">V/B</div>
-                                    <div class="divTableCell text">Academic chamber ensembles with piano accompaniment by a
-                                        student of the Music Academy.</br></br>
-                                        Three compositions with different character of your choice
-                                    </div>
-                                </div>
-                                <div class="divTableRow">
-                                    <div class="divTableCell">VI</div>
-                                    <div class="divTableCell text">The mixed opera duets or ensembles with piano accompaniment
-                                        by a professional accompanist - ladies and / or gentlemen up to the age of 35 in
-                                        the year of the competition.</br></br>
-                                        Two opera duets or ensembles of your choice
-                                    </div>
-                                </div>
-                                <div class="divTableRow">
-                                    <div class="divTableCell">VII</div>
-                                    <div class="divTableCell text">Competitors younger professionals; ladies up to the age of 28 in the year of the competition; gentlemen up to the age of 30 in the year of the competition</br></br>
-                                        Three arias of your choice</br>
-                                        (Arias can be from operas, operettas, cantatas, oratorios and arie antiche.) 
-                                    </div>
-                                </div>
-                                <div class="divTableRow">
-                                    <div class="divTableCell">VIII</div>
-                                    <div class="divTableCell text">Ladies up to the age of 33 in the year of the competition; gentlemen up to the age of
-                                        35 in the year of the competition</br></br>
-                                        Four arias of your choice </br>
-                                        (Arias can be from operas, operettas, cantatas, oratorios and arie antiche.)
+                                    <div class="divTableCell">Category 8</div>
+                                    <div class="divTableCell text">Competitors born in 2002 and younger</br>Program of your choice up to 25 minutes
                                     </div>
                                 </div>
                                 <div class="divTableRow">
                                     <div class="divTableCell">Fees</div>
                                     <div class="divTableCell text">Precategory A i B - 35 €</br>
-                                        I/A, I/B, II/A i II/B category - 40 €</br>
-                                        III/A, III/B i IV category - 50 €</br>
-                                        V/A, V/B, VI, VII i VIII category - 60 €</br></br>
+                                        1st, 2nd, 3rd and 4th category - 35€</br>
+                                        5th, 6th, 7th, and 8th category - 40 € </br></br>
                                         The registration fee is to be paid to the account:</br>
                                         Zagrebačka banka d.d.</br>
                                         Trg bana Jelačića 10</br>
                                         10000 Zagreb</br>
                                         IBAN:HR9623600001102900185</br>
-                                        SWIFT:ZABA HR</br>
+                                        SWIFT:ZABA HR 2X</br>
                                         In case of cancellation of the candidate, the registration fee is not refundable. 
                                     </div>
                                 </div>
@@ -506,51 +434,44 @@
                     <div class= "row center between main-segment-judges">
                         <div class="col-xs-12 col-md-4 main-segment-judges-single">
                             <div class="main-segment-judges-single-img">
-                                <img src="../assets/images/kandelaki.jpg" alt="Vladimir Kandelaki" />
+                                <img src="../assets/images/aVeskov.jpg" alt="Ana Veskov" />
                             </div>
-                            <h3 class="main-segment-judges-single-title">Vladimir Kandelaki</h3>
+                            <h3 class="main-segment-judges-single-title">Ana Veskov</h3>
                             <div class="main-segment-judges-single-text">
-                                The National Artist of Georgia, Professor, Academician Vladimir Rafaelovich Kandelaki, awarded the Order of Honor of Georgia, was born on January 11, 1928.
-                                He graduated from a particular music school for specially gifted children at the V. Sarajišvili State Conservatory in Tbilisi and graduated as a lyric-drama tenor.
+                            Ana Veskov was born and raised in Belgrade. She finished Primary music school “Mokranjac” in the class of prof. Vlajko Savković, and she graduated from Musical High School “Stanković” in Belgrade, in the class of prof. Olga Bešević. Having successfully passed three entrance examinations for full-time studies in Belgrade, Sofia and Russia, she decided to continue further education in Leningrad, modern St. Petersburg, city which was celebrated by some of the most famous global musicians, writers and painters… 
                             </div>
-                            <a href="kandelaki.php"><div class="main-segment-judges-single-button">
+                            <a href="aVeskovEN.php"><div class="main-segment-judges-single-button">
                                 More...
                             </div></a>
                         </div>
                         <div class="col-xs-12 col-md-4 main-segment-judges-single">
                             <div class="main-segment-judges-single-img">
-                                <img src="../assets/images/ljZiv.jpg" alt="Ljubica Zivkovic" />
+                                <img src="../assets/images/mKotor.jpg" alt="Myroslava Kotorovych" />
                             </div>
-                            <h3 class="main-segment-judges-single-title">Ljubica Živković</h3>
+                            <h3 class="main-segment-judges-single-title">Myroslava Kotorovych</h3>
                             <div class="main-segment-judges-single-text">
-                                LJUBICA ZIVKOVIC was born in Belgrade in 1952. After having finished Secondary Music School
-                                "Josip Slavenski", departments of music theory and solo singing, she continued her studies at the
-                                Faculty of Music in Belgrade, at both departments: music theory with Prof. Petar Ozgijan and solo
-                                singing with Prof. Zvonimir Krnetić. She graduated from the class of Prof. Radmila Smiljanić. 
+                            Myroslava Kotorovych was born in Kyiv in a family of musicians: the outstanding violinist Bohodar Kotorovych and harpist Natalia Kmet. She graduated from Kyiv Specialized Secondary Music boarding school named after M. V. Lysenko, the National Music Academy of Ukraine . Myroslava considers her ten-year concert activity as a member of Gidon Kremer's chamber orchestra "Kremerata Baltica" to be her "practical European conservatory".  
                             </div>
-                            <a href="ljZiv.php"><div class="main-segment-judges-single-button">
+                            <a href="mKotorEN.php"><div class="main-segment-judges-single-button">
                                 More...
                             </div></a>
                         </div>
                         <div class="col-xs-12 col-md-4 main-segment-judges-single">
                             <div class="main-segment-judges-single-img">
-                                <img src="../assets/images/aGig.jpg" alt="Arijana Gigliani" />
+                                <img src="../assets/images/lBobic.jpg" alt="Lidija Bobić" />
                             </div>
-                            <h3 class="main-segment-judges-single-title">Arijana Gigliani</h3>
+                            <h3 class="main-segment-judges-single-title">Lidija Bobić</h3>
                             <div class="main-segment-judges-single-text">
-                                ARIJANA GIGLIANI PHILIPP was born in Sarajevo (1979), where she graduated
-                                secondary school of violin and solo singing. Following graduation at Academy of
-                                Music in Zagreb, she continued to study voice with renowned pedagogue and tenor
-                                principal Stojan Stojanov Gančev from Bulgaria.
+                            Lidija Bobić was born in Varaždin, where she graduated from Musical Secondary School. She continues her education on the National Conservatory „P.I. Tchaikovsky” in Kyev, Ukraine, in the class of prof. Taras Pecheny, who introduces her with the Russian violin school and work of prof. Yuri Jankeleyevich, one of the most eminent violin pedagogues of Moscow. She graduated in 1994. in the class of prof. Igor Andrievsky. During her studies she attended the classes of pedagogy practice.
                             </div>
-                            <a href="aGig.php"><div class="main-segment-judges-single-button">
+                            <a href="lBobicEN.php"><div class="main-segment-judges-single-button">
                                 More...
                             </div></a>
                         </div>
                     </div>
                 </div>
 
-                <<!-- Application form -->
+                <<!-- Application form 
                 <div class="main-block">
                     <div class="row center">
                         <div class="col-xs-6 col-md-12">
@@ -642,7 +563,7 @@
                                     }?>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
 </main>

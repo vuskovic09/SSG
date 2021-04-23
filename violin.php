@@ -7,7 +7,9 @@
     $execNav = $pdo->query($navQuery);
     $dataNav = $execNav -> fetchAll();
 
-    if(isset($_POST['apply-piano'])){
+    if(isset($_POST['apply-violin'])){
+    
+
         $fname = $_POST['fname']; //verify
         $lname = $_POST['lname']; //verify
         $bdate = $_POST['bdate']; //verify
@@ -138,7 +140,7 @@
     
         if(count($errors) == 0) {
         
-            $query = "INSERT INTO `piano` (`id`, `fname`, `lname`, `bdate`, `nationality`, `prof`, `city`, `country`, `email`, `phone`, `link1`, `link2`, `link3`, `link4`, `link5`, `link6`, `link7`, `link8`, `category`, `composition`, `pname`, `ptype`, `docname`, `doctype`) 
+            $query = "INSERT INTO `singing` (`id`, `fname`, `lname`, `bdate`, `nationality`, `prof`, `city`, `country`, `email`, `phone`, `link1`, `link2`, `link3`, `link4`, `link5`, `link6`, `link7`, `link8`, `category`, `composition`, `pname`, `ptype`, `docname`, `doctype`) 
                         VALUES (NULL, :fname, :lname, :bdate, :nationality, :prof, :city, :country, :email, :phone, :link1, :link2, :link3, :link4, :link5, :link6, :link7, :link8, :category, :composition, :pname, :ptype, :docname, :doctype)";
             
             $prepare = $pdo->prepare($query);
@@ -223,8 +225,8 @@
                         <li><a href="index.php#intro-text">Uvodna riječ</a></li>
                         <li><a href="index.php#rule-info">Pravilnik natjecanja</a></li>
                         <li><a href="singing.php">Pjevačko natjecanje</a></li>
-                        <li><a href="#">Klavirsko natjecanje</a></li>
-                        <li><a href="violin.php">Violinističko natjecanje</a></li>
+                        <li><a href="piano.php">Klavirsko natjecanje</a></li>
+                        <li><a href="#">Violinističko natjecanje</a></li>
                     </ul>
                 </nav>
             </div>
@@ -238,19 +240,83 @@
 <main>
     <div class="main container">
     <div class="language-select">
-        <p><a href="#">Croatian</a> | <a href="en/pianoEN.php">English</a></p>
+        <p><a href="#">Croatian</a> | <a href="en/violinEN.php">English</a></p>
     </div>
         <div class="main-block">
             <div class="row center">
                 <div class="col-xs-6 col-md-12">
                     <div class="main-segment-title">
-                        <h2>Klavirsko Natjecanje</h2>
-                        <h4>20.05.2021. - 25.05.2021.</h4>
+                        <h2>Violinističko natjecanje</h2>
+                        <h4>05.06.2021. - 10.06.2021.</h4>
                     </div>
                 </div>
             </div>
         </div>
-    <div class="comp-wrap piano">
+
+        <!---
+        <div class="main-block">
+            <div class="row center">
+                <div class="col-xs-6 col-md-12">
+                    <div class="main-segment-title">
+                        <h2>Obavijesti</h2>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        -->
+
+        <div class="comp-wrap singing">
+            <div class="main-block">
+                <div class="row center">
+                    <div class="col-xs-6 col-md-12">
+                        <div class="main-segment-title">
+                            <h2>Ludmilla Weiser</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row center main-segment-about">
+                    <div class="col-xs-12 col-md-4 main-segment-about-photos">
+                        <!-- First Img -->
+                        <div class="gancev-img">
+                            <img src="assets/images/ludmilla.png" alt="Ludmilla Weiser">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-8 main-segment-about-text">
+                        <p style="font-size: 20px">...svaka violina ima svoju tajnu i, vidite, tek u ruci sviračevoj pretvara se tajna violine u zagonetku još tajanstveniju, jer ruka guslača je čudestvena snaga, koja prenosi kucaj srca i treperenje živaca u strune...
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <div class="main-block">
+                <div class="row center">
+                    <div class="col-xs-6 col-md-12">
+                        <div class="main-segment-title">
+                            <h2>Biografija</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row center main-segment-about-gancev">
+                    <div class="col-xs-12 col-md-8 main-segment-about-gancev-text">
+                        <p>
+                        Ludmilla Aloysia Weiser rođena je 09.kolovoza 1847. u Zagrebu.Otac joj je bio uvaženi zagrebački majstor glazbalar Ivan Nepomuk Weiser, jedan od prvih izučenih glazbalara u Zagrebu. Zbog kvalitetnih tambura Franjo Ks. Kuhač nazvao ga je „Amatijem” tambure, a važno je napomenuti da je bio jedan od najranijih zagrebačkih glazbalara koji je održavao, izrađivao i popravljao glazbala HGZ-a. </br>
+                        Ludmilla Weiser upisala je glazbenu školu u HGZ-u 1856.godine kod učitelja Antuna Schwarza.
+                        Već je na učeničkim produkcijama  Ludmilla pokazala iznimnu vještinu zbog koje je poslije postala  širokoj javnosti poznata glazbena umjetnica.O zapaženom talentu svjedoče i skladbe koje je Antun Schwarz napisao za Ludmillu.                  
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-md-4 main-segment-about-photos">
+                        <!-- First Img -->
+                        <div class="first-img">
+                            <img src="assets/images/ludmilla1.png" alt="Photo by Carsten Kohler from Pexels">
+                        </div>
+                        <!-- Second Img -->
+                        <div class="second-img">
+                            <img src="assets/images/ludmilla.png" alt="Photo by Jonas Togo from Pexels">
+                        </div>
+                    </div>
+                </div> 
+                <a href="include/pages/ludmilla.php"><div class="col-md-12 main-segment-title"><h3>Još...</h3></div></a>
+            </div>
+
             <!-- Propositions -->
             <div class="main-block">
                 <div class="row center">
@@ -261,131 +327,78 @@
                     </div>
                 </div>
                 <div class= "row center between main-segment-propositions">
-                    <div class="divTable">
-                        <div class="divTableBody">
+                <div class= "row center between main-segment-propositions">
+                        <div class="divTable">
+                            <div class="divTableBody">
                             <div class="divTableRow">
-                                <div class="divTableCell">Kotizacija</div>
-                                <div class="divTableCell text">
-                                    Pretkategorija A i B - 35 €</br>
-                                    kategorija A,B,C,D - 40 €</br>
-                                    kategorija E,F,G - 45 €</br>
-                                    kategorija H,I,J - 50 €</br>
-                                    kategorija K,L - 60 €</br>
-                                    kategorija N,M - 60 € po klavirskom duu</br>
-                                    kategorija O,Q - 70 € po klavirskom duu</br>
-                                    kategorija R,S - 70 € po ansamblu</br>
-                                    kategorija T,U - 80 € po ansamblu</br></br>
-                                    
-                                    Uplata kotizacija vrši se na račun Organizatora MUSICA ZAGREB:</br>
-                                    Zagrebačka banka d.d.</br>
-                                    Trg bana Jelačića 10</br>
-                                    10000 Zagreb</br>
-                                    IBAN:HR9623600001102900185</br>
-                                    SWIFT:ZABA HR 2X
+                                    <div class="divTableCell">NAPOMENA:</div>
+                                    <div class="divTableCell text">NATJECATELJI NE MORAJU ISPUNITI MAKSIMALNU MINUTAŽU ZADANU PO KATEGORIJAMA
+                                    </div>
                                 </div>
-                            </div>
-                        <div class="divTableRow">
-                                <div class="divTableCell">Klavir solo - napomena</div>
-                                <div class="divTableCell text">a) Kandidati u predkategoriji A i B, te kandidati u kategorijama od A do D izvode minimalno dvije skladbe različitog karaktera i tempa</br>
-                                    b) Kandidati, studenti i umjetnici od kategorije E do kategorije L izvode minimalno dvije skladbe različitog stilskog razdoblja</br>
-                                    c) Kandidati, studenti i umjetnici ne moraju ispuniti maksimalnu minutažu zadanu po kategorijama
+                                <div class="divTableRow">
+                                    <div class="divTableCell">Predkategorija A</div>
+                                    <div class="divTableCell text">Natjecatelji rođeni 2014. i mlađi</br>Dvije skladbe po slobodnom izboru do 5 minuta
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Pretkategorija A</div>
-                                <div class="divTableCell text">Kandidati rođeni 2013. godine i mlađi</br></br> Program po slobodnom izboru od 4 - 6 minuta </div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Pretkategorija B</div>
-                                <div class="divTableCell text">Kandidati rođeni 2011.godine i mlađi</br></br> Program po slobodnom izboru od 5 - 7 minuta </div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija A</div>
-                                <div class="divTableCell text">Kandidati rođeni 2010. godine</br></br> Program po slobodnom izboru od 6 do 8 minuta </div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija B</div>
-                                <div class="divTableCell text">Kandidati rođeni 2009. godine</br></br>Program po slobodnom izboru od 7 do 9 minuta</div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija C</div>
-                                <div class="divTableCell text">Kandidati rođeni 2008. godine</br></br>Program po slobodnom izboru od 8 do 10 minutau</div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija D</div>
-                                <div class="divTableCell text">Kandidati rođeni 2007. godine</br></br>Program po slobodnom izboru do 12 minuta</div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija E</div>
-                                <div class="divTableCell text">Kandidati rođeni 2005. i 2006. godine</br></br>Program po slobodnom izboru do 15 minuta</div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija F</div>
-                                <div class="divTableCell text">Kandidati rođeni 2003. i  2004. godine</br></br>Program po slobodnom izboru do 17 minuta</div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija G</div>
-                                <div class="divTableCell text">Kandidati rođeni 2001. i 2002. godine</br></br>Program po slobodnom izboru do 20 minuta</div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija H</div>
-                                <div class="divTableCell text">Studenti 1. i 2. godine Muzičke akademije</br></br>Program po slobodnom izboru do 20 minuta </div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija I</div>
-                                <div class="divTableCell text">Studenti 3. i 4. godine Muzičke akademije</br></br>Program po slobodnom izboru do 25 minuta </div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija J</div>
-                                <div class="divTableCell text">Studenti 5. godine Muzičke akademije</br></br>Program po slobodnom izboru do 30 minuta</div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija K</div>
-                                <div class="divTableCell text">Mladi umjetnici rođeni 1990. godine i mlađi</br></br>Program po slobodnom izboru do 40 minuta</div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija L</div>
-                                <div class="divTableCell text">Umjetnici rođeni prije 1. siječnja 1990 bez dobne granice</br></br>Program po slobodnom izboru do 50 minuta</div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Klavirski duo; klavir četveroručno i na dva klavira - napomena</div>
-                                <div class="divTableCell text">a) Kandidati u kategorijama od N do Q izvode minimalno dvije sklade različitog stilskog razdoblja</br> b) Skladbe mogu biti skladane originalno za klavir četveroručno ili za dva klavira, ili transkripcije za klavir četveroručno ili transkipcije za dva klavira</br> c) Klavirski duo može po želji kombinirati u svom programu skladbe skladane originalno za klavir četveroručno ili za dva klavira ili transkripcije za klavir črtveroručno ili transkripcije za dva klavira</br> d) Kandidati, studenti i umjetnici ne moraju ispuniti maksimalnu minutazu zadanu po kategorijama</br></div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija N</div>
-                                <div class="divTableCell text">Kandidati rođeni 2010. godine i mlađi</br></br>Program po slobodnom izboru do 10 minuta </div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija M</div>
-                                <div class="divTableCell text">Kandidati rođeni 2005. godine i mlađi</br></br>Program po slobodnom izboru do 15 minuta</div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija O</div>
-                                <div class="divTableCell text">Kandidati i studenti Muzičke akademije rođeni 2000. i mlađi</br></br>Program po slobodnom izboru do 20 minuta</div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija Q</div>
-                                <div class="divTableCell text">Umjetnici rođeni prije 1. siječnja 2000. bez dobne granice</br></br>Program po slobodnom izboru do 30 minuta</div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Klavirski ansambl - napomena</div>
-                                <div class="divTableCell text">a) Klavirski ansambl mora imati najmanje tri izvođača od kojih najmanje jedan mora biti za klavirom ( npr. klavir šesteroručno, klavirski trio, klavirski kvartet, klavirski kvintet...)</br> b) Klavirski ansambli u kategorijama od R do U izvode minimalno dvije sklade različitog stilskog razdoblja</br> c) Skladbe mogu biti skladane originalno za klavirski ansambl ili transkripcije za klavirski ansambl</br> d) Kandidati, studenti i umjetnici ne moraju ispuniti maksimalnu minutazu zadanu po kategorijama</br></div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija R</div>
-                                <div class="divTableCell text">Kandidati rođeni 2010. godine i mlađi</br></br>Program po slobodnom izboru do 10 minuta </div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija S</div>
-                                <div class="divTableCell text">Kandidati rođeni 2005. godine i mlađi</br></br>Program po slobodnom izboru do 15 minuta</div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija T</div>
-                                <div class="divTableCell text">Kandidati i studenti Muzičke akademije rođeni 2000.godine i mlađi</br></br>Program po slobodnom izboru do 20 minuta</div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">Kategorija U</div>
-                                <div class="divTableCell text">Umjetnici rođeni prije 1. siječnja 2000. bez dobne granice</br></br>Program po slobodnom izboru do 30 minuta</div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">Predkategorija B</div>
+                                    <div class="divTableCell text">Natjecatelji rođeni 2012. i mlađi</br>Dvije skladbe po slobodnom izboru do 5 minuta
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">1. Kategorija</div>
+                                    <div class="divTableCell text">Natjecatelji rođeni 2011. </br>Dvije skladbe po slobodnom izboru do 7 minuta
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">2. Kategorija</div>
+                                    <div class="divTableCell text">Natjecatelji rođeni 2010.</br>Dvije skladbe po slobodnom izboru do 9 minuta
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">3. Kategorija</div>
+                                    <div class="divTableCell text">Natjecatelji rođeni 2009.</br>Dvije skladbe po slobodnom izboru do 11 minuta
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">4. Kategorija</div>
+                                    <div class="divTableCell text">Natjecatelji rođeni 2008.</br>Dvije skladbe po slobodnom izboru do 13 minuta
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">5. Kategorija</div>
+                                    <div class="divTableCell text">Natjecatelji rođeni 2007.</br>Dvije skladbe po slobodnom izboru do 15 minuta
+                                    </div> 
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">6. Kategorija</div>
+                                    <div class="divTableCell text">Natjecatelji rođeni 2006.</br>Dvije skladbe po slobodnom izboru do 17 minuta
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">7. Kategorija</div>
+                                    <div class="divTableCell text">Natjecatelji rođeni 2004. i mlađi</br>Program po slobodnom izboru do 20 minuta
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">8. Kategorija</div>
+                                    <div class="divTableCell text">Natjecatelji rođeni 2002. i mlađi</br>Program po slobodnom izboru do 25 minuta
+                                    </div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableCell">Fees</div>
+                                    <div class="divTableCell text">Predkategorija A i B - 35 €</br>
+                                        1, 2, 3. i 4. kategorija - 35€</br>
+                                        5, 6, 7. i 8. kategorija - 40 € </br></br>
+                                        TUplata kotizacija vrši se na račun Organizatora MUSICA ZAGREB:</br>
+                                        Zagrebačka banka d.d.</br>
+                                        Trg bana Jelačića 10</br>
+                                        10000 Zagreb</br>
+                                        IBAN:HR9623600001102900185</br>
+                                        SWIFT:ZABA HR 2X</br>
+                                        U slučaju odustajanja kotizacija se ne vraća.
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -404,47 +417,45 @@
                 <div class= "row center between main-segment-judges">
                     <div class="col-xs-12 col-md-4 main-segment-judges-single">
                         <div class="main-segment-judges-single-img">
-                            <img src="assets/images/manana.jpg" alt="Manana Kandelaki" />
+                            <img src="assets/images/aVeskov.jpg" alt="Ana Veskov" />
                         </div>
-                        <h3 class="main-segment-judges-single-title">Manana Kandelaki</h3>
+                        <h3 class="main-segment-judges-single-title">Ana Veskov</h3>
                         <div class="main-segment-judges-single-text">
-                        Rođena je u Gruziji, u obitelji poznatih glazbenika, među kojima je bio i V. Kandelaki, poznati sovjetski pjevač, glumac, filmski redatelj, nacionalni umjetnik SSSR-a.  Njezin otac, Vladimir Kandelaki, je pjevač, solist  Opere, profesor, nacionalni umjetnik Gruzije, a majka je Medea Tsirgiladze, pijanistica i profesor.
+                        Ana Veskov rođena je u Beogradu. Nižu glazbenu školu „Mokranjac“ završila je u klasi prof. Vlajka Savkovića, a diplomirala je u srednjoj glazbenoj školi „Stanković“ u Beogradu, u klasi prof. Olge Bešević. Položivši tri prijemna ispita za redovne studije u Beogradu, Sofiji i Rusiji, odlučila se za nastavak školovanja u Lenjingradu, sadašnjem Sankt Petersburgu, gradu koji su proslavili najveći svjetski glazbenici, pisci, slikari....
                         </div>
-                        <a href="include/pages/manana.php"><div class="main-segment-judges-single-button">
+                        <a href="include/pages/aVeskov.php"><div class="main-segment-judges-single-button">
                             Još...
                         </div></a>
                     </div>                
                     <div class="col-xs-12 col-md-4 main-segment-judges-single">
                         <div class="main-segment-judges-single-img">
-                            <img src="assets/images/nKacar.jpg" alt="Nenad Kacar" />
+                            <img src="assets/images/mKotor.jpg" alt="Myroslava Kotorovych" />
                         </div>
-                        <h3 class="main-segment-judges-single-title">Nenad Kačar</h3>
+                        <h3 class="main-segment-judges-single-title">Myroslava Kotorovych</h3>
                         <div class="main-segment-judges-single-text">
-                        Hrvatski pijanist i pedagog Nenad Kačar rođen je 1965. godine u Zagrebu. 
-                         Glazbom se bavi od najranijeg djetinjstva, već kao petogodišnjak imao je prvi  javni nastup. U vrijeme školovanja kroz brojne koncerte senzibilizira javnost, i biva zapažen što mu tijekom studija omogućava dobivanje prestižne državne stipendije.
+                        Myroslava Kotorovych rođena je u Kijevu, u obitelji glazbenika; violinista Bohodara Kotorovycha i harfistice Natalije Kmet. Maturirala je u Srednjoj glazbenoj školi za nadarenu djecu M. V. Lysenka u Kijevu, a diplomirala na Državnoj Glazbenoj Akademiji Ukrajine.Smatra da je njena desetogodišnja koncertna aktivnost kao članice “Kremerate Baltice”, komornog orkestra pod ravnateljstvom Gidona Kremera, bio njen “praktični europski konzervatorij”.  
                         </div>
-                        <a href="include/pages/nKacar.php"><div class="main-segment-judges-single-button">
+                        <a href="include/pages/mKotor.php"><div class="main-segment-judges-single-button">
                             Još...
                         </div></a>
                     </div>
                     <div class="col-xs-12 col-md-4 main-segment-judges-single">
                         <div class="main-segment-judges-single-img">
-                            <img src="assets/images/nMitrovic.jpg" alt="Natasa Mitrovic" />
+                            <img src="assets/images/lBobic.jpg" alt="Lidija Bobić" />
                         </div>
-                        <h3 class="main-segment-judges-single-title">Nataša Mitrović</h3>
+                        <h3 class="main-segment-judges-single-title">Lidija Bobić</h3>
                         <div class="main-segment-judges-single-text">
-                        Pijanistica iz Beograda, osnovni i magistarski studij završila je na FMU u Beogradu u klasi prof. Mirjane Šuica Babić, a doktorski studij na istoj akademiji u klasi prof. Marije Đukić.
-                Usavršavala se kod renomiranih klavirskih pedagoga: Lazar Berman (Weimar),  Jan Novotny (Prag), , Avo Kouyoumdjian (Bec), Karl - Heinz Kämmerling (Lindau) i u Americi u okviru Fulbright programa (prof. Arthur Greene i prof. Martin Canin).
-
+                        Lidija Bobić rođena je u Varaždinu, gdje završava Srednju glazbenu školu.
+                        Školovanje nastavlja na Državnom Konzervatoriju „Petar Iljič Čajkovski” u Kijevu, Ukrajin a u klasi profesora Tarasa Pechenija koji je detaljno upoznaje s ruskom violinističkom školom i s radom profesora Jurija Jankeljejeviča, jednog od najeminentnijih violinističkih pedagoga Moskve. Diplomirala je 1994. godine u klasi profesora Igora Andrievskog. Svo vrijeme studija pohađa nastavu predpraktike.
                         </div>
-                        <a href="include/pages/nMitrovic.php"><div class="main-segment-judges-single-button">
+                        <a href="include/pages/lBobic.php"><div class="main-segment-judges-single-button">
                             Još...
                         </div></a>
                     </div>
                 </div>
             </div>
 
-            <!-- Application form -->
+            <!-- Application form 
             <div class="main-block-last">
                 <div class="row center">
                     <div class="col-xs-6 col-md-12">
@@ -455,7 +466,7 @@
                 </div>
                 <div class="row center between main-segment-application">
                     <div class="main-segment-application-form">
-                        <form id="form-piano" action="#form-piano" method="POST" enctype="multipart/form-data" onsubmit="return formValidation(event)">
+                        <form id="form-singing" action="" method="POST" enctype="multipart/form-data">
                             <input type="text" name="fname" placeholder="Ime" value="<?php echo isset($_POST["fname"]) ? $_POST["fname"] : ''; ?>"/>
                             <input type="text" name="lname" placeholder="Prezime" value="<?php echo isset($_POST["lname"]) ? $_POST["lname"] : ''; ?>"/>
                             <input type="text" name="bdate" placeholder="DD/MM/YYYY" value="<?php echo isset($_POST["bdate"]) ? $_POST["bdate"] : ''; ?>" />
@@ -466,39 +477,29 @@
                             <input type="text" name="country" placeholder="Država" value="<?php echo isset($_POST["country"]) ? $_POST["country"] : ''; ?>"/>
                             <input type="mail" name="mail" placeholder="E-mail" value="<?php echo isset($_POST["mail"]) ? $_POST["mail"] : ''; ?>"/>
                             <input type="text" name="phone" placeholder="Telefon" value="<?php echo isset($_POST["phone"]) ? $_POST["phone"] : ''; ?>"/>
-
+    
                             </br></br>
 
-                            <div class="row center space-around selects">
+                        <div class="row center space-around selects">
                                 <div class="custom-select">
                                     <select name="category">
                                         <option selected value="">Kategorija...</option>
                                         <option value="Pretkategorija A">Pretkategorija A</option>
                                         <option value="Pretkategorija B">Pretkategorija B</option>
-                                        <option value="A">Kategorija A</option>
-                                        <option value="B">Kategorija B</option>
-                                        <option value="C">Kategorija C</option>
-                                        <option value="D">Kategorija D</option>
-                                        <option value="E">Kategorija E</option>
-                                        <option value="F">Kategorija F</option>
-                                        <option value="G">Kategorija G</option>
-                                        <option value="H">Kategorija H</option>
-                                        <option value="I">Kategorija I</option>
-                                        <option value="J">Kategorija J</option>
-                                        <option value="K">Kategorija K</option>
-                                        <option value="L">Kategorija L</option>        
-                                        <option value="N">Kategorija N</option>
-                                        <option value="M">Kategorija M</option>
-                                        <option value="O">Kategorija O</option>
-                                        <option value="Q">Kategorija Q</option>
-                                        <option value="R">Kategorija R</option>
-                                        <option value="S">Kategorija S</option>
-                                        <option value="T">Kategorija T</option>
-                                        <option value="U">Kategorija U</option>                  
+                                        <option value="I/A">I/A</option>
+                                        <option value="I/B">I/B</option>
+                                        <option value="II/A">II/A</option>
+                                        <option value="II/B">II/B</option>
+                                        <option value="III/A">III/A</option>
+                                        <option value="III/B">III/B</option>
+                                        <option value="IV">IV</option>
+                                        <option value="V/A">V/A</option>
+                                        <option value="V/B">V/B</option>
+                                        <option value="VI">VI</option>
+                                        <option value="VII">VII</option>
+                                        <option value="VIII">VIII</option>                            
                                     </select>
                                 </div>
-
-                            </br></br>
                                 
                                 <div class="custom-select">
                                     <select name="composition">
@@ -509,6 +510,7 @@
                                     </select>
                                 </div>
                             </div>
+                            </br></br>
 
                             <label>Dokaz uplate</label>
                             <input type="file" name="payment" />
@@ -527,25 +529,23 @@
                             <input type="text" name="link7" placeholder="YouTube link" value="<?php echo isset($_POST["link7"]) ? $_POST["link7"] : ''; ?>"/>
                             <input type="text" name="link8" placeholder="YouTube link" value="<?php echo isset($_POST["link8"]) ? $_POST["link8"] : ''; ?>"/>
                             
-                            <input type="submit" name="apply-piano" value="Pošalji!" />
+                            <input type="submit" name="apply" value="Pošalji!" />
                         </form>	
                         <?php 
                         
                         if(count($errors) > 0) { 
-                            foreach($errors as $error) {?>
-                                <div class="errors">
-                                    <?php echo($error); ?>
-                                </div>
-                            <?php } } else {
-                                        $_SESSION['errors'] = $errors;
-                                    }?>
+                        foreach($errors as $error) {?>
+                            <div class="errors">
+                                <?php echo($error); ?>
+                            </div>
+                        <?php } } else {
+                                    $_SESSION['errors'] = $errors;
+                                }?>
                     </div>
                 </div>
-            </div>
+            </div>-->
         </div>
-    </div>
 </main>
-
 <footer>
     <div class="row center space-between footer">
         <div class="col-xs-12 col-md-6">

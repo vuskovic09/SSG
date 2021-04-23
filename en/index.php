@@ -400,6 +400,7 @@
                         <li><a class="a-click" href="rule-info">Rules</a></li>
                         <li><a href="singingEN.php">Singing Competition</a></li>
                         <li><a href="pianoEN.php">Piano Competition</a></li>
+                        <li><a href="violinEN.php">Violin Competition</a></li>
                     </ul>
                     <!-- <ul> -->
                         <?php //foreach($dataNav as $rowNav){ ?>

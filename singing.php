@@ -226,6 +226,7 @@
                         <li><a href="index.php#rule-info">Pravilnik natjecanja</a></li>
                         <li><a href="#">Pjevačko natjecanje</a></li>
                         <li><a href="piano.php">Klavirsko natjecanje</a></li>
+                        <li><a href="violin.php">Violinističko natjecanje</a></li>
                     </ul>
                 </nav>
             </div>
@@ -596,7 +597,16 @@
             </div>
         </div>
 </main>
+
 <footer>
+    <div class="row center space-between footer">
+        <div class="col-xs-12 col-md-6">
+            <p>Contact information | E-Mail: info&#64;musiccompetitionzagreb&#46;com</p>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <p>Website by Filip Vušković | v1.0 </p>
+        </div>
+    </div>
 </footer>
 <script src="assets/js/scripts.js"></script>
 </body>
