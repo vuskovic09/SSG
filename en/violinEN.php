@@ -225,6 +225,7 @@
                         <li><a href="index.php#intro-text">Intro</a></li>
                         <li><a href="index.php#rule-info">Rules</a></li>
                         <li><a href="singingEN.php">Singing Competition</a></li>
+                        <li><a href="singingResultsEN.php">Singing Competition - Results</a></li>
                         <li><a href="pianoEN.php">Piano Competition</a></li>
                         <li><a href="#">Violin competition</a></li>
                     </ul>
@@ -303,6 +304,7 @@
                     <div class="col-xs-12 col-md-8 main-segment-about-text">
                         <p style="font-size: 20px">...each violin has it's secret and, as you may see, only in the artist's hands does the secret of the violin transforms into a riddle even more mysterious, because the player's hand is a powerful force, conveying heartbeat, and flickering of the nerves into strings...
                         </p>
+                        <p>Miroslav Krleža: "Zastave"</p>
                     </div>
                 </div>  
             

@@ -225,6 +225,7 @@
                         <li><a href="index.php#intro-text">Uvodna riječ</a></li>
                         <li><a href="index.php#rule-info">Pravilnik natjecanja</a></li>
                         <li><a href="#">Pjevačko natjecanje</a></li>
+                        <li><a href="singingResults.php">Pjevačko natjecanje - rezultati</a></li>
                         <li><a href="piano.php">Klavirsko natjecanje</a></li>
                         <li><a href="violin.php">Violinističko natjecanje</a></li>
                     </ul>

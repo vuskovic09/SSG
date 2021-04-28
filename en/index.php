@@ -399,6 +399,7 @@
                         <li><a class="a-click" href="intro-text">Intro</a></li>
                         <li><a class="a-click" href="rule-info">Rules</a></li>
                         <li><a href="singingEN.php">Singing Competition</a></li>
+                        <li><a href="singingResultsEN.php">Singing Competition - Results</a></li>
                         <li><a href="pianoEN.php">Piano Competition</a></li>
                         <li><a href="violinEN.php">Violin Competition</a></li>
                     </ul>

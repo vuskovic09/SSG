@@ -39,6 +39,7 @@
                         <li><a class="a-click" href="intro-text">Uvodna riječ</a></li>
                         <li><a class="a-click" href="rule-info">Pravilnik natjecanja</a></li>
                         <li><a href="singing.php">Pjevačko natjecanje</a></li>
+                        <li><a href="singingResults.php">Pjevačko natjecanje - rezultati</a></li>
                         <li><a href="piano.php">Klavirsko natjecanje</a></li>
                         <li><a href="violin.php">Violinističko natjecanje</a></li>
                     </ul>

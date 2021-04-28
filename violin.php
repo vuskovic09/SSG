@@ -225,6 +225,7 @@
                         <li><a href="index.php#intro-text">Uvodna riječ</a></li>
                         <li><a href="index.php#rule-info">Pravilnik natjecanja</a></li>
                         <li><a href="singing.php">Pjevačko natjecanje</a></li>
+                        <li><a href="singingResults.php">Pjevačko natjecanje - rezultati</a></li>
                         <li><a href="piano.php">Klavirsko natjecanje</a></li>
                         <li><a href="#">Violinističko natjecanje</a></li>
                     </ul>
@@ -284,6 +285,7 @@
                     <div class="col-xs-12 col-md-8 main-segment-about-text">
                         <p style="font-size: 20px">...svaka violina ima svoju tajnu i, vidite, tek u ruci sviračevoj pretvara se tajna violine u zagonetku još tajanstveniju, jer ruka guslača je čudestvena snaga, koja prenosi kucaj srca i treperenje živaca u strune...
                         </p>
+                        <p>Miroslav Krleža: "Zastave"</p>
                     </div>
                 </div>  
             </div>

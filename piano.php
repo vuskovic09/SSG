@@ -223,6 +223,7 @@
                         <li><a href="index.php#intro-text">Uvodna riječ</a></li>
                         <li><a href="index.php#rule-info">Pravilnik natjecanja</a></li>
                         <li><a href="singing.php">Pjevačko natjecanje</a></li>
+                        <li><a href="singingResults.php">Pjevačko natjecanje - rezultati</a></li>
                         <li><a href="#">Klavirsko natjecanje</a></li>
                         <li><a href="violin.php">Violinističko natjecanje</a></li>
                     </ul>
@@ -260,7 +261,7 @@
                         </div>
                     </div>
                 </div>
-                <div class= "row center between main-segment-propositions">
+                <div class="row center between main-segment-propositions">
                     <div class="divTable">
                         <div class="divTableBody">
                             <div class="divTableRow">

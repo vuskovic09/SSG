@@ -10,32 +10,3 @@ AUTOMATE GALLERY DISPLAY
         <li><a href="<?php echo $rowNav['href']?>"><?php echo $rowNav['name']?></a></li>
     <?php   } ?>
 </ul>
-
-
-Poštovani,
-Još jedanput zahvaljujemo na prijavi na 1. pjevačko natjecanje Stojan Stojanov Gančev.
-Sa zadovoljstvom Vas obavještavamo da će ocjenjivački sud presluštati i ocjeniti kandidate između 19. i 22. travnja 2021. Svi rezultati biće vidljivi na našoj mrežnoj stranici, http://www.zagrebmusiccompetition.com/, od 23. travnja 2021. 
-Ujedno Vas obavještavamo da ćete diplome i priznanja dobiti putem maila od 29. travnja 2021. godine.
-Svim natjecateljkama i natjecateljima želimo puno uspjeha,
-
-Organizator,
-Musica Zagreb
-
-
-
-Greetings,
-
-Thank you again for applying to the 1st singing competition Stojan Stojanov Gančev.
-We are pleased to inform you that the jury will listen to and evaluate the candidates between the 19th and 22nd April 2021. All results will be visible on our website, http://www.zagrebmusiccompetition.com/, from April 23rd 2021.
-We would also like to inform you that you will receive diplomas and awards by e-mail starting on April 29th, 2021.
-We wish all the competitors a lot of success,
-
-Organizer,
-Music Zagreb
-
-
-
-19 aprila - tabele clanovima zirija
-23 krajnji rok - povratne tabele
-23 - tabela sa svim poenima barbari
-25 najkasnije - objava
